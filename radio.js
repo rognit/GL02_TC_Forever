@@ -4,4 +4,4 @@ var Radio = {
 	return true
 	}
 }
-
+module.exports = Radio

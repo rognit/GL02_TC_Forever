@@ -29,7 +29,6 @@ var satellite1 = unsafeRequire("./satellite1", stub);
 var satellite2 = unsafeRequire("./satellite2", stub);
 
 
-
 var rocket = {
 	engine: engine, 
 	command: command, 
@@ -51,6 +50,7 @@ var takeOff = function(){
 	for(var part in rocket){
 		console.log(counter + "..");
 		checklist[part] = rocket[part].check();
+
 		
 		// S'il manque le moteur ou les commandes Crash
 		if(!checklist[part] && (part === "engine" || part === "command")){
