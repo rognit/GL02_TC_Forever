@@ -2,7 +2,8 @@ const Engine =
 {
     check: function()
     {
-        console.log("Engine Ready !")
+        console.log("Cyan level Checked".cyan)
+	console.log("Engine Ready !")
         return true
     }
 }
