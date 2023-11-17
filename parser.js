@@ -2,50 +2,62 @@ const TYPES = {
     BOOLEAN: 'BOOLEAN',
     CHOICE: 'CHOICE',
     INPUT: 'INPUT',
+    MATCHING: 'MATCHING',
 };
 
 class SubQuestion {
     constructor(rawSubQuestion) {
-        const options = SubQuestion.splitOptions(rawSubQuestion);
+        this.options = this.splitOptions(rawSubQuestion);
 
-        this.type = this.getType(options);
-        this.answer = this.getAnswer(options);
+        this.type = this.determineType();
+        this.answer = this.determineAnswer();
     }
 
-    static  splitOptions(options) {
+    splitOptions(options) {
         return options.split(/((?<!\\)[=~](?:(?:\\[=~#\{\}])|(?:[^=~]))+)/g).filter(x => x).map(x => x.trim());
     }
+    
+    determineType() {
+        let isInput = () => !this.options.some(x => x.startsWith('~'));
+        let isChoice = () => this.options.some(x => x.startsWith('~'));
+        let isBoolean = () => /^(TRUE|FALSE|T|F)$/.test(this.options[0]); 
+        let isMatching = () => this.options.every(x => x.includes('->')) && !this.options.some(x => x.startsWith('~'));
 
-    static isInput(options) {
-        return !options.some(x => x.startsWith('~'));
-    }
-
-    static isChoice(options) {
-        return options.some(x => x.startsWith('~'));
-    }
-
-    static isBoolean(options) {
-        return /^(TRUE|FALSE|T|F)$/.test(options[0]);        
-    }
-
-    getType(options) {
-        if (SubQuestion.isBoolean(options)) {
+        if (isBoolean()) {
             return TYPES.BOOLEAN;
-        } else if (SubQuestion.isChoice(options)) {
+        } else if (isMatching()) {
+            return TYPES.MATCHING;
+        } else if (isChoice()) {
             return TYPES.CHOICE;
-        } else if (SubQuestion.isInput(options)) {
+        } else if (isInput()) {
             return TYPES.INPUT;
         }
     }
 
-    getAnswer(options) {
+    determineAnswer() {
         switch (this.type) {
             case 'BOOLEAN':
-                return options[0];
+                return this.options[0][0];
             case 'CHOICE':
-                return options.filter(x => x.startsWith('=')).map(x => x.slice(1));
+                return this.options.filter(x => x.startsWith('=')).map(x => x.slice(1));
             case 'INPUT':
-                return options.map(x => x.slice(1));
+                return this.options.map(x => x.slice(1));
+            case 'MATCHING':
+                const answer = new Map();
+                for (let i = 0; i < this.options.length; i++) {
+                    const map = this.options[i].split('->')
+                    answer.set(map[0].slice(1).trim(), map[1].trim());
+                }
+                return answer;
+        }
+    }
+
+    correct(answer) {
+        switch (this.type) {
+            case 'BOOLEAN':
+                answer === this.answer ? 1 : 0
+            case 'INPUT':
+                return this.answer.includes(answer)
         }
     }
 }
@@ -53,7 +65,7 @@ class SubQuestion {
 class GIFTQuestion {
     constructor(rawQuestion) {
         this.title = this.constructTitle(rawQuestion);
-        this.SubQuestion = this.constructSubQuestion(rawQuestion);
+        this.boby = this.constructBody(rawQuestion);
     }
     
     constructTitle(rawQuestion) {
@@ -62,19 +74,21 @@ class GIFTQuestion {
         return (titleMatch === null) ? '' : titleMatch[1];
     }
 
-    constructSubQuestion(rawQuestion) {
-        const RawSubQuestions = rawQuestion.match(/\{([^}]+)\}/g);
-        let subQuestions = [];
-
-        RawSubQuestions.map(match => match.slice(1, -1)).forEach(i => {
-            subQuestions.push(new SubQuestion(i));
-        });
+    constructBody(rawQuestion) {
+        let body = rawQuestion.match(/[^{}]+(?=([^]*{[^}]*}[^}]*$)|([^]*$))/g);
+        let i = rawQuestion.startsWith('{') ? 0 : 1;
         
-        return subQuestions
+        for (i; i < body.length; i += 2) {
+            body[i] = new SubQuestion(body[i])
+        }
+
+        return body
+    }
+
+    get SubQuestions() {
+        return this.boby.filter(x => x instanceof SubQuestion);
     }
 }
 
-
-test = new GIFTQuestion("::q1:: This is {=two =2} some {=two =2} text {=two ~2} with {=two =2} curly braces.")
-
-console.log(test)
+test = new GIFTQuestion(" This is {=two =2} some {=two =2} text {=two ~2} with {=two =2} curly braces.{=Canada -> Ottawa =Italy  -> Rome =Japan  -> Tokyo =India  -> New Delhi}")
+console.log(test.SubQuestions)
