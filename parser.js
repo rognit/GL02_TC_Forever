@@ -1,68 +1,156 @@
 const TYPES = {
     BOOLEAN: 'BOOLEAN',
-    CHOICE: 'CHOICE',
-    INPUT: 'INPUT',
+    NUMBER: 'NUMBER',
     MATCHING: 'MATCHING',
+    INPUT: 'INPUT',
+    CHOICE: 'CHOICE',
 };
 
-class SubQuestion {
-    constructor(rawSubQuestion) {
-        this.options = this.splitOptions(rawSubQuestion);
+class Question {
+    /**
+     * @param {string} type
+     */
 
-        this.type = this.determineType();
-        this.answer = this.determineAnswer();
+    constructor({ type, options = [] }) {
+      this.type = type;
+      this.options = options;
     }
 
-    splitOptions(options) {
-        return options.split(/((?<!\\)[=~](?:(?:\\[=~#\{\}])|(?:[^=~]))+)/g).filter(x => x).map(x => x.trim());
-    }
-    
-    determineType() {
-        let isInput = () => !this.options.some(x => x.startsWith('~'));
-        let isChoice = () => this.options.some(x => x.startsWith('~'));
-        let isBoolean = () => /^(TRUE|FALSE|T|F)$/.test(this.options[0]); 
-        let isMatching = () => this.options.every(x => x.includes('->')) && !this.options.some(x => x.startsWith('~'));
+    static splitOptions(str) {
+        return str
+            .split(/((?<!\\)[=~](?:(?:\\[=~#\{\}])|(?:[^=~]))+)/g)
+            .filter(x => x)
+            .map(x => x.trim());
+      }
 
-        if (isBoolean()) {
-            return TYPES.BOOLEAN;
-        } else if (isMatching()) {
-            return TYPES.MATCHING;
-        } else if (isChoice()) {
-            return TYPES.CHOICE;
-        } else if (isInput()) {
-            return TYPES.INPUT;
+    static fromString(str) {
+        if (/^(TRUE|FALSE|T|F)$/.test(str)) {
+            return new Question({
+              type: TYPES.BOOLEAN,
+              options: [
+                new Options(str),
+              ],
+            });
+        } else if (str.startsWith('#')) {
+            const options = this.splitOptions(str.slice(1)).map(x => Options.fromString(x));
+
+            return new Question({
+                type: TYPES.NUMBER,
+                options: [
+                  new Options(options),
+                ],
+              });
+        } 
+        const options = this.splitOptions(str).map(x => Option.fromString(x));
+            
+        if (options.every(x => x.value.includes('->') && x.prefix === '=')) {
+            return new Question({
+                type: TYPES.MATCHING,
+                options: [
+                  new Option(options),
+                ],
+            });
+        } else if (options.every(x => x.prefix === '=')) {
+            return new Question({
+                type: TYPES.INPUT,
+                options: [
+                  new Option(options),
+                ],
+            });
+        } else if (options.every(x => x.prefix === '=' || x.prefix === '~') && options.some(x => x.prefix === '=')) {
+            return new Question({
+                type: TYPES.CHOICE,
+                options: [
+                  new Option(options),
+                ],
+            });
         }
     }
 
-    determineAnswer() {
-        switch (this.type) {
-            case 'BOOLEAN':
-                return this.options[0][0];
-            case 'CHOICE':
-                return this.options.filter(x => x.startsWith('=')).map(x => x.slice(1));
-            case 'INPUT':
-                return this.options.map(x => x.slice(1));
-            case 'MATCHING':
-                const answer = new Map();
+    static correct(answer) {
+        switch(this.type) {
+            case BOOLEAN:
+                return this.options[0].value[0] === answer;
+            case NUMBER:
+                for (i in options) {
+                    const test = i.value.split(':');
+                    if (test.lenght === 2) {
+                        return (num > test[0] - test[1] && num < test[0] + test[1])
+                    } 
+                    const test2 = i.value.split('..');
+                    if (test.lenght === 2) {
+                        return (num > test2[0] && num < test2[0])
+                    }
+                    return i.value === num;
+                }
+            case INPUT:
+                return this.getOptionsValues.includes(answer)
+            case CHOICE:
+                const right_answer = getOptionsValuesWithprefix('=').sort()
+                return right_answer === answer.sort()
+            case MATCHING:
+                const right_answer2 = new Map();
                 for (let i = 0; i < this.options.length; i++) {
                     const map = this.options[i].split('->')
-                    answer.set(map[0].slice(1).trim(), map[1].trim());
+                    right_answer2.set(map[0].slice(1).trim(), map[1].trim());
                 }
-                return answer;
+                return answer.sort() === right_answer2.sort();
         }
     }
 
-    correct(answer) {
-        switch (this.type) {
-            case 'BOOLEAN':
-                answer === this.answer ? 1 : 0
-            case 'INPUT':
-                return this.answer.includes(answer)
+    static getOptionsValues() {
+        let result = []
+        for (i in this.options) {
+            result.push(this.options[i].value)
         }
+    }
+
+    static getOptionsValuesWithprefix(prefix) {
+        let result = []
+        for (i in this.options.filter(x => x.prefix === prefix)) {
+            result.push(this.options[i].value)
+        }
+    } 
+}
+
+class Option {
+    /**
+    * @param {?string} prefix. Either '=' or '~', optional.
+    * @param {string} value, possible answer to the question.
+    * @param {?string} feedback optional feedback to the user.
+    */
+    constructor(prefix, value, feedback) {
+        this.prefix = prefix;
+        this.value = value;
+        this.feedback = feedback;
+    } 
+
+    static fromString(option) {
+        let prefix, value, feedback;
+
+        if (option[0] === '~' || option[0] === '=') {
+            prefix = option[0]
+            option.slice(1)
+        } else {
+            prefix = null;
+        }
+        option.slice(1);
+
+        if (option.includes('#')) {
+            const split_val = option.split('#')
+
+            option = split_val[0];
+            feedback = split_val[1];
+        } else {
+            value = option;
+            this.feedback = null;
+        }
+
+        return new Option(prefix, value, feedback);
     }
 }
 
-class GIFTQuestion {
+class GIFT {
     constructor(rawQuestion) {
         this.title = this.constructTitle(rawQuestion);
         this.boby = this.constructBody(rawQuestion);
@@ -79,16 +167,16 @@ class GIFTQuestion {
         let i = rawQuestion.startsWith('{') ? 0 : 1;
         
         for (i; i < body.length; i += 2) {
-            body[i] = new SubQuestion(body[i])
+            body[i] = Question.fromString(body[i])
         }
 
         return body
     }
 
     get SubQuestions() {
-        return this.boby.filter(x => x instanceof SubQuestion);
+        return this.boby.filter(x => x instanceof Question);
     }
 }
 
-test = new GIFTQuestion(" This is {=two =2} some {=two =2} text {=two ~2} with {=two =2} curly braces.{=Canada -> Ottawa =Italy  -> Rome =Japan  -> Tokyo =India  -> New Delhi}")
-console.log(test.SubQuestions)
+test = new GIFT("::Q1:: This is {=two =2} some {=two =2} text {=two ~2} with {=two =2} curly braces.{=Canada -> Ottawa =Italy  -> Rome =Japan  -> Tokyo =India  -> New Delhi}")
+console.log(test)
