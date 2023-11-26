@@ -33,7 +33,7 @@ function splitGIFT(path) {
       
     let content = []
     while (i < raw_content.length) {
-        content.push((raw_content[i] + raw_content[i + 1]).replace(/\r\n/g, ""));
+        content.push(raw_content[i] + raw_content[i + 1]);
         i += 2;
     }
     

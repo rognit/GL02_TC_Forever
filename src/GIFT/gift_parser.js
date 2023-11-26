@@ -55,14 +55,14 @@ class SubQuestion {
               ],
             });
         } 
-        const options = this.splitOptions(str).map(x => Option.fromString(x));
+        const options = this.splitOptions(str.trim()).map(x => Option.fromString(x));
 
         if (str.startsWith('#')) {
             return new SubQuestion({
                 type: TYPES.NUMBER,
                 options,
             });
-        } else if (options.every(x => x.value.includes('->') && x.prefix === '=')) {
+        } else if (options.every(x => x.value.includes('->')) && options.every(x => x.prefix === '=')) {
             return new SubQuestion({
                 type: TYPES.MATCHING,
                 options,
@@ -197,7 +197,12 @@ class GIFT {
     static cleanText(str) {
         return convert(str)
             .replace(/~=/g, '=')
-            .replace(/\[html\]/g, ' ');
+            .replace(/\[html\]/g, ' ')
+            .replace(/\[markdown\]/g, ' ')
+            .replace(/\n/g, "")
+            .replace(/\r/g, "")
+            .replace(/1:MC:/g, "")
+            .replace(/1:SA:/g, "");
     }
     
     static constructTitle(rawQuestion) {

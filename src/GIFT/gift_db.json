@@ -2,13 +2,10 @@
   "EM U4 p32 Review 1 MultiChoice": {
     "title": "EM U4 p32 Review 1 MultiChoice",
     "boby": [
-      "Read the text below and decide which answer\nbest fits each gap. There is an example at the beginning. The science of\nhappiness Some scientisis believe that asking people how happy they are is\n",
+      "Read the text below and decide which answerbest fits each gap. There is an example at the beginning. The science ofhappiness Some scientisis believe that asking people how happy they are is",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "=",
             "value": "similar to"
@@ -27,13 +24,10 @@
           }
         ]
       },
-      " asking them about an event\nthey've attended in the past — there’s a lot they ",
+      " asking them about an eventthey've attended in the past — there’s a lot they ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "gave"
@@ -52,13 +46,10 @@
           }
         ]
       },
-      " no\nnotice of during the experience,so how do they know? These scientists think that\nanyone studying happiness should pay more\n",
+      " nonotice of during the experience,so how do they know? These scientists think thatanyone studying happiness should pay more",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "focus"
@@ -77,13 +68,10 @@
           }
         ]
       },
-      " to people’s experiences at the\ntime they occur, not afterwards. Other scientists say that we are actually\n",
+      " to people’s experiences at thetime they occur, not afterwards. Other scientists say that we are actually",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "=",
             "value": "made"
@@ -102,13 +90,10 @@
           }
         ]
       },
-      " up of our memories. They suggest that\nstudying moment-to-moment experiences at the time ",
+      " up of our memories. They suggest thatstudying moment-to-moment experiences at the time ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "sets"
@@ -127,13 +112,10 @@
           }
         ]
       },
-      "\ntoo much emphasis on temporary pleasures, and that happiness goes\n",
+      "too much emphasis on temporary pleasures, and that happiness goes",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "stronger"
@@ -152,13 +134,10 @@
           }
         ]
       },
-      " than that. They identify three key\n",
+      " than that. They identify three key",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "=",
             "value": "ingredients"
@@ -177,13 +156,10 @@
           }
         ]
       },
-      " for happiness: pleasure, engagement\n(how involved we are with family, work, romance and hobbies) and meaning (how we\nuse our personal strengths to achieve important\n",
+      " for happiness: pleasure, engagement(how involved we are with family, work, romance and hobbies) and meaning (how weuse our personal strengths to achieve important",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "intentions"
@@ -202,13 +178,10 @@
           }
         ]
       },
-      ". It is interesting that,\n",
+      ". It is interesting that,",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "against"
@@ -227,58 +200,46 @@
           }
         ]
       },
-      " to what might be expected, pleasure\nseems to play the smallest part in what makes us happy. // Part 2: Open Cloze"
+      " to what might be expected, pleasureseems to play the smallest part in what makes us happy. // Part 2: Open Cloze"
     ]
   },
   "EM U4 p32 Review 2 OpenCloze": {
     "title": "EM U4 p32 Review 2 OpenCloze",
     "boby": [
-      "Read the text below and think of the word which\nbest fits each gap. Use only one word in each gap. // There is an example at the\nbeginning. More than just a pretty face? There are many stories of dolphins\nhelping people in trouble, ",
+      "Read the text below and think of the word whichbest fits each gap. Use only one word in each gap. // There is an example at thebeginning. More than just a pretty face? There are many stories of dolphinshelping people in trouble, ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "like"
           }
         ]
       },
-      " saving swimmers from shark attacks by\ngathering round them or shepherding them to safety. ",
+      " saving swimmers from shark attacks bygathering round them or shepherding them to safety. ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "If"
           }
         ]
       },
-      " these stories are\ntrue, why do dolphins do it and ",
+      " these stories aretrue, why do dolphins do it and ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "what"
           }
         ]
       },
-      " makes them behave in this way?\nScientists ",
+      " makes them behave in this way?Scientists ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "who"
@@ -289,52 +250,40 @@
           }
         ]
       },
-      " have studied them are not entirely sure. For\ndolphins to act together as a group to save humans implies that ",
+      " have studied them are not entirely sure. Fordolphins to act together as a group to save humans implies that ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "there"
           }
         ]
       },
-      " is\nsome sort of code of ethics among dolphins, but there is little evidence for\nthat. The ",
+      " issome sort of code of ethics among dolphins, but there is little evidence forthat. The ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "most"
           }
         ]
       },
-      " likely explanation is that they instinctively respond to\nthe appearance of predators like sharks by herding weaker members of their own\ngroup into ",
+      " likely explanation is that they instinctively respond tothe appearance of predators like sharks by herding weaker members of their owngroup into ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "a"
           }
         ]
       },
-      " safe place - and there is proof that dolphins do cooperate\nwith ",
+      " safe place - and there is proof that dolphins do cooperatewith ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "each"
@@ -345,149 +294,119 @@
           }
         ]
       },
-      " other to ward off danger. Maybe they just mistake\nswimmers for part of their group, which would mean that dolphins don’t have\ngenuine feelings of kindness towards humans. ",
+      " other to ward off danger. Maybe they just mistakeswimmers for part of their group, which would mean that dolphins don’t havegenuine feelings of kindness towards humans. ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "It"
           }
         ]
       },
-      " may be that their\nsmiling appearance simply gives people the wrong idea. // Part 3: Word formation"
+      " may be that theirsmiling appearance simply gives people the wrong idea. // Part 3: Word formation"
     ]
   },
   "EM U4 p33 Review 3 Word formation": {
     "title": "EM U4 p33 Review 3 Word formation",
     "boby": [
-      "Read the text below. Use the word given in\ncapitals to form a word that fits in the gap in the same line. // There is an\nexample at the beginning (0). Why do they do it? People are attracted to\nattempting extreme activities for a ",
+      "Read the text below. Use the word given incapitals to form a word that fits in the gap in the same line. // There is anexample at the beginning (0). Why do they do it? People are attracted toattempting extreme activities for a ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "variety"
           }
         ]
       },
-      " (VARY) of reasons. Some\nenjoy the challenge, others the feeling of ",
+      " (VARY) of reasons. Someenjoy the challenge, others the feeling of ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "excitement"
           }
         ]
       },
-      " (EXCITE) they get\nfrom testing themselves. So although their actual ",
+      " (EXCITE) they getfrom testing themselves. So although their actual ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "motivation"
           }
         ]
       },
-      " (MOTIVATE)\nmay differ, people who participate in extreme sports probably share an inability\nto accept all the ",
+      " (MOTIVATE)may differ, people who participate in extreme sports probably share an inabilityto accept all the ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "limits"
           }
         ]
       },
-      " (LIMIT) that most of us think of as normal.\nThey experience a sense of ",
+      " (LIMIT) that most of us think of as normal.They experience a sense of ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "dissatisfaction"
           }
         ]
       },
-      " (SATISFY) with the routine of\neveryday life, and feel a need to push the boundaries of what is possible, to\nsee how far they can go. Is this similar to simply being ",
+      " (SATISFY) with the routine ofeveryday life, and feel a need to push the boundaries of what is possible, tosee how far they can go. Is this similar to simply being ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "competitive"
           }
         ]
       },
-      "\n(COMPETE)? Possibly, but it may be more to do with having a dream. Of course\n",
+      "(COMPETE)? Possibly, but it may be more to do with having a dream. Of course",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "professional"
           }
         ]
       },
-      " (PROFESSION) athletes who train for extreme events like the\ntriathlon or the marathon may hope for ",
+      " (PROFESSION) athletes who train for extreme events like thetriathlon or the marathon may hope for ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "financial"
           }
         ]
       },
-      " (FINANCE) rewards, but\nprimarily it seems they like being different. They enjoy the feeling of being\nset apart from other people by their ",
+      " (FINANCE) rewards, butprimarily it seems they like being different. They enjoy the feeling of beingset apart from other people by their ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "achievements"
           }
         ]
       },
-      " (ACHIEVE), which are\nthings most of us would fear to do. // Part 4: Key word transformation"
+      " (ACHIEVE), which arethings most of us would fear to do. // Part 4: Key word transformation"
     ]
   },
   "EM U4 p33 Review 4.1 more irritating than": {
     "title": "EM U4 p33 Review 4.1 more irritating than",
     "boby": [
-      " Nothing irritates me more\nthan getting hundreds of spam emails.\nMORE\nThere is nothing ",
+      " Nothing irritates me morethan getting hundreds of spam emails.MOREThere is nothing ",
       {
         "type": "INPUT",
         "options": [
@@ -498,13 +417,13 @@
           }
         ]
       },
-      " getting hundreds of spam\nemails."
+      " getting hundreds of spamemails."
     ]
   },
   "EM U4 p33 Review 4.3 so excited by/about": {
     "title": "EM U4 p33 Review 4.3 so excited by/about",
     "boby": [
-      " The tennis game was so\nexciting that the spectators cheered loudly at the end.\nWERE\nThe spectators ",
+      " The tennis game was soexciting that the spectators cheered loudly at the end.WEREThe spectators ",
       {
         "type": "INPUT",
         "options": [
@@ -515,7 +434,7 @@
           {
             "prefix": "=",
             "value": "were so excited about",
-            "feedback": "phrase: so ... that\n..."
+            "feedback": "phrase: so ... that..."
           }
         ]
       },
@@ -525,7 +444,7 @@
   "EM U4 p33 Review 4.2 interesting for/to": {
     "title": "EM U4 p33 Review 4.2 interesting for/to",
     "boby": [
-      " I'm very interesled in learning\nabout the culture of other countries\nIS\nLearning about the culture of other countries ",
+      " I'm very interesled in learningabout the culture of other countriesISLearning about the culture of other countries ",
       {
         "type": "INPUT",
         "options": [
@@ -535,7 +454,7 @@
           },
           {
             "prefix": "=",
-            "value": "is very\ninteresting to",
+            "value": "is veryinteresting to",
             "feedback": "change of adjective form: interested – interesting"
           }
         ]
@@ -546,7 +465,7 @@
   "EM U4 p33 Review 4.4 worried by": {
     "title": "EM U4 p33 Review 4.4 worried by",
     "boby": [
-      " I find it very worrying if things go\nwrong on holiday.\nGET\nI ",
+      " I find it very worrying if things gowrong on holiday.GETI ",
       {
         "type": "INPUT",
         "options": [
@@ -561,13 +480,13 @@
           }
         ]
       },
-      "\nthings going wrong on holiday."
+      "things going wrong on holiday."
     ]
   },
   "EM U4 p33 Review 4.5 boring": {
     "title": "EM U4 p33 Review 4.5 boring",
     "boby": [
-      " I get bored by people who talk too much.\nFIND\nI ",
+      " I get bored by people who talk too much.FINDI ",
       {
         "type": "INPUT",
         "options": [
@@ -578,20 +497,20 @@
           }
         ]
       },
-      " when people talk\ntoo much."
+      " when people talktoo much."
     ]
   },
   "EM U4 p33 Review 4.6 for the first time": {
     "title": "EM U4 p33 Review 4.6 for the first time",
     "boby": [
-      " I had never seen a glacier\nbefore I went to Norway\nI\nWhen I was in Norway, ",
+      " I had never seen a glacierbefore I went to NorwayIWhen I was in Norway, ",
       {
         "type": "INPUT",
         "options": [
           {
             "prefix": "=",
             "value": "I saw a glacier for",
-            "feedback": "I had never seen – I saw ... for the\nfirst time"
+            "feedback": "I had never seen – I saw ... for thefirst time"
           }
         ]
       },
@@ -606,16 +525,13 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
             "value": "wrong answer",
             "feedback": "feedback comment on the wrong answer"
           },
           {
             "prefix": "~",
-            "value": "another wrong\nanswer",
+            "value": "another wronganswer",
             "feedback": "feedback comment on this wrong answer"
           },
           {
@@ -625,7 +541,7 @@
           }
         ]
       },
-      "//From The\nHitchhiker's Guide to the Galaxy"
+      " //FromThe Hitchhiker's Guide to the Galaxy"
     ]
   },
   "EM U42 Ultimate q2": {
@@ -633,15 +549,12 @@
     "boby": [
       "Deep Thought said \" ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "forty two",
-            "feedback": "Correct according to The\nHitchhiker's Guide to the Galaxy!"
+            "feedback": "Correct according to TheHitchhiker's Guide to the Galaxy!"
           },
           {
             "prefix": "=",
@@ -655,7 +568,7 @@
           }
         ]
       },
-      " is the Ultimate Answer to the Ultimate Question of Life,\nThe Universe, and Everything.\""
+      " is the Ultimate Answer to the Ultimate Question of Life,The Universe, and Everything.\""
     ]
   },
   "EM U42 Ultimate q3": {
@@ -666,8 +579,8 @@
         "type": "BOOLEAN",
         "options": [
           {
-            "value": "FALSE",
-            "feedback": "42is the\nUltimate Answer."
+            "value": " FALSE",
+            "feedback": "42is theUltimate Answer."
           }
         ]
       }
@@ -704,11 +617,8 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
-            "value": " believe\nthey will succeed."
+            "value": " believethey will succeed."
           },
           {
             "prefix": "=",
@@ -716,7 +626,7 @@
           },
           {
             "prefix": "~",
-            "value": " depend very little on\ntalent."
+            "value": " depend very little ontalent."
           }
         ]
       },
@@ -726,7 +636,7 @@
   "EM U5 p34 Voc1.1": {
     "title": "EM U5 p34 Voc1.1",
     "boby": [
-      "I never eat meat — I follow a strict\n",
+      "I never eat meat — I follow a strict",
       {
         "type": "CHOICE",
         "options": [
@@ -758,7 +668,7 @@
   "EM U5 p34 Voc1.2": {
     "title": "EM U5 p34 Voc1.2",
     "boby": [
-      "People who are overweight are rarely told to follow a\n",
+      "People who are overweight are rarely told to follow a",
       {
         "type": "CHOICE",
         "options": [
@@ -790,7 +700,7 @@
   "EM U5 p34 Voc1.3": {
     "title": "EM U5 p34 Voc1.3",
     "boby": [
-      "It’s good to give children a\n",
+      "It’s good to give children a",
       {
         "type": "CHOICE",
         "options": [
@@ -816,13 +726,13 @@
           }
         ]
       },
-      " diet, including meat,\nfrurt and sugar."
+      " diet, including meat,frurt and sugar."
     ]
   },
   "EM U5 p34 Voc1.4": {
     "title": "EM U5 p34 Voc1.4",
     "boby": [
-      "love frurt, vegetables and so on, I know I’m getting a diet\nrich in ",
+      "love frurt, vegetables and so on, I know I’m getting a dietrich in ",
       {
         "type": "CHOICE",
         "options": [
@@ -854,7 +764,7 @@
   "EM U5 p34 Voc1.5": {
     "title": "EM U5 p34 Voc1.5",
     "boby": [
-      "Older people may be advised to follow a\n",
+      "Older people may be advised to follow a",
       {
         "type": "CHOICE",
         "options": [
@@ -980,7 +890,7 @@
           }
         ]
       },
-      " lots of advice about healthy\nlifestyles."
+      " lots of advice about healthylifestyles."
     ]
   },
   "EM U5 p37 Reading 1.1": {
@@ -991,15 +901,12 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "=",
-            "value": "Is powdered food\nthe future? Huel put to the test"
+            "value": "Is powdered foodthe future? Huel put to the test"
           },
           {
             "prefix": "~",
-            "value": "It’s nutritious and delicious\\: I’m going with\nHuel"
+            "value": "It’s nutritious and delicious\\: I’m going withHuel"
           },
           {
             "prefix": "~",
@@ -1013,13 +920,10 @@
   "EM U5 p37 Reading 2.1": {
     "title": "EM U5 p37 Reading 2.1",
     "boby": [
-      "What does the author think about Julian Hearn´s claims\nfor his product? ",
+      "What does the author think about Julian Hearn´s claimsfor his product? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "She finds them suprising"
@@ -1030,7 +934,7 @@
           },
           {
             "prefix": "~",
-            "value": "She\ndoesn´t believe all of them"
+            "value": "Shedoesn´t believe all of them"
           },
           {
             "prefix": "~",
@@ -1043,20 +947,17 @@
   "EM U5 p37 Reading 2.2": {
     "title": "EM U5 p37 Reading 2.2",
     "boby": [
-      "Why did the author start to eat Huel on the first\nevening? ",
+      "Why did the author start to eat Huel on the firstevening? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "She realised she hadn´t been eating properly"
           },
           {
             "prefix": "~",
-            "value": "She recognised that\nshe disliked cooking"
+            "value": "She recognised thatshe disliked cooking"
           },
           {
             "prefix": "=",
@@ -1064,7 +965,7 @@
           },
           {
             "prefix": "~",
-            "value": "She wasn't finding\nother foods satisfying"
+            "value": "She wasn't findingother foods satisfying"
           }
         ]
       }
@@ -1073,13 +974,10 @@
   "EM U5 p37 Reading 2.3": {
     "title": "EM U5 p37 Reading 2.3",
     "boby": [
-      "[markdown] What does '_these_' in line 38 refer to? ",
+      "  What does '_these_' in line 38 refer to? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "Unknown possible chemicals"
@@ -1094,7 +992,7 @@
           },
           {
             "prefix": "~",
-            "value": "The main\ningredients"
+            "value": "The mainingredients"
           }
         ]
       }
@@ -1103,13 +1001,10 @@
   "EM U5 p37 Reading 2.4": {
     "title": "EM U5 p37 Reading 2.4",
     "boby": [
-      "What does the phrase' got the hang of hang of it' in\nline 40 mean? ",
+      "What does the phrase' got the hang of hang of it' inline 40 mean? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "Was preparing to do something"
@@ -1120,7 +1015,7 @@
           },
           {
             "prefix": "~",
-            "value": "Got\ntired of doing something"
+            "value": "Gottired of doing something"
           },
           {
             "prefix": "~",
@@ -1138,9 +1033,6 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
             "value": "She started to do more exercise"
           },
@@ -1150,7 +1042,7 @@
           },
           {
             "prefix": "~",
-            "value": "She\nwanted to give up her experiment"
+            "value": "Shewanted to give up her experiment"
           },
           {
             "prefix": "=",
@@ -1163,20 +1055,17 @@
   "EM U5 p37 Reading 2.6": {
     "title": "EM U5 p37 Reading 2.6",
     "boby": [
-      "At the end of the experiment, what did the author\ndecide about Huel ",
+      "At the end of the experiment, what did the authordecide about Huel ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "It was impossible to use it regulary"
           },
           {
             "prefix": "=",
-            "value": "She now knew how to\nuse it properly"
+            "value": "She now knew how touse it properly"
           },
           {
             "prefix": "~",
@@ -1184,7 +1073,7 @@
           },
           {
             "prefix": "~",
-            "value": "Eating more of it would\nenable her to lose weight"
+            "value": "Eating more of it wouldenable her to lose weight"
           }
         ]
       },
@@ -1204,7 +1093,7 @@
           }
         ]
       },
-      " the old chef with a younger woman who\nhad studied in Barcelona."
+      " the old chef with a younger woman whohad studied in Barcelona."
     ]
   },
   "EM U5 p37 Reading 3.2": {
@@ -1242,7 +1131,7 @@
   "EM U5 p37 Reading 3.4": {
     "title": "EM U5 p37 Reading 3.4",
     "boby": [
-      "I'm less concerned about how food looks tha how\n",
+      "I'm less concerned about how food looks tha how",
       {
         "type": "INPUT",
         "options": [
@@ -1288,7 +1177,7 @@
           }
         ]
       },
-      " the flavour of\nstrawberries."
+      " the flavour ofstrawberries."
     ]
   },
   "EM U5 p37 Reading 3.7": {
@@ -1304,26 +1193,23 @@
           }
         ]
       },
-      " in the TV programme Master Chef\nthat I didn't hear the phone. // 4"
+      " in the TV programme Master Chefthat I didn't hear the phone. // 4"
     ]
   },
   "EM U5 p37 Reading 4 collocations": {
     "title": "EM U5 p37 Reading 4 collocations",
     "boby": [
-      "Match an element from each side to make\ncollocations from the text.",
+      "Match an element from each side to makecollocations from the text.",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "maintain -> a healthy weight"
           },
           {
             "prefix": "=",
-            "value": "tuck into -> good\nfood"
+            "value": "tuck into -> goodfood"
           },
           {
             "prefix": "=",
@@ -1348,13 +1234,10 @@
   "EM U5 p38 Gra2 passive forms": {
     "title": "EM U5 p38 Gra2 passive forms",
     "boby": [
-      "// CLOZE Complete the email with the correct\nactive or passive form of the verbs in brackets. Dear Julia, You'll never gess\nwhat ",
+      "// CLOZE Complete the email with the correctactive or passive form of the verbs in brackets. Dear Julia, You'll never gesswhat ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "has happened"
@@ -1363,37 +1246,28 @@
       },
       " (happen)! Our lovey new car ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "has been stolen"
           }
         ]
       },
-      "\n(steal)! One day last week Jack went out to be yhe beach for a swim and as usual\nhe ",
+      "(steal)! One day last week Jack went out to be yhe beach for a swim and as usualhe ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "hid"
           }
         ]
       },
-      " (hide) the car keys in the toe of his shoe. When he came out of\nthe water, he ",
+      " (hide) the car keys in the toe of his shoe. When he came out ofthe water, he ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "didn't notice"
@@ -1404,65 +1278,50 @@
           }
         ]
       },
-      " (not notice) anything\nsuspicious. It didn't look as if his clothes ",
+      " (not notice) anythingsuspicious. It didn't look as if his clothes ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "had been touched"
           }
         ]
       },
-      " (touch).\nWhen he started to put them on, however, he realised that the keys ",
+      " (touch).When he started to put them on, however, he realised that the keys ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
           {
-            "value": "1:SA:"
-          },
-          {
             "prefix": "=",
-            "value": "had\nbeen taken"
+            "value": "hadbeen taken"
           }
         ]
       },
-      " (take) and when he got to the car park, of course, the car was gone\ntoo. The police say there is a gang of car thieves who ",
+      " (take) and when he got to the car park, of course, the car was gonetoo. The police say there is a gang of car thieves who ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "are known"
           }
         ]
       },
-      " (know)\nto be operating in the area. They think Jack ",
+      " (know)to be operating in the area. They think Jack ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "was being watched"
           }
         ]
       },
-      " (watch)\nas he arrived at the beach. The thieves saw where he had parked the car and then\nwhere the keys ",
+      " (watch)as he arrived at the beach. The thieves saw where he had parked the car and thenwhere the keys ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "were hidden"
@@ -1473,20 +1332,17 @@
           }
         ]
       },
-      " (hide). It was almost two\nweeks ago now and although we hope it ",
+      " (hide). It was almost twoweeks ago now and although we hope it ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "will be found"
           }
         ]
       },
-      " (find), we're\nbeginning to think we might never see it again. Well, that's all from me. Write\nsoon and tell me all your news. Love, Raquel"
+      " (find), we'rebeginning to think we might never see it again. Well, that's all from me. Writesoon and tell me all your news. Love, Raquel"
     ]
   },
   "EM U5 p38 Gra3.1 passive": {
@@ -1498,7 +1354,7 @@
         "options": [
           {
             "prefix": "=",
-            "value": "was given\nthe recipe by"
+            "value": "was giventhe recipe by"
           }
         ]
       },
@@ -1508,7 +1364,7 @@
   "EM U5 p38 Gra3.2 passive": {
     "title": "EM U5 p38 Gra3.2 passive",
     "boby": [
-      "The lecture about healthy food raised many\ninteresting issues. (BROUGHT) Many interesting issues ",
+      "The lecture about healthy food raised manyinteresting issues. (BROUGHT) Many interesting issues ",
       {
         "type": "INPUT",
         "options": [
@@ -1518,7 +1374,7 @@
           },
           {
             "prefix": "=",
-            "value": "were\nbrought up by"
+            "value": "werebrought up by"
           },
           {
             "prefix": "=",
@@ -1532,7 +1388,7 @@
   "EM U5 p38 Gra3.3 passive": {
     "title": "EM U5 p38 Gra3.3 passive",
     "boby": [
-      "Mary baked the cake using six eggs. (BAKED) The cake\n",
+      "Mary baked the cake using six eggs. (BAKED) The cake",
       {
         "type": "INPUT",
         "options": [
@@ -1548,7 +1404,7 @@
   "EM U5 p38 Gra3.4 passive": {
     "title": "EM U5 p38 Gra3.4 passive",
     "boby": [
-      "You can't smoke anywhere in the restaurant.\n(PERMITTED) Smoking ",
+      "You can't smoke anywhere in the restaurant.(PERMITTED) Smoking ",
       {
         "type": "INPUT",
         "options": [
@@ -1564,7 +1420,7 @@
   "EM U5 p38 Gra3.5 passive": {
     "title": "EM U5 p38 Gra3.5 passive",
     "boby": [
-      "Please check that someone has washed up before you\nleave! (DONE) Please check that the ",
+      "Please check that someone has washed up before youleave! (DONE) Please check that the ",
       {
         "type": "INPUT",
         "options": [
@@ -1574,7 +1430,7 @@
           },
           {
             "prefix": "=",
-            "value": "washing up has\nbeen done"
+            "value": "washing up hasbeen done"
           }
         ]
       },
@@ -1584,7 +1440,7 @@
   "EM U5 p38 Gra3.6 passive": {
     "title": "EM U5 p38 Gra3.6 passive",
     "boby": [
-      "Jo had opened the restaurant by himself before Rafa\njoined him as hs business partner. (HAD) The restaurant ",
+      "Jo had opened the restaurant by himself before Rafajoined him as hs business partner. (HAD) The restaurant ",
       {
         "type": "INPUT",
         "options": [
@@ -1594,13 +1450,13 @@
           }
         ]
       },
-      " Jo\nbefore Rafa joined him as his business partner."
+      " Jobefore Rafa joined him as his business partner."
     ]
   },
   "EM U6 p46-47 4.1": {
     "title": "EM U6 p46-47 4.1",
     "boby": [
-      " I couldn't wait to see my friend again after her long\ntrip abroad. (LOOKING)\nI ",
+      " I couldn't wait to see my friend again after her longtrip abroad. (LOOKING)I ",
       {
         "type": "INPUT",
         "options": [
@@ -1616,7 +1472,7 @@
   "EM U6 p46-47 4.2": {
     "title": "EM U6 p46-47 4.2",
     "boby": [
-      " The last time Joe saw Carlos was the day they both\ngraduated from university. (SEEN)\nCarlos ",
+      " The last time Joe saw Carlos was the day they bothgraduated from university. (SEEN)Carlos ",
       {
         "type": "INPUT",
         "options": [
@@ -1632,7 +1488,7 @@
   "EM U6 p46-47 4.3": {
     "title": "EM U6 p46-47 4.3",
     "boby": [
-      " ‘You must do your homework, Tom’, said Carol.\n(REMINDED)\nCarol ",
+      " ‘You must do your homework, Tom’, said Carol.(REMINDED)Carol ",
       {
         "type": "INPUT",
         "options": [
@@ -1648,7 +1504,7 @@
   "EM U6 p46-47 4.4": {
     "title": "EM U6 p46-47 4.4",
     "boby": [
-      " I never seem to find the time to read newspapers these\ndays. (ROUND)\nI never seem to ",
+      " I never seem to find the time to read newspapers thesedays. (ROUND)I never seem to ",
       {
         "type": "INPUT",
         "options": [
@@ -1664,7 +1520,7 @@
   "EM U6 p46-47 4.5": {
     "title": "EM U6 p46-47 4.5",
     "boby": [
-      " Nothing irritates me as much as getting piles of junk\nmail through the post. (MORE)\nThere is nothing ",
+      " Nothing irritates me as much as getting piles of junkmail through the post. (MORE)There is nothing ",
       {
         "type": "INPUT",
         "options": [
@@ -1674,13 +1530,13 @@
           }
         ]
       },
-      " getting piles of junk mail through the\npost."
+      " getting piles of junk mail through thepost."
     ]
   },
   "EM U6 p46-47 4.6": {
     "title": "EM U6 p46-47 4.6",
     "boby": [
-      " The idea of flying is very frightening for some\npeople. (ARE)\nSome people ",
+      " The idea of flying is very frightening for somepeople. (ARE)Some people ",
       {
         "type": "INPUT",
         "options": [
@@ -1710,7 +1566,7 @@
           }
         ]
       },
-      " to the gym on Sundays.\n(go)"
+      " to the gym on Sundays.(go)"
     ]
   },
   "U1 p10 GR2.2 Present tenses & habits": {
@@ -1726,7 +1582,7 @@
           }
         ]
       },
-      " very\nquickly. (grow up)"
+      " veryquickly. (grow up)"
     ]
   },
   "U1 p10 GR2.3 Present tenses & habits": {
@@ -1746,7 +1602,7 @@
           }
         ]
       },
-      " a bit\nunfair – he didn't mean to upset her. (be)"
+      " a bitunfair – he didn't mean to upset her. (be)"
     ]
   },
   "U1 p10 GR2.4 Present tenses & habits": {
@@ -1766,7 +1622,7 @@
           }
         ]
       },
-      " any\nbetter at maths even though she has a private tutor. (not get)"
+      " anybetter at maths even though she has a private tutor. (not get)"
     ]
   },
   "U1 p10 GR2.5 Present tenses & habits": {
@@ -1782,13 +1638,13 @@
           }
         ]
       },
-      " to be enjoying the\ncourse. (appear)"
+      " to be enjoying thecourse. (appear)"
     ]
   },
   "U1 p10 GR2.6 Present tenses & habits": {
     "title": "U1 p10 GR2.6 Present tenses & habits",
     "boby": [
-      "Even when I have a bad headache I\n",
+      "Even when I have a bad headache I",
       {
         "type": "INPUT",
         "options": [
@@ -1818,13 +1674,13 @@
           }
         ]
       },
-      " used to walking to school –\nhe's always done it. (be)"
+      " used to walking to school –he's always done it. (be)"
     ]
   },
   "U1 p10 GR2.8 Present tenses & habits": {
     "title": "U1 p10 GR2.8 Present tenses & habits",
     "boby": [
-      "It seemed very cold at first but now we\n",
+      "It seemed very cold at first but now we",
       {
         "type": "INPUT",
         "options": [
@@ -1846,14 +1702,11 @@
     "boby": [
       " Does she come by car? (generally) ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "=",
-            "value": "Does she\ngenerally come by car?"
+            "value": "Does shegenerally come by car?"
           }
         ]
       }
@@ -1864,18 +1717,15 @@
     "boby": [
       " Take care when using this machinery. (always) ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "Always take care when using this machinery."
           },
           {
             "prefix": "=",
-            "value": "Always take care when using this\nmachinery"
+            "value": "Always take care when using thismachinery"
           }
         ]
       }
@@ -1884,24 +1734,21 @@
   "U1 p7 Adverbs GR 1.3": {
     "title": "U1 p7 Adverbs GR 1.3",
     "boby": [
-      " They're a little nervous at the beginning.\n(sometimes) ",
+      " They're a little nervous at the beginning.(sometimes) ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "They're sometimes a little nervous at the beginning."
           },
           {
             "prefix": "=",
-            "value": "They are\nsometimes a little nervous at the beginning."
+            "value": "They aresometimes a little nervous at the beginning."
           },
           {
             "prefix": "=",
-            "value": "They're sometimes a little nervous\nat the beginning"
+            "value": "They're sometimes a little nervousat the beginning"
           },
           {
             "prefix": "=",
@@ -1909,11 +1756,11 @@
           },
           {
             "prefix": "=",
-            "value": "They’re\nsometimes a little nervous at the beginning"
+            "value": "They’resometimes a little nervous at the beginning"
           },
           {
             "prefix": "=",
-            "value": "They’re sometimes a little nervous\nat the beginning."
+            "value": "They’re sometimes a little nervousat the beginning."
           }
         ]
       }
@@ -1924,18 +1771,15 @@
     "boby": [
       " I don't go to the gym on Fridays. (usually) ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
           {
-            "value": ""
+            "prefix": "=",
+            "value": "Idon't usually go to the gym on Fridays."
           },
           {
             "prefix": "=",
-            "value": "I\ndon't usually go to the gym on Fridays."
-          },
-          {
-            "prefix": "=",
-            "value": "I do not usually go to the gym on\nFridays."
+            "value": "I do not usually go to the gym onFridays."
           },
           {
             "prefix": "=",
@@ -1943,7 +1787,7 @@
           },
           {
             "prefix": "=",
-            "value": "I do not usually go to the\ngym on Fridays"
+            "value": "I do not usually go to thegym on Fridays"
           },
           {
             "prefix": "=",
@@ -1951,7 +1795,7 @@
           },
           {
             "prefix": "=",
-            "value": "I don’t usually go to\nthe gym on Fridays."
+            "value": "I don’t usually go tothe gym on Fridays."
           }
         ]
       }
@@ -1962,14 +1806,11 @@
     "boby": [
       " They've been told that. (often) ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "=",
-            "value": "They've often\nbeen told that."
+            "value": "They've oftenbeen told that."
           },
           {
             "prefix": "=",
@@ -1989,7 +1830,7 @@
           },
           {
             "prefix": "=",
-            "value": "They’ve often\nbeen told that."
+            "value": "They’ve oftenbeen told that."
           }
         ]
       }
@@ -1998,59 +1839,53 @@
   "U1 p8-9 Reading \"Coachella\" 2 reading for gist": {
     "title": "U1 p8-9 Reading \"Coachella\" 2 reading for gist",
     "boby": [
-      " \n\nYou are going to read a newspaper article about an American music festival,\nCoachella. Read the article quickly for gist and choose the phrase which best\nsummarises each paragraph.\n\n",
+      " You are going to read a newspaper article about an American music festival,Coachella. Read the article quickly for gist and choose the phrase which bestsummarises each paragraph.",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
           {
-            "value": ""
+            "prefix": "=",
+            "value": "A. When the American 90s rock band Pearl Jam put on a concert in the dried-up,baking-hot Coachella Valley in California, it was an attempt to prove that theycould break away from the monopoly of the concert giant TicketMaster, who, theybelieved, was using its considerable power to exploit music fans by continuallyincreasing prices. Their concert was well attended and inspired the idea for afuture, more ambitious event. Naturally, nobody could have predicted quite howimportant Coachella would eventually become.-> 4. The original inspiration of Coachella"
           },
           {
             "prefix": "=",
-            "value": "\n\nA. When the American 90s rock band Pearl Jam put on a concert in the dried-up,\nbaking-hot Coachella Valley in California, it was an attempt to prove that they\ncould break away from the monopoly of the concert giant TicketMaster, who, they\nbelieved, was using its considerable power to exploit music fans by continually\nincreasing prices. Their concert was well attended and inspired the idea for a\nfuture, more ambitious event. Naturally, nobody could have predicted quite how\nimportant Coachella would eventually become.\n\n-> 4. The original inspiration of Coachella"
+            "value": "B. Six years later, in 1999, the same venue hosted its first weekend-long musicfestival. Although initially making a loss, this was blamed on the unbearablyhigh temperatures and the lack of available campsite facilities. What's more, ittook only a few more years until its quality line-ups, from small bands toheadliners, were attracting worldwide attention.-> 7. Overcoming problematic beginnings"
           },
           {
             "prefix": "=",
-            "value": "\n\nB. Six years later, in 1999, the same venue hosted its first weekend-long music\nfestival. Although initially making a loss, this was blamed on the unbearably\nhigh temperatures and the lack of available campsite facilities. What's more, it\ntook only a few more years until its quality line-ups, from small bands to\nheadliners, were attracting worldwide attention.\n\n-> 7. Overcoming problematic beginnings"
+            "value": "C. If one band is responsible for confirming Coachella's arrival on the worldstage, it is Daft Punk's iconic appearance there in 2006.  As a direct result ofthe festival's success, promoters expanded it to a three-day event, and in 2009,Coachella presented its most mainstream line-up, including Paul McCartney, theKillers, and The Cure. The following year Jay-Z became the first rap headlinerand by 2012 such was the popularity of Coachella that it had developed into twoweekends of three-day shows.-> 2. Getting bigger and better"
           },
           {
             "prefix": "=",
-            "value": "\n\nC. If one band is responsible for confirming Coachella's arrival on the world\nstage, it is Daft Punk's iconic appearance there in 2006.  As a direct result of\nthe festival's success, promoters expanded it to a three-day event, and in 2009,\nCoachella presented its most mainstream line-up, including Paul McCartney, the\nKillers, and The Cure. The following year Jay-Z became the first rap headliner\nand by 2012 such was the popularity of Coachella that it had developed into two\nweekends of three-day shows.\n\n-> 2. Getting bigger and better"
+            "value": "D. In an effort to attract America's impoverished younger generation to anexpensive annual visit to the desert, the promoters made two clever decisions.One smart move was to get a much-missed band or singer such as Rage Against theMachine to reform every year. Most notable was a holographic representation ofthe late rapper 2Pac in 2012. ln a stroke of genius, they decided to cater forthe section of the audience who adored the music that used to be labelledelectronic and who flocked to dance in big tents to their favourite DJs.-> 1. Appealing to the target market"
           },
           {
             "prefix": "=",
-            "value": "\n\nD. In an effort to attract America's impoverished younger generation to an\nexpensive annual visit to the desert, the promoters made two clever decisions.\nOne smart move was to get a much-missed band or singer such as Rage Against the\nMachine to reform every year. Most notable was a holographic representation of\nthe late rapper 2Pac in 2012. ln a stroke of genius, they decided to cater for\nthe section of the audience who adored the music that used to be labelled\nelectronic and who flocked to dance in big tents to their favourite DJs.\n\n-> 1. Appealing to the target market"
+            "value": "E. By keeping its cool musical reputation, the festival would go from strengthto strength. In 2016, half a million fans bought their tickets in under 20minutes, and each year around 100,000 attendees a day now splash out around $375on admission. Of course, the costs don't stop there. It is now the mostprofitable festival in the world.-> 6. A money-making success"
           },
           {
             "prefix": "=",
-            "value": "\n\nE. By keeping its cool musical reputation, the festival would go from strength\nto strength. In 2016, half a million fans bought their tickets in under 20\nminutes, and each year around 100,000 attendees a day now splash out around $375\non admission. Of course, the costs don't stop there. It is now the most\nprofitable festival in the world.\n\n-> 6. A money-making success"
+            "value": " F. Just two hours from Los Angeles, Coachella swiftly became the place to seeand be seen. The presence of models and other celebrities soon began to attractstyle bloggers, drawn by the fashion rather than the music. Which, in turn, hasmade Coachella irresistible to fashion houses, beauty companies and otherlifestyle labels.-> 5. A fashionable destination"
           },
           {
             "prefix": "=",
-            "value": "\n\n F. Just two hours from Los Angeles, Coachella swiftly became the place to see\nand be seen. The presence of models and other celebrities soon began to attract\nstyle bloggers, drawn by the fashion rather than the music. Which, in turn, has\nmade Coachella irresistible to fashion houses, beauty companies and other\nlifestyle labels.\n\n-> 5. A fashionable destination"
-          },
-          {
-            "prefix": "=",
-            "value": "\n\nG. Although for several years luxury brands have been hosting free concerts and\npool parties for invited guests and photographing Instagram stars modelling\ndesigner clothes, this has until recently been outside festival hours. As a\nresult, they are now effectively separate events, to the point that 'No-chella'\nas it has become known, is, in the opinion of some, in danger of overshadowing\nthe 'real' festival.\n\n\\n\n\nCoachella has certainly come a long way from the original anti-establishment\nPearl Jam gig.\n\n-> 3. Choosing between two attractions"
+            "value": "G. Although for several years luxury brands have been hosting free concerts andpool parties for invited guests and photographing Instagram stars modellingdesigner clothes, this has until recently been outside festival hours. As aresult, they are now effectively separate events, to the point that 'No-chella'as it has become known, is, in the opinion of some, in danger of overshadowingthe 'real' festival.\\nCoachella has certainly come a long way from the original anti-establishmentPearl Jam gig.-> 3. Choosing between two attractions"
           }
         ]
       },
-      " // question: 25402755 name: U1 p8-9 #9\nVocabulary"
+      " // question: 25402755 name: U1 p8-9 #9Vocabulary"
     ]
   },
   "U1 p8-9 9 Vocabulary": {
     "title": "U1 p8-9 9 Vocabulary",
     "boby": [
-      " Look at the following words and phrases from the\narticle and at the meaning options. Try to work out the meaning from the context\nor from the word itself. Then match each one to a definition.",
+      " Look at the following words and phrases from thearticle and at the meaning options. Try to work out the meaning from the contextor from the word itself. Then match each one to a definition.",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "=",
-            "value": "Spend a lot of\nmoney -> Splash out"
+            "value": "Spend a lot ofmoney -> Splash out"
           },
           {
             "prefix": "=",
@@ -2058,7 +1893,7 @@
           },
           {
             "prefix": "=",
-            "value": "Find a\nsolution (to a problem) -> Resolved"
+            "value": "Find asolution (to a problem) -> Resolved"
           },
           {
             "prefix": "=",
@@ -2066,15 +1901,15 @@
           },
           {
             "prefix": "=",
-            "value": "Try to get\nas much as possible (sometimes unfairly) -> Exploit"
+            "value": "Try to getas much as possible (sometimes unfairly) -> Exploit"
           },
           {
             "prefix": "=",
-            "value": "Consider facts when making\na decision -> Taken into account"
+            "value": "Consider facts when makinga decision -> Taken into account"
           },
           {
             "prefix": "=",
-            "value": "Make something seem less important ->\nOvershadowing"
+            "value": "Make something seem less important ->Overshadowing"
           },
           {
             "prefix": "=",
@@ -2082,7 +1917,7 @@
           },
           {
             "prefix": "=",
-            "value": "Give the idea\nfor -> Inspired"
+            "value": "Give the ideafor -> Inspired"
           },
           {
             "prefix": "=",
@@ -2090,7 +1925,7 @@
           },
           {
             "prefix": "=",
-            "value": "Someone or something famous\nand important -> Iconic"
+            "value": "Someone or something famousand important -> Iconic"
           },
           {
             "prefix": "=",
@@ -2098,7 +1933,7 @@
           },
           {
             "prefix": "=",
-            "value": "Makes a lot of\nmoney -> Profitable"
+            "value": "Makes a lot ofmoney -> Profitable"
           },
           {
             "prefix": "=",
@@ -2111,20 +1946,17 @@
   "U10 p106-7 Reading 2.1": {
     "title": "U10 p106-7 Reading 2.1",
     "boby": [
-      "What point is the writer making in the first\nparagraph? ",
+      "What point is the writer making in the firstparagraph? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "Attitudes to love are changing."
           },
           {
             "prefix": "~",
-            "value": "People's lack of romance leads to\ndivorce."
+            "value": "People's lack of romance leads todivorce."
           },
           {
             "prefix": "=",
@@ -2132,7 +1964,7 @@
           },
           {
             "prefix": "~",
-            "value": "People should\nforget about trying to find a soulmate."
+            "value": "People shouldforget about trying to find a soulmate."
           }
         ]
       }
@@ -2141,20 +1973,17 @@
   "U10 p106-7 Reading 2.2": {
     "title": "U10 p106-7 Reading 2.2",
     "boby": [
-      " What does ‘this’ refer to in “...popular works\nof contemporary fiction such as One Day and Twilight. This isn’t a preoccupation\nfound only in Western cultures either”? ",
+      " What does ‘this’ refer to in “...popular worksof contemporary fiction such as One Day and Twilight. This isn’t a preoccupationfound only in Western cultures either”? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "Romeo and Juliet"
           },
           {
             "prefix": "~",
-            "value": "a Chinese love\nstory"
+            "value": "a Chinese lovestory"
           },
           {
             "prefix": "=",
@@ -2171,16 +2000,13 @@
   "U10 p106-7 Reading 2.3": {
     "title": "U10 p106-7 Reading 2.3",
     "boby": [
-      "What does the writer say about the use of the word\n'soulmate' in paragraph three? ",
+      "What does the writer say about the use of the word'soulmate' in paragraph three? ",
       {
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
-            "value": "It was used earlier than was previously\nthought."
+            "value": "It was used earlier than was previouslythought."
           },
           {
             "prefix": "~",
@@ -2188,11 +2014,11 @@
           },
           {
             "prefix": "~",
-            "value": "The meaning has\nchanged very recently."
+            "value": "The meaning haschanged very recently."
           },
           {
             "prefix": "=",
-            "value": "It was first used to describe an unusual and unfamiliar\nconcept."
+            "value": "It was first used to describe an unusual and unfamiliarconcept."
           }
         ]
       }
@@ -2201,16 +2027,13 @@
   "U10 p106-7 Reading 2.4": {
     "title": "U10 p106-7 Reading 2.4",
     "boby": [
-      "According to the study, how do people in long-term\nrelationships react to the way romance is portrayed in popular culture? ",
+      "According to the study, how do people in long-termrelationships react to the way romance is portrayed in popular culture? ",
       {
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "=",
-            "value": "They\nare able to separate fact from fiction."
+            "value": "Theyare able to separate fact from fiction."
           },
           {
             "prefix": "~",
@@ -2222,7 +2045,7 @@
           },
           {
             "prefix": "~",
-            "value": "They are disappointed that\nreality is different."
+            "value": "They are disappointed thatreality is different."
           }
         ]
       }
@@ -2231,24 +2054,21 @@
   "U10 p106-7 Reading 2.5": {
     "title": "U10 p106-7 Reading 2.5",
     "boby": [
-      "What conclusion can be drawn from the university\nresearch? ",
+      "What conclusion can be drawn from the universityresearch? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "It is unrealistic to expect love to last."
           },
           {
             "prefix": "=",
-            "value": "It is necessary to put\nsome effort into a relationship."
+            "value": "It is necessary to putsome effort into a relationship."
           },
           {
             "prefix": "~",
-            "value": "It is impossible to give a definition of the\nperfect relationship."
+            "value": "It is impossible to give a definition of theperfect relationship."
           },
           {
             "prefix": "~",
@@ -2261,28 +2081,25 @@
   "U10 p106-7 Reading 2.6": {
     "title": "U10 p106-7 Reading 2.6",
     "boby": [
-      "The writer says that online dating agencies are\npopular because they ",
+      "The writer says that online dating agencies arepopular because they ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "mean people are less reliant on chance."
           },
           {
             "prefix": "~",
-            "value": "give people\nhope of finding the perfect soulmate."
+            "value": "give peoplehope of finding the perfect soulmate."
           },
           {
             "prefix": "~",
-            "value": "are more reliable than traditional ways\nof meeting the right person."
+            "value": "are more reliable than traditional waysof meeting the right person."
           },
           {
             "prefix": "~",
-            "value": "give people a much wider choice of potential\npartners."
+            "value": "give people a much wider choice of potentialpartners."
           }
         ]
       }
@@ -2301,13 +2118,13 @@
           }
         ]
       },
-      " wanting\nto find a 'soulmate' … ?"
+      " wantingto find a 'soulmate' … ?"
     ]
   },
   "U10 p106-7 Reading Prepositions RS.2": {
     "title": "U10 p106-7 Reading Prepositions RS.2",
     "boby": [
-      "… if you're convinced you've got to\nsearch the entire world ",
+      "… if you're convinced you've got tosearch the entire world ",
       {
         "type": "INPUT",
         "options": [
@@ -2339,7 +2156,7 @@
   "U10 p106-7 Reading Prepositions RS.4": {
     "title": "U10 p106-7 Reading Prepositions RS.4",
     "boby": [
-      "… meeting online doesn't quite live\n",
+      "… meeting online doesn't quite live",
       {
         "type": "INPUT",
         "options": [
@@ -2355,7 +2172,7 @@
   "U10 p106-7 Reading Prepositions RS.5": {
     "title": "U10 p106-7 Reading Prepositions RS.5",
     "boby": [
-      "… Samuel Taylor Coleridge (…) came up\nwith the term 'soulmate', ",
+      "… Samuel Taylor Coleridge (…) came upwith the term 'soulmate', ",
       {
         "type": "INPUT",
         "options": [
@@ -2381,13 +2198,13 @@
           }
         ]
       },
-      " by a professor\nof social psychology at the University of Houston …"
+      " by a professorof social psychology at the University of Houston …"
     ]
   },
   "U10 p106-7 Reading Prepositions RS.7": {
     "title": "U10 p106-7 Reading Prepositions RS.7",
     "boby": [
-      "We cling to the idea, even though we\nsuspect it's doomed ",
+      "We cling to the idea, even though wesuspect it's doomed ",
       {
         "type": "INPUT",
         "options": [
@@ -2403,7 +2220,7 @@
   "U10 p106-7 Reading Prepositions RS.8": {
     "title": "U10 p106-7 Reading Prepositions RS.8",
     "boby": [
-      "A Chinese story about lovers destined to\nbe together (…) dates ",
+      "A Chinese story about lovers destined tobe together (…) dates ",
       {
         "type": "INPUT",
         "options": [
@@ -2419,7 +2236,7 @@
   "U11 p114 Mixed conditionals 4.1": {
     "title": "U11 p114 Mixed conditionals 4.1",
     "boby": [
-      " If I'd left the party earlier, I\n",
+      " If I'd left the party earlier, I",
       {
         "type": "INPUT",
         "options": [
@@ -2441,7 +2258,7 @@
           },
           {
             "prefix": "=",
-            "value": "wouldn’t be\nfeeling"
+            "value": "wouldn’t befeeling"
           },
           {
             "prefix": "=",
@@ -2457,7 +2274,7 @@
           },
           {
             "prefix": "=",
-            "value": "would not have\nfelt"
+            "value": "would not havefelt"
           }
         ]
       },
@@ -2473,7 +2290,7 @@
         "options": [
           {
             "prefix": "=",
-            "value": "'d\nspoken"
+            "value": "'dspoken"
           },
           {
             "prefix": "=",
@@ -2509,7 +2326,7 @@
         "options": [
           {
             "prefix": "=",
-            "value": "wouldn't\nbe"
+            "value": "wouldn'tbe"
           },
           {
             "prefix": "=",
@@ -2529,7 +2346,7 @@
         "options": [
           {
             "prefix": "=",
-            "value": "had\nspoken"
+            "value": "hadspoken"
           },
           {
             "prefix": "=",
@@ -2557,7 +2374,7 @@
           }
         ]
       },
-      "\n(might/earn) more now if I'd gone to university."
+      "(might/earn) more now if I'd gone to university."
     ]
   },
   "U2 p22 3 – Verb patterns -ing or inf": {
@@ -2565,18 +2382,15 @@
     "boby": [
       "Match the clauses to make sentences.",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "It took me ages to have the confidence -> to be on my own with him."
           },
           {
             "prefix": "=",
-            "value": "It's not\nworth -> talking to him really because he just disagrees with whatever anybody\nsays."
+            "value": "It's notworth -> talking to him really because he just disagrees with whatever anybodysays."
           },
           {
             "prefix": "=",
@@ -2584,11 +2398,11 @@
           },
           {
             "prefix": "=",
-            "value": "We'd\nlike him -> to come and live nearer."
+            "value": "We'dlike him -> to come and live nearer."
           },
           {
             "prefix": "=",
-            "value": "I've promised -> to give him tennis\nlessons."
+            "value": "I've promised -> to give him tennislessons."
           }
         ]
       }
@@ -2611,7 +2425,7 @@
           }
         ]
       },
-      "\nlunch because the phone rang."
+      "lunch because the phone rang."
     ]
   },
   "U2 p22 6.1b – Verb patterns -ing or inf": {
@@ -2631,7 +2445,7 @@
           }
         ]
       },
-      "\nlunch because we were hungry."
+      "lunch because we were hungry."
     ]
   },
   "U2 p22 6.2a – Verb patterns -ing or inf": {
@@ -2651,7 +2465,7 @@
           }
         ]
       },
-      " but\nnobody answered."
+      " butnobody answered."
     ]
   },
   "U2 p22 6.2b – Verb patterns -ing or inf": {
@@ -2671,7 +2485,7 @@
           }
         ]
       },
-      " but he\ncouldn't remember the number, so he gave up."
+      " but hecouldn't remember the number, so he gave up."
     ]
   },
   "U2 p22 6.3a – Verb patterns -ing or inf": {
@@ -2691,7 +2505,7 @@
           }
         ]
       },
-      "\ngrandma a present for her birthday."
+      "grandma a present for her birthday."
     ]
   },
   "U2 p22 6.3b – Verb patterns -ing or inf": {
@@ -2711,7 +2525,7 @@
           }
         ]
       },
-      "\ngrandma a present but couldn't find it again later."
+      "grandma a present but couldn't find it again later."
     ]
   },
   "U2 p22 6.4a – Verb patterns -ing or inf": {
@@ -2731,7 +2545,7 @@
           }
         ]
       },
-      " you that\nall train services have been cancelled."
+      " you thatall train services have been cancelled."
     ]
   },
   "U2 p22 6.4b – Verb patterns -ing or inf": {
@@ -2751,7 +2565,7 @@
           }
         ]
       },
-      " you\nbecause now you're upset."
+      " youbecause now you're upset."
     ]
   },
   "U2 p22 6.5a – Verb patterns -ing or inf": {
@@ -2771,7 +2585,7 @@
           }
         ]
       },
-      " my sister\nan old dress, and then I found it in her wardrobe."
+      " my sisteran old dress, and then I found it in her wardrobe."
     ]
   },
   "U2 p22 6.5b – Verb patterns -ing or inf": {
@@ -2791,26 +2605,23 @@
           }
         ]
       },
-      " my\nteacher my essay and she wasn't happy when I handed it in late."
+      " myteacher my essay and she wasn't happy when I handed it in late."
     ]
   },
   "U3 p30 4.1": {
     "title": "U3 p30 4.1",
     "boby": [
-      "What is the writer's attitude towards football fans attending\nmatches? ",
+      "What is the writer's attitude towards football fans attendingmatches? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "She's impressed by their behaviour."
           },
           {
             "prefix": "~",
-            "value": "She's surprised by how much\nmoney they spend."
+            "value": "She's surprised by how muchmoney they spend."
           },
           {
             "prefix": "~",
@@ -2818,7 +2629,7 @@
           },
           {
             "prefix": "=",
-            "value": "She's\nsympathetic to their feelings."
+            "value": "She'ssympathetic to their feelings."
           }
         ]
       }
@@ -2827,28 +2638,25 @@
   "U3 p30 4.2": {
     "title": "U3 p30 4.2",
     "boby": [
-      "The writer mentions people who live ‘in a dream state’ in order to\n",
+      "The writer mentions people who live ‘in a dream state’ in order to",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "give an example of people who have uncontrollable emotions."
           },
           {
             "prefix": "~",
-            "value": "criticise people\nwho have unrealistic expectations."
+            "value": "criticise peoplewho have unrealistic expectations."
           },
           {
             "prefix": "=",
-            "value": "contrast different types of emotional\nattachments."
+            "value": "contrast different types of emotionalattachments."
           },
           {
             "prefix": "~",
-            "value": "explain why passions can be more important than real\nrelationships."
+            "value": "explain why passions can be more important than realrelationships."
           }
         ]
       }
@@ -2862,19 +2670,16 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "=",
-            "value": "it\nhelps people learn how to express their emotions."
+            "value": "ithelps people learn how to express their emotions."
           },
           {
             "prefix": "~",
-            "value": "it encourages more\nconsiderate behaviour."
+            "value": "it encourages moreconsiderate behaviour."
           },
           {
             "prefix": "~",
-            "value": "it gives people an opportunity to act like a different\nperson."
+            "value": "it gives people an opportunity to act like a differentperson."
           },
           {
             "prefix": "~",
@@ -2891,9 +2696,6 @@
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "Something which is easily forgotten."
@@ -2922,11 +2724,8 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
-            "value": "some sports are less\nlikely to inspire strong feelings."
+            "value": "some sports are lesslikely to inspire strong feelings."
           },
           {
             "prefix": "~",
@@ -2934,11 +2733,11 @@
           },
           {
             "prefix": "=",
-            "value": "sports\nfans can behave uncharacteristically."
+            "value": "sportsfans can behave uncharacteristically."
           },
           {
             "prefix": "~",
-            "value": "people often behave strangely to get on\nTV."
+            "value": "people often behave strangely to get onTV."
           }
         ]
       }
@@ -2952,23 +2751,20 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
+            "prefix": "~",
+            "value": "Toencourage people to talk about their passions openly."
           },
           {
             "prefix": "~",
-            "value": "To\nencourage people to talk about their passions openly."
+            "value": "To convince the readerthat sports fans are normal human beings."
           },
           {
             "prefix": "~",
-            "value": "To convince the reader\nthat sports fans are normal human beings."
-          },
-          {
-            "prefix": "~",
-            "value": "To explain why the excitement of\nwinning is worth the disappointment of losing."
+            "value": "To explain why the excitement ofwinning is worth the disappointment of losing."
           },
           {
             "prefix": "=",
-            "value": "To argue that a passion for\nsport provides an opportunity to experience highs and lows."
+            "value": "To argue that a passion forsport provides an opportunity to experience highs and lows."
           }
         ]
       }
@@ -2977,44 +2773,41 @@
   "U3 p32 GR2 Present perfect vs past simple": {
     "title": "U3 p32 GR2 Present perfect vs past simple",
     "boby": [
-      "[markdown]Match the phrases in bold\nin the following sentences to the respective tense and use. ",
+      " Match the phrases in boldin the following sentences to the respective tense and use. ",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
           {
-            "value": ""
+            "prefix": "=",
+            "value": "You can seeshe**'s been swimming** – her hair's still wet. -> Present perfect continuous -for a recent completed activity when the effects are still relevant"
           },
           {
             "prefix": "=",
-            "value": "You can see\nshe**'s been swimming** – her hair's still wet. -> Present perfect continuous -\nfor a recent completed activity when the effects are still relevant"
+            "value": "I **knew**almost everyone at the party. -> Past simple - for a state in the past"
           },
           {
             "prefix": "=",
-            "value": "I **knew**\nalmost everyone at the party. -> Past simple - for a state in the past"
+            "value": "Carol**'s been working** here for the last few weeks while Chloe's away havinga baby. -> Present perfect continuous - to suggest that an activity is temporary"
           },
           {
             "prefix": "=",
-            "value": "Carol**'s been working** here for the last few weeks while Chloe's away having\na baby. -> Present perfect continuous - to suggest that an activity is temporary"
+            "value": "I**'ve only worn** that shirt three times since I bought it. -> Present perfect- for an action repeated up to the present time"
           },
           {
             "prefix": "=",
-            "value": "I**'ve only worn** that shirt three times since I bought it. -> Present perfect\n- for an action repeated up to the present time"
+            "value": "I**'ve been having** drivinglessons for months but I'm not getting any better. -> Present perfect continuous- to emphasise that an action has been going on for a long time"
           },
           {
             "prefix": "=",
-            "value": "I**'ve been having** driving\nlessons for months but I'm not getting any better. -> Present perfect continuous\n- to emphasise that an action has been going on for a long time"
+            "value": "All my friendsat school **played** football, not rugby. -> Past simple - for a habit in thepast"
           },
           {
             "prefix": "=",
-            "value": "All my friends\nat school **played** football, not rugby. -> Past simple - for a habit in the\npast"
+            "value": "Harry's birthday party **didn't end** until three in the morning. -> Pastsimple - for a finished event that happened at a specific time in the past"
           },
           {
             "prefix": "=",
-            "value": "Harry's birthday party **didn't end** until three in the morning. -> Past\nsimple - for a finished event that happened at a specific time in the past"
-          },
-          {
-            "prefix": "=",
-            "value": "They**'ve been building** that house for ages and it's still only\nhalf-finished. -> Present perfect continuous - to suggest that an activity is\nnot complete"
+            "value": "They**'ve been building** that house for ages and it's still onlyhalf-finished. -> Present perfect continuous - to suggest that an activity isnot complete"
           }
         ]
       }
@@ -3023,7 +2816,7 @@
   "U3 p32 CD.01 Present perfect vs past simple": {
     "title": "U3 p32 CD.01 Present perfect vs past simple",
     "boby": [
-      "I _____ interested in theatre\nsince I was very young.",
+      "I _____ interested in theatresince I was very young.",
       {
         "type": "CHOICE",
         "options": [
@@ -3042,7 +2835,7 @@
   "U3 p32 CD.02 Present perfect vs past simple": {
     "title": "U3 p32 CD.02 Present perfect vs past simple",
     "boby": [
-      "Toby _____ very good at football\nwhen we were at school together.",
+      "Toby _____ very good at footballwhen we were at school together.",
       {
         "type": "CHOICE",
         "options": [
@@ -3061,7 +2854,7 @@
   "U3 p32 CD.03 Present perfect vs past simple": {
     "title": "U3 p32 CD.03 Present perfect vs past simple",
     "boby": [
-      "They _____ that café for as long\nas I can remember.",
+      "They _____ that café for as longas I can remember.",
       {
         "type": "CHOICE",
         "options": [
@@ -3080,7 +2873,7 @@
   "U3 p32 CD.04 Present perfect vs past simple": {
     "title": "U3 p32 CD.04 Present perfect vs past simple",
     "boby": [
-      "We _____ chickens and ducks when\nwe lived on a farm.",
+      "We _____ chickens and ducks whenwe lived on a farm.",
       {
         "type": "CHOICE",
         "options": [
@@ -3099,7 +2892,7 @@
   "U3 p32 CD.05 Present perfect vs past simple": {
     "title": "U3 p32 CD.05 Present perfect vs past simple",
     "boby": [
-      "Ella _____ learning to play the\nguitar this week.",
+      "Ella _____ learning to play theguitar this week.",
       {
         "type": "CHOICE",
         "options": [
@@ -3118,7 +2911,7 @@
   "U3 p32 CD.06 Present perfect vs past simple": {
     "title": "U3 p32 CD.06 Present perfect vs past simple",
     "boby": [
-      "You _____ to turn pale – I was\nreally worried about you!",
+      "You _____ to turn pale – I wasreally worried about you!",
       {
         "type": "CHOICE",
         "options": [
@@ -3137,7 +2930,7 @@
   "U3 p32 CD.07 Present perfect vs past simple": {
     "title": "U3 p32 CD.07 Present perfect vs past simple",
     "boby": [
-      "My parents _____ a bit of bad\nluck this year.",
+      "My parents _____ a bit of badluck this year.",
       {
         "type": "CHOICE",
         "options": [
@@ -3156,7 +2949,7 @@
   "U3 p32 CD.08 Present perfect vs past simple": {
     "title": "U3 p32 CD.08 Present perfect vs past simple",
     "boby": [
-      "Steve _____ a good time last\nnight, didn't he?",
+      "Steve _____ a good time lastnight, didn't he?",
       {
         "type": "CHOICE",
         "options": [
@@ -3175,7 +2968,7 @@
   "U3 p32 CD.09 Present perfect vs past simple": {
     "title": "U3 p32 CD.09 Present perfect vs past simple",
     "boby": [
-      "Those trousers _____ of fashion\nin the 1970s.",
+      "Those trousers _____ of fashionin the 1970s.",
       {
         "type": "CHOICE",
         "options": [
@@ -3194,7 +2987,7 @@
   "U3 p32 CD.10 Present perfect vs past simple": {
     "title": "U3 p32 CD.10 Present perfect vs past simple",
     "boby": [
-      "My Auntie's café _____ of\nbusiness – she's so sad about it.",
+      "My Auntie's café _____ ofbusiness – she's so sad about it.",
       {
         "type": "CHOICE",
         "options": [
@@ -3213,7 +3006,7 @@
   "U3 p32 CD.11 Present perfect vs past simple": {
     "title": "U3 p32 CD.11 Present perfect vs past simple",
     "boby": [
-      "I _____ leave early because I\nwanted to study the next morning.",
+      "I _____ leave early because Iwanted to study the next morning.",
       {
         "type": "CHOICE",
         "options": [
@@ -3232,7 +3025,7 @@
   "U3 p32 CD.12 Present perfect vs past simple": {
     "title": "U3 p32 CD.12 Present perfect vs past simple",
     "boby": [
-      "Sarah _____ take another job to\npay for her holiday this summer.",
+      "Sarah _____ take another job topay for her holiday this summer.",
       {
         "type": "CHOICE",
         "options": [
@@ -3251,7 +3044,7 @@
   "U3 p32 CD.13 Present perfect vs past simple": {
     "title": "U3 p32 CD.13 Present perfect vs past simple",
     "boby": [
-      "We _____ going to my grandparents\nhouse when we were little.",
+      "We _____ going to my grandparentshouse when we were little.",
       {
         "type": "CHOICE",
         "options": [
@@ -3270,7 +3063,7 @@
   "U3 p32 CD.14 Present perfect vs past simple": {
     "title": "U3 p32 CD.14 Present perfect vs past simple",
     "boby": [
-      "My brothers _____ playing rugby\ntogether, even though they're middle-aged now.",
+      "My brothers _____ playing rugbytogether, even though they're middle-aged now.",
       {
         "type": "CHOICE",
         "options": [
@@ -3289,7 +3082,7 @@
   "U3 p32 CD.15 Present perfect vs past simple": {
     "title": "U3 p32 CD.15 Present perfect vs past simple",
     "boby": [
-      "My Dad _____ medicine at\nuniversity.",
+      "My Dad _____ medicine atuniversity.",
       {
         "type": "CHOICE",
         "options": [
@@ -3308,7 +3101,7 @@
   "U3 p32 CD.16 Present perfect vs past simple": {
     "title": "U3 p32 CD.16 Present perfect vs past simple",
     "boby": [
-      "We _____ really hard for this\ntest, I hope it goes well.",
+      "We _____ really hard for thistest, I hope it goes well.",
       {
         "type": "CHOICE",
         "options": [
@@ -3327,7 +3120,7 @@
   "U3 p32 CD.17 Present perfect vs past simple": {
     "title": "U3 p32 CD.17 Present perfect vs past simple",
     "boby": [
-      "My cousins _____ to school in\nHong Kong.",
+      "My cousins _____ to school inHong Kong.",
       {
         "type": "CHOICE",
         "options": [
@@ -3346,7 +3139,7 @@
   "U3 p32 CD.18 Present perfect vs past simple": {
     "title": "U3 p32 CD.18 Present perfect vs past simple",
     "boby": [
-      "I _____ to Disneyland three\ntimes.",
+      "I _____ to Disneyland threetimes.",
       {
         "type": "CHOICE",
         "options": [
@@ -3365,7 +3158,7 @@
   "U3 p32 CD.19 Present perfect vs past simple": {
     "title": "U3 p32 CD.19 Present perfect vs past simple",
     "boby": [
-      "Anna _____ all of his\nnovels.",
+      "Anna _____ all of hisnovels.",
       {
         "type": "CHOICE",
         "options": [
@@ -3384,7 +3177,7 @@
   "U3 p32 CD.20 Present perfect vs past simple": {
     "title": "U3 p32 CD.20 Present perfect vs past simple",
     "boby": [
-      "My Mum _____ to us every night\nwhen we were growing up.",
+      "My Mum _____ to us every nightwhen we were growing up.",
       {
         "type": "CHOICE",
         "options": [
@@ -3403,7 +3196,7 @@
   "U3 p32 CD.21 Present perfect vs past simple": {
     "title": "U3 p32 CD.21 Present perfect vs past simple",
     "boby": [
-      "He _____ his keys here after the\nparty.",
+      "He _____ his keys here after theparty.",
       {
         "type": "CHOICE",
         "options": [
@@ -3422,7 +3215,7 @@
   "U3 p32 CD.22 Present perfect vs past simple": {
     "title": "U3 p32 CD.22 Present perfect vs past simple",
     "boby": [
-      "They _____ our tickets at the box\noffice, we can collect them when we get there.",
+      "They _____ our tickets at the boxoffice, we can collect them when we get there.",
       {
         "type": "CHOICE",
         "options": [
@@ -3441,7 +3234,7 @@
   "U3 p32 CD.23 Present perfect vs past simple": {
     "title": "U3 p32 CD.23 Present perfect vs past simple",
     "boby": [
-      "You _____ lots of photos, didn't\nyou?",
+      "You _____ lots of photos, didn'tyou?",
       {
         "type": "CHOICE",
         "options": [
@@ -3460,7 +3253,7 @@
   "U3 p32 CD.24 Present perfect vs past simple": {
     "title": "U3 p32 CD.24 Present perfect vs past simple",
     "boby": [
-      "Barney _____ a shower already,\nhe's nearly ready to go.",
+      "Barney _____ a shower already,he's nearly ready to go.",
       {
         "type": "CHOICE",
         "options": [
@@ -3479,7 +3272,7 @@
   "U3 p32 CD.25 Present perfect vs past simple": {
     "title": "U3 p32 CD.25 Present perfect vs past simple",
     "boby": [
-      "Serena _____ most of the drinks\nlast night.",
+      "Serena _____ most of the drinkslast night.",
       {
         "type": "CHOICE",
         "options": [
@@ -3498,7 +3291,7 @@
   "U3 p32 CD.26 Present perfect vs past simple": {
     "title": "U3 p32 CD.26 Present perfect vs past simple",
     "boby": [
-      "We _____ loads of food for the\nparty this weekend.",
+      "We _____ loads of food for theparty this weekend.",
       {
         "type": "CHOICE",
         "options": [
@@ -3517,7 +3310,7 @@
   "U3 p32 CD.27 Present perfect vs past simple": {
     "title": "U3 p32 CD.27 Present perfect vs past simple",
     "boby": [
-      "They _____ really badly until\nlast season.",
+      "They _____ really badly untillast season.",
       {
         "type": "CHOICE",
         "options": [
@@ -3536,7 +3329,7 @@
   "U3 p32 CD.28 Present perfect vs past simple": {
     "title": "U3 p32 CD.28 Present perfect vs past simple",
     "boby": [
-      "I _____ the piano, but never in\npublic before now. ",
+      "I _____ the piano, but never inpublic before now. ",
       {
         "type": "CHOICE",
         "options": [
@@ -3555,7 +3348,7 @@
   "U3 p32 CD.29 Present perfect vs past simple": {
     "title": "U3 p32 CD.29 Present perfect vs past simple",
     "boby": [
-      "Stephen _____ in insurance until\nlast summer.",
+      "Stephen _____ in insurance untillast summer.",
       {
         "type": "CHOICE",
         "options": [
@@ -3574,7 +3367,7 @@
   "U3 p32 CD.30 Present perfect vs past simple": {
     "title": "U3 p32 CD.30 Present perfect vs past simple",
     "boby": [
-      "You _____ in lots of different\ncountries, haven't you?",
+      "You _____ in lots of differentcountries, haven't you?",
       {
         "type": "CHOICE",
         "options": [
@@ -3593,13 +3386,13 @@
   "U3 p32 Gra8.1 Present perfect simple vs continuous": {
     "title": "U3 p32 Gra8.1 Present perfect simple vs continuous",
     "boby": [
-      "[markdown]I ",
+      " I ",
       {
         "type": "INPUT",
         "options": [
           {
             "prefix": "=",
-            "value": "have been\nriding"
+            "value": "have beenriding"
           },
           {
             "prefix": "=",
@@ -3623,19 +3416,19 @@
           }
         ]
       },
-      "\n_(ride)_ a motorbike since I was seventeen."
+      "_(ride)_ a motorbike since I was seventeen."
     ]
   },
   "U3 p32 Gra8.2 Present perfect simple vs continuous": {
     "title": "U3 p32 Gra8.2 Present perfect simple vs continuous",
     "boby": [
-      "[markdown]I ",
+      " I ",
       {
         "type": "INPUT",
         "options": [
           {
             "prefix": "=",
-            "value": "once\nwitnessed"
+            "value": "oncewitnessed"
           },
           {
             "prefix": "=",
@@ -3647,7 +3440,7 @@
           },
           {
             "prefix": "=",
-            "value": "'ve witnessed a crime\nonce"
+            "value": "'ve witnessed a crimeonce"
           },
           {
             "prefix": "=",
@@ -3665,7 +3458,7 @@
   "U3 p32 Gra8.3 Present perfect simple vs continuous": {
     "title": "U3 p32 Gra8.3 Present perfect simple vs continuous",
     "boby": [
-      "[markdown]I ",
+      " I ",
       {
         "type": "INPUT",
         "options": [
@@ -3675,13 +3468,13 @@
           }
         ]
       },
-      "\n_(live)_ abroad when I was a child."
+      "_(live)_ abroad when I was a child."
     ]
   },
   "U3 p32 Gra8.4 Present perfect simple vs continuous": {
     "title": "U3 p32 Gra8.4 Present perfect simple vs continuous",
     "boby": [
-      "[markdown]I ",
+      " I ",
       {
         "type": "INPUT",
         "options": [
@@ -3695,19 +3488,19 @@
           }
         ]
       },
-      "\n_(have)_ an operation a few years ago."
+      "_(have)_ an operation a few years ago."
     ]
   },
   "U3 p32 Gra8.5 Present perfect simple vs continuous": {
     "title": "U3 p32 Gra8.5 Present perfect simple vs continuous",
     "boby": [
-      "[markdown]I ",
+      " I ",
       {
         "type": "INPUT",
         "options": [
           {
             "prefix": "=",
-            "value": "have never\nbeen"
+            "value": "have neverbeen"
           },
           {
             "prefix": "=",
@@ -3725,13 +3518,13 @@
   "U3 p32 Gra8.6 Present perfect simple vs continuous": {
     "title": "U3 p32 Gra8.6 Present perfect simple vs continuous",
     "boby": [
-      "[markdown]I ",
+      " I ",
       {
         "type": "INPUT",
         "options": [
           {
             "prefix": "=",
-            "value": "have just\nwon"
+            "value": "have justwon"
           },
           {
             "prefix": "=",
@@ -3783,7 +3576,7 @@
           }
         ]
       },
-      " we\nsaid yesterday?"
+      " wesaid yesterday?"
     ]
   },
   "U3 p33 Gra as/like 6.3": {
@@ -3823,7 +3616,7 @@
           }
         ]
       },
-      " that one takes a long time to\nfinish."
+      " that one takes a long time tofinish."
     ]
   },
   "U3 p33 Gra as/like 6.5": {
@@ -3863,7 +3656,7 @@
           }
         ]
       },
-      " I asked you. //\nGrammar reference ex 3"
+      " I asked you. //Grammar reference ex 3"
     ]
   },
   "U3 p33 Gra as/like GR3": {
@@ -3871,18 +3664,15 @@
     "boby": [
       "Match the following clauses to make sentences.",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
           {
-            "value": ""
+            "prefix": "=",
+            "value": "Ihave long dark hair, -> like my sister."
           },
           {
             "prefix": "=",
-            "value": "I\nhave long dark hair, -> like my sister."
-          },
-          {
-            "prefix": "=",
-            "value": "He's always losing things, -> like his\nphone and his keys."
+            "value": "He's always losing things, -> like hisphone and his keys."
           },
           {
             "prefix": "=",
@@ -3894,15 +3684,15 @@
           },
           {
             "prefix": "=",
-            "value": "Buying a new printer\nlooks -> like the best solution to the problem."
+            "value": "Buying a new printerlooks -> like the best solution to the problem."
           },
           {
             "prefix": "=",
-            "value": "I've always thought of you ->\nas someone I could depend on."
+            "value": "I've always thought of you ->as someone I could depend on."
           },
           {
             "prefix": "=",
-            "value": "It's probably best to do -> as your father\nsuggests."
+            "value": "It's probably best to do -> as your fathersuggests."
           },
           {
             "prefix": "=",
@@ -3915,26 +3705,20 @@
   "U3 p33 UoE/Reading 'Hygge'": {
     "title": "U3 p33 UoE/Reading 'Hygge'",
     "boby": [
-      "\n\nComplete the text with one word in each gap.\n\nHYGGE: THE ART OF SIMPLE PLEASURES\n\nThe Danes are famous for being one of the world's happiest nations. One possible\nreason ",
+      "Complete the text with one word in each gap.HYGGE: THE ART OF SIMPLE PLEASURESThe Danes are famous for being one of the world's happiest nations. One possiblereason ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "for"
           }
         ]
       },
-      " this could be the untranslatable concept of 'hygge'. Hygge\nhas already gained a lot of publicity outside Denmark. This is thanks to a\nstream of recently published self-help books, ",
+      " this could be the untranslatable concept of 'hygge'. Hyggehas already gained a lot of publicity outside Denmark. This is thanks to astream of recently published self-help books, ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "which"
@@ -3945,52 +3729,40 @@
           }
         ]
       },
-      " all urge us to\nembrace hygge in order to improve our sense of well-being and happiness.\n\nWriter, Helen Russell, who moved to Denmark several years ",
+      " all urge us toembrace hygge in order to improve our sense of well-being and happiness.Writer, Helen Russell, who moved to Denmark several years ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "ago"
           }
         ]
       },
-      ", is a\nhygge enthusiast. She has been fascinated by the idea ever ",
+      ", is ahygge enthusiast. She has been fascinated by the idea ever ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "since"
           }
         ]
       },
-      " she\narrived. Her book, The Year of Living Danishly: Uncovering The Secrets of the\nWorld's Happiest Country, makes it easy to understand ",
+      " shearrived. Her book, The Year of Living Danishly: Uncovering The Secrets of theWorld's Happiest Country, makes it easy to understand ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "why"
           }
         ]
       },
-      " Helen and her\nfamily are still living ",
+      " Helen and herfamily are still living ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "there"
@@ -4001,45 +3773,36 @@
           }
         ]
       },
-      " . Helen says 'hygge' can be\ndefined ",
+      " . Helen says 'hygge' can bedefined ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "as"
           }
         ]
       },
-      " 'the absence of anything annoying or emotionally\noverwhelming'. It's all about being kind to yourself and celebrating the simple\nthings in life, ",
+      " 'the absence of anything annoying or emotionallyoverwhelming'. It's all about being kind to yourself and celebrating the simplethings in life, ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "like"
           }
         ]
       },
-      " spending time with friends and family, or eating\nice cream. So find your inner Dane – and do what makes you happy without feeling\nguilty about it."
+      " spending time with friends and family, or eatingice cream. So find your inner Dane – and do what makes you happy without feelingguilty about it."
     ]
   },
   "U4 p38 Reading 4.01": {
     "title": "U4 p38 Reading 4.01",
     "boby": [
-      "Which person's superpower may be shared by other people\nwho don't realise they have it ",
+      "Which person's superpower may be shared by other peoplewho don't realise they have it ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "A. Liam Hoekstra"
@@ -4050,7 +3813,7 @@
           },
           {
             "prefix": "=",
-            "value": "C. Dean\nKarnazes"
+            "value": "C. DeanKarnazes"
           },
           {
             "prefix": "~",
@@ -4063,13 +3826,10 @@
   "U4 p38 Reading 4.02": {
     "title": "U4 p38 Reading 4.02",
     "boby": [
-      "Which person's superpower is beneficial for the person's\nmental and physical health ",
+      "Which person's superpower is beneficial for the person'smental and physical health ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "A. Liam Hoekstra"
@@ -4084,7 +3844,7 @@
           },
           {
             "prefix": "~",
-            "value": "D.\nIsao Machii"
+            "value": "D.Isao Machii"
           }
         ]
       }
@@ -4093,13 +3853,10 @@
   "U4 p38 Reading 4.03": {
     "title": "U4 p38 Reading 4.03",
     "boby": [
-      "Which person's superpower could potentially affect a\nperson's mental development ",
+      "Which person's superpower could potentially affect aperson's mental development ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "A. Liam Hoekstra"
@@ -4123,13 +3880,10 @@
   "U4 p38 Reading 4.04": {
     "title": "U4 p38 Reading 4.04",
     "boby": [
-      "Which person's superpower requires theoretically\nimpossibly quick reactions? ",
+      "Which person's superpower requires theoreticallyimpossibly quick reactions? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "A. Liam Hoekstra"
@@ -4153,13 +3907,10 @@
   "U4 p38 Reading 4.05": {
     "title": "U4 p38 Reading 4.05",
     "boby": [
-      "Which person's superpower may have inspired the story of\na legendary character ",
+      "Which person's superpower may have inspired the story ofa legendary character ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "A. Liam Hoekstra"
@@ -4174,7 +3925,7 @@
           },
           {
             "prefix": "~",
-            "value": "D.\nIsao Machii"
+            "value": "D.Isao Machii"
           }
         ]
       }
@@ -4183,13 +3934,10 @@
   "U4 p38 Reading 4.06": {
     "title": "U4 p38 Reading 4.06",
     "boby": [
-      "Which person's superpower may help give an insight into\ncuring certain illnesses ",
+      "Which person's superpower may help give an insight intocuring certain illnesses ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "A. Liam Hoekstra"
@@ -4204,7 +3952,7 @@
           },
           {
             "prefix": "~",
-            "value": "D.\nIsao Machii"
+            "value": "D.Isao Machii"
           }
         ]
       }
@@ -4213,13 +3961,10 @@
   "U4 p38 Reading 4.07": {
     "title": "U4 p38 Reading 4.07",
     "boby": [
-      "Which person's superpower was eventually discovered by\nchance? ",
+      "Which person's superpower was eventually discovered bychance? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "A. Liam Hoekstra"
@@ -4243,13 +3988,10 @@
   "U4 p38 Reading 4.08": {
     "title": "U4 p38 Reading 4.08",
     "boby": [
-      "Which person's superpower is believed by the person to be\na question of mind over body ",
+      "Which person's superpower is believed by the person to bea question of mind over body ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "A. Liam Hoekstra"
@@ -4273,13 +4015,10 @@
   "U4 p38 Reading 4.09": {
     "title": "U4 p38 Reading 4.09",
     "boby": [
-      "Which person's superpower could be acquired by whoever is\nprepared to believe in it ",
+      "Which person's superpower could be acquired by whoever isprepared to believe in it ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "A. Liam Hoekstra"
@@ -4294,7 +4033,7 @@
           },
           {
             "prefix": "~",
-            "value": "D.\nIsao Machii"
+            "value": "D.Isao Machii"
           }
         ]
       }
@@ -4303,13 +4042,10 @@
   "U4 p38 Reading 4.10": {
     "title": "U4 p38 Reading 4.10",
     "boby": [
-      "Which person's superpower cannot be explained by\nscientists? ",
+      "Which person's superpower cannot be explained byscientists? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "A. Liam Hoekstra"
@@ -4335,11 +4071,8 @@
     "boby": [
       "Match to make compound words from the article.",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "breath -> taking"
@@ -4369,11 +4102,8 @@
     "boby": [
       "Match the compound words to their synonyms.",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "ordinary -> everyday"
@@ -4406,9 +4136,6 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
             "value": "volcano."
           },
@@ -4432,11 +4159,8 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "=",
-            "value": "No,\nit used to be tropical."
+            "value": "No,it used to be tropical."
           },
           {
             "prefix": "~",
@@ -4444,7 +4168,7 @@
           },
           {
             "prefix": "~",
-            "value": "Yes, but\nthe ice used to be a lot thinner."
+            "value": "Yes, butthe ice used to be a lot thinner."
           }
         ]
       }
@@ -4453,13 +4177,10 @@
   "U4 p42 1.3 Pre-listening Antartica": {
     "title": "U4 p42 1.3 Pre-listening Antartica",
     "boby": [
-      "Which of these animals do you NOT get in\nAntarctica? ",
+      "Which of these animals do you NOT get inAntarctica? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "penguins."
@@ -4479,13 +4200,10 @@
   "U4 p42 1.4 Pre-listening Antartica": {
     "title": "U4 p42 1.4 Pre-listening Antartica",
     "boby": [
-      "Who led the first team to reach the South\nPole in 1911? ",
+      "Who led the first team to reach the SouthPole in 1911? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "Ronald Amundsen."
@@ -4505,24 +4223,21 @@
   "U4 p42 1.5 Pre-listening Antartica": {
     "title": "U4 p42 1.5 Pre-listening Antartica",
     "boby": [
-      "Why is Ernest Shackleton’s 1908 expedition\nfamous? ",
+      "Why is Ernest Shackleton’s 1908 expeditionfamous? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "Everyone except Shackleton survived the trip."
           },
           {
             "prefix": "~",
-            "value": "The men survived but\nthey didn’t get to the South Pole."
+            "value": "The men survived butthey didn’t get to the South Pole."
           },
           {
             "prefix": "=",
-            "value": "All the men died on the way back from the\nSouth Pole."
+            "value": "All the men died on the way back from theSouth Pole."
           }
         ]
       }
@@ -4536,11 +4251,8 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
-            "value": "They were all descendants of\nErnest Shackleton."
+            "value": "They were all descendants ofErnest Shackleton."
           },
           {
             "prefix": "=",
@@ -4548,7 +4260,7 @@
           },
           {
             "prefix": "~",
-            "value": "They'd\nall attempted to reach the South Pole before."
+            "value": "They'dall attempted to reach the South Pole before."
           }
         ]
       }
@@ -4557,13 +4269,10 @@
   "U4 p43 3.2": {
     "title": "U4 p43 3.2",
     "boby": [
-      "What does Leo say wasthe hardest thing for the team before the\nexpedition?",
+      "What does Leo say wasthe hardest thing for the team before theexpedition?",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "organising the finance."
@@ -4574,7 +4283,7 @@
           },
           {
             "prefix": "~",
-            "value": "getting physically\nfit."
+            "value": "getting physicallyfit."
           }
         ]
       }
@@ -4583,13 +4292,10 @@
   "U4 p43 3.3": {
     "title": "U4 p43 3.3",
     "boby": [
-      "What does Leo say was easier for the 21st-century expedition than\nfor Shackleton’s expedition?",
+      "What does Leo say was easier for the 21st-century expedition thanfor Shackleton’s expedition?",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "planning their daily route."
@@ -4614,11 +4320,8 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
-            "value": "running out of\nfood."
+            "value": "running out offood."
           },
           {
             "prefix": "~",
@@ -4640,15 +4343,12 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "=",
-            "value": "He\nhadn't expected it to be so difficult."
+            "value": "Hehadn't expected it to be so difficult."
           },
           {
             "prefix": "~",
-            "value": "He was worried they wouldn't reach the\nSouth Pole."
+            "value": "He was worried they wouldn't reach theSouth Pole."
           },
           {
             "prefix": "~",
@@ -4666,11 +4366,8 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
-            "value": "reached\nthe South Pole."
+            "value": "reachedthe South Pole."
           },
           {
             "prefix": "=",
@@ -4678,7 +4375,7 @@
           },
           {
             "prefix": "~",
-            "value": "reached\nhome safely."
+            "value": "reachedhome safely."
           }
         ]
       }
@@ -4692,15 +4389,12 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
             "value": "his determination."
           },
           {
             "prefix": "~",
-            "value": "his\nambition."
+            "value": "hisambition."
           },
           {
             "prefix": "=",
@@ -4713,13 +4407,10 @@
   "U4 p47 Rev1 Articles indefinite, definitie, zero (review)": {
     "title": "U4 p47 Rev1 Articles indefinite, definitie, zero (review)",
     "boby": [
-      "Complete the text\nwith a/an, the or — (no article). After ",
+      "Complete the textwith a/an, the or — (no article). After ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "a"
@@ -4738,13 +4429,10 @@
           }
         ]
       },
-      " incredible 859 days\nand 6,000 miles, British explorer Ed Stafford became ",
+      " incredible 859 daysand 6,000 miles, British explorer Ed Stafford became ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "a"
@@ -4763,13 +4451,10 @@
           }
         ]
       },
-      " first\nman to walk ",
+      " firstman to walk ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "a"
@@ -4793,9 +4478,6 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": "1:MC:"
-          },
-          {
             "prefix": "~",
             "value": "a"
           },
@@ -4813,13 +4495,10 @@
           }
         ]
       },
-      " Amazon. He\nfinally reached ",
+      " Amazon. Hefinally reached ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "a"
@@ -4843,9 +4522,6 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": "1:MC:"
-          },
-          {
             "prefix": "~",
             "value": "a"
           },
@@ -4863,38 +4539,10 @@
           }
         ]
       },
-      " Brazil two\nand a half years after he started his epic adventure in ",
+      " Brazil twoand a half years after he started his epic adventure in ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
-          {
-            "prefix": "~",
-            "value": "a"
-          },
-          {
-            "prefix": "~",
-            "value": "an"
-          },
-          {
-            "prefix": "=",
-            "value": "the"
-          },
-          {
-            "prefix": "~",
-            "value": "—"
-          }
-        ]
-      },
-      "\njungles of Peru. The final leg proved one of ",
-      {
-        "type": "CHOICE",
-        "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "a"
@@ -4913,63 +4561,10 @@
           }
         ]
       },
-      " most\nchallenging, with Mr Stafford collapsing ",
+      "jungles of Peru. The final leg proved one of ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
-          {
-            "prefix": "=",
-            "value": "a"
-          },
-          {
-            "prefix": "~",
-            "value": "an"
-          },
-          {
-            "prefix": "~",
-            "value": "the"
-          },
-          {
-            "prefix": "~",
-            "value": "—"
-          }
-        ]
-      },
-      " few hours before\nreaching his final destination. Mr Stafford fell out with his original walking\npartner Luke Collyer, 37, ",
-      {
-        "type": "CHOICE",
-        "options": [
-          {
-            "value": "1:MC:"
-          },
-          {
-            "prefix": "~",
-            "value": "a"
-          },
-          {
-            "prefix": "=",
-            "value": "an"
-          },
-          {
-            "prefix": "~",
-            "value": "the"
-          },
-          {
-            "prefix": "~",
-            "value": "—"
-          }
-        ]
-      },
-      " outdoor activities instructor, and\nafter only three months, Mr Collyer returned to ",
-      {
-        "type": "CHOICE",
-        "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "a"
@@ -4988,13 +4583,10 @@
           }
         ]
       },
-      " UK. Mr\nStafford advertised for ",
+      " mostchallenging, with Mr Stafford collapsing ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "=",
             "value": "a"
@@ -5013,13 +4605,54 @@
           }
         ]
       },
-      " walking partner and was joined by\nSanchez Rivera, ",
+      " few hours beforereaching his final destination. Mr Stafford fell out with his original walkingpartner Luke Collyer, 37, ",
       {
         "type": "CHOICE",
         "options": [
           {
-            "value": "1:MC:"
+            "prefix": "~",
+            "value": "a"
           },
+          {
+            "prefix": "=",
+            "value": "an"
+          },
+          {
+            "prefix": "~",
+            "value": "the"
+          },
+          {
+            "prefix": "~",
+            "value": "—"
+          }
+        ]
+      },
+      " outdoor activities instructor, andafter only three months, Mr Collyer returned to ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "a"
+          },
+          {
+            "prefix": "~",
+            "value": "an"
+          },
+          {
+            "prefix": "=",
+            "value": "the"
+          },
+          {
+            "prefix": "~",
+            "value": "—"
+          }
+        ]
+      },
+      " UK. MrStafford advertised for ",
+      {
+        "type": "CHOICE",
+        "options": [
           {
             "prefix": "=",
             "value": "a"
@@ -5038,38 +4671,10 @@
           }
         ]
       },
-      " Peruvian forestry worker. Living off\n",
+      " walking partner and was joined bySanchez Rivera, ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
-          {
-            "prefix": "~",
-            "value": "a"
-          },
-          {
-            "prefix": "~",
-            "value": "an"
-          },
-          {
-            "prefix": "~",
-            "value": "the"
-          },
-          {
-            "prefix": "=",
-            "value": "—"
-          }
-        ]
-      },
-      " piranha and rice, they made their way through Peru, Colombia\nand Brazil. Mr Stafford said on Monday, ‘All I want now is ",
-      {
-        "type": "CHOICE",
-        "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "=",
             "value": "a"
@@ -5088,13 +4693,54 @@
           }
         ]
       },
-      "\nportion of fish and chips and ",
+      " Peruvian forestry worker. Living off",
       {
         "type": "CHOICE",
         "options": [
           {
-            "value": "1:MC:"
+            "prefix": "~",
+            "value": "a"
           },
+          {
+            "prefix": "~",
+            "value": "an"
+          },
+          {
+            "prefix": "~",
+            "value": "the"
+          },
+          {
+            "prefix": "=",
+            "value": "—"
+          }
+        ]
+      },
+      " piranha and rice, they made their way through Peru, Colombiaand Brazil. Mr Stafford said on Monday, ‘All I want now is ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "a"
+          },
+          {
+            "prefix": "~",
+            "value": "an"
+          },
+          {
+            "prefix": "~",
+            "value": "the"
+          },
+          {
+            "prefix": "~",
+            "value": "—"
+          }
+        ]
+      },
+      "portion of fish and chips and ",
+      {
+        "type": "CHOICE",
+        "options": [
           {
             "prefix": "=",
             "value": "a"
@@ -5119,85 +4765,67 @@
   "U4 p47 Rev2 Word formation, incl negative prefixes": {
     "title": "U4 p47 Rev2 Word formation, incl negative prefixes",
     "boby": [
-      "Complete the sentences\nwith the correct form of the word in brackets (you might need to use the\nnegative form). I am ",
+      "Complete the sentenceswith the correct form of the word in brackets (you might need to use thenegative form). I am ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "incapable"
           }
         ]
       },
-      " of skiing. I’m too scared. (capable) His\napproach to the problem is emotional and ",
+      " of skiing. I’m too scared. (capable) Hisapproach to the problem is emotional and ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "illogical"
           }
         ]
       },
-      ". (logic) The project\nwas ",
+      ". (logic) The projectwas ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "successful"
           }
         ]
       },
-      " despite all the investment in it. (success) My mother is\n",
+      " despite all the investment in it. (success) My mother is",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "impatient"
           }
         ]
       },
-      " with my younger brother. She never explains things properly.\n(patience) That is an extremely ",
+      " with my younger brother. She never explains things properly.(patience) That is an extremely ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "irresponsible"
           }
         ]
       },
-      " way to behave. You should\nbe trying to set a good example. (responsibility) Some celebrities are\n",
+      " way to behave. You shouldbe trying to set a good example. (responsibility) Some celebrities are",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "distrustful"
           }
         ]
       },
-      " when journalists start asking them personal questions.\n(trust)"
+      " when journalists start asking them personal questions.(trust)"
     ]
   },
   "U4 p47 Rev3 Idioms": {
@@ -5205,18 +4833,15 @@
     "boby": [
       "Match the fragments to make sentences. ",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
           {
-            "value": ""
+            "prefix": "=",
+            "value": "I always put myfoot in it when I’m nervous and -> I say really embarrassing things."
           },
           {
             "prefix": "=",
-            "value": "I always put my\nfoot in it when I’m nervous and -> I say really embarrassing things."
-          },
-          {
-            "prefix": "=",
-            "value": "His\nexplanation is rather far-fetched, which means -> I find it difficult to\nbelieve."
+            "value": "Hisexplanation is rather far-fetched, which means -> I find it difficult tobelieve."
           },
           {
             "prefix": "=",
@@ -5224,23 +4849,23 @@
           },
           {
             "prefix": "=",
-            "value": "I’m getting cold feet about the cycling race because -> I don’t think I’ve\ntrained enough."
+            "value": "I’m getting cold feet about the cycling race because -> I don’t think I’vetrained enough."
           },
           {
             "prefix": "=",
-            "value": "If I’m told there will be side effects, -> I prefer to avoid\ntaking it."
+            "value": "If I’m told there will be side effects, -> I prefer to avoidtaking it."
           },
           {
             "prefix": "=",
-            "value": "Tom and I don’t see eye to eye about many issues so -> I can’t see\nour relationship lasting."
+            "value": "Tom and I don’t see eye to eye about many issues so -> I can’t seeour relationship lasting."
           },
           {
             "prefix": "=",
-            "value": "My parents want me to keep an eye on my brother so ->\nI won’t be able to go out tonight."
+            "value": "My parents want me to keep an eye on my brother so ->I won’t be able to go out tonight."
           },
           {
             "prefix": "=",
-            "value": "If something in a shop window catches my\neye, -> I can’t resist going in to look at it."
+            "value": "If something in a shop window catches myeye, -> I can’t resist going in to look at it."
           }
         ]
       }
@@ -5249,52 +4874,40 @@
   "U4 p47 Rev4 Past tenses, past perfect": {
     "title": "U4 p47 Rev4 Past tenses, past perfect",
     "boby": [
-      "Complete the second sentence so that it\nhas a similar meaning to the first sentence, using the word given. Use between\ntwo and five words, including the word given. I lived in London until I got\nmarried last year. BEEN I ",
+      "Complete the second sentence so that ithas a similar meaning to the first sentence, using the word given. Use betweentwo and five words, including the word given. I lived in London until I gotmarried last year. BEEN I ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "had been living"
           }
         ]
       },
-      " in London until I got married\nlast year. It took three days for us to walk there. WERE We ",
+      " in London until I got marriedlast year. It took three days for us to walk there. WERE We ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
           {
-            "value": "1:SA:"
-          },
-          {
             "prefix": "=",
-            "value": "were walking\nfor"
+            "value": "were walkingfor"
           }
         ]
       },
-      " three days. I couldn't remember the way there, so I got a taxi. FORGOTTEN I\n",
+      " three days. I couldn't remember the way there, so I got a taxi. FORGOTTEN I",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "had forgotten how to"
           }
         ]
       },
-      " get there, so I got a taxi. It was three years\nsince I'd visited Peru. NOT I ",
+      " get there, so I got a taxi. It was three yearssince I'd visited Peru. NOT I ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "hadn’t been"
@@ -5309,7 +4922,7 @@
           }
         ]
       },
-      " to\nPeru for three years."
+      " toPeru for three years."
     ]
   },
   "U5 p49 GR1.1 Expressions of quantity": {
@@ -5349,7 +4962,7 @@
           }
         ]
       },
-      "\ngreen vegetables for sale."
+      "green vegetables for sale."
     ]
   },
   "U5 p49 GR1.3 Expressions of quantity": {
@@ -5389,7 +5002,7 @@
           }
         ]
       },
-      " meat at\nhome."
+      " meat athome."
     ]
   },
   "U5 p49 GR1.5 Expressions of quantity": {
@@ -5409,7 +5022,7 @@
           }
         ]
       },
-      " eggs each\nweek."
+      " eggs eachweek."
     ]
   },
   "U5 p49 GR1.6 Expressions of quantity": {
@@ -5429,7 +5042,7 @@
           }
         ]
       },
-      " rice\nwith my curry."
+      " ricewith my curry."
     ]
   },
   "U5 p49 GR1.7 Expressions of quantity": {
@@ -5517,7 +5130,7 @@
           }
         ]
       },
-      "\nleft."
+      "left."
     ]
   },
   "U5 p49 GR2.4": {
@@ -5565,7 +5178,7 @@
           }
         ]
       },
-      " not much useful information in any of those books.\n// U5 p49 ex 11"
+      " not much useful information in any of those books.// U5 p49 ex 11"
     ]
   },
   "U5 p49 11.1": {
@@ -5605,7 +5218,7 @@
           }
         ]
       },
-      " enough for\nthe average man."
+      " enough forthe average man."
     ]
   },
   "U5 p49 11.3": {
@@ -5645,7 +5258,7 @@
           }
         ]
       },
-      " good for\nyou."
+      " good foryou."
     ]
   },
   "U5 p49 11.5": {
@@ -5665,7 +5278,7 @@
           }
         ]
       },
-      " a lot of advice on the internet about eating a\nhealthy diet."
+      " a lot of advice on the internet about eating ahealthy diet."
     ]
   },
   "U5 p49 11.6": {
@@ -5685,32 +5298,26 @@
           }
         ]
       },
-      " meat but I'm a vegetarian. // U5\np49 ex 12 (probably better done in-class)"
+      " meat but I'm a vegetarian. // U5p49 ex 12 (probably better done in-class)"
     ]
   },
   "U5 p50 0/4 Text": {
     "title": "U5 p50 0/4 Text",
     "boby": [
-      " \n\nRead the text and fill in each gap with a single word. It can be an expression\nof quantity for some of the gaps.\n\nWHY DO PEOPLE LOVE CHILLI?\n\nPeople don't wash their eyes in lemon juice or pour boiling hot tea over\nthemselves, so why are we prepared to go through so much pain for the sake of\nchilli?\n\nChilli is not the only strange thing that people seem to enjoy. For example,\nvery ",
+      " Read the text and fill in each gap with a single word. It can be an expressionof quantity for some of the gaps.WHY DO PEOPLE LOVE CHILLI?People don't wash their eyes in lemon juice or pour boiling hot tea overthemselves, so why are we prepared to go through so much pain for the sake ofchilli?Chilli is not the only strange thing that people seem to enjoy. For example,very ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "few"
           }
         ]
       },
-      " people like the bitter taste of coffee to begin with but soon\nmost of us ",
+      " people like the bitter taste of coffee to begin with but soonmost of us ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "get"
@@ -5725,26 +5332,20 @@
           }
         ]
       },
-      " used to it. But coffee contains caffeine,\nwhich has some addictive qualities, and this explains ",
+      " used to it. But coffee contains caffeine,which has some addictive qualities, and this explains ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "why"
           }
         ]
       },
-      " it is so\npopular. But capsaicin, the ingredient which makes chillies hot, does not seem\nto have ",
+      " it is sopopular. But capsaicin, the ingredient which makes chillies hot, does not seemto have ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "any"
@@ -5753,11 +5354,8 @@
       },
       " addictive qualities whatsoever. ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "If"
@@ -5768,46 +5366,37 @@
           }
         ]
       },
-      " we consumed a\nlarge quantity of it, it would kill us. And yet chillies have ",
+      " we consumed alarge quantity of it, it would kill us. And yet chillies have ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "been"
           }
         ]
       },
-      " used\nin cooking in almost ",
+      " usedin cooking in almost ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "every"
           }
         ]
       },
-      " culture for thousands of years. Today, a\nthird of the world's population eat chilli at least once a day. Lots of our\nfavourite dishes just wouldn't taste right ",
+      " culture for thousands of years. Today, athird of the world's population eat chilli at least once a day. Lots of ourfavourite dishes just wouldn't taste right ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "without"
           }
         ]
       },
-      " it.\n\n// Exercise 2: Multiple Choice"
+      " it.// Exercise 2: Multiple Choice"
     ]
   },
   "U5 p50 2.1": {
@@ -5847,7 +5436,7 @@
           }
         ]
       },
-      " very addictive. // Exercise 5: Short\nAnswer"
+      " very addictive. // Exercise 5: ShortAnswer"
     ]
   },
   "U5 p50 5.1 very few": {
@@ -5863,7 +5452,7 @@
           },
           {
             "prefix": "=",
-            "value": "hardly any\npeople"
+            "value": "hardly anypeople"
           },
           {
             "prefix": "=",
@@ -5886,7 +5475,7 @@
         "options": [
           {
             "prefix": "=",
-            "value": "has\nvery few"
+            "value": "hasvery few"
           },
           {
             "prefix": "=",
@@ -5913,7 +5502,7 @@
           },
           {
             "prefix": "=",
-            "value": "a\ngreat deal of"
+            "value": "agreat deal of"
           },
           {
             "prefix": "=",
@@ -5950,19 +5539,16 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
             "value": "He saw it as a way of earning money to support his new company."
           },
           {
             "prefix": "~",
-            "value": "He felt that\ncooking was taking up too much of his time."
+            "value": "He felt thatcooking was taking up too much of his time."
           },
           {
             "prefix": "~",
-            "value": "He wanted to live on a diet of\nnutritious food."
+            "value": "He wanted to live on a diet ofnutritious food."
           },
           {
             "prefix": "=",
@@ -5980,15 +5566,12 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
             "value": "couldn't keep up with the demand for Soylent."
           },
           {
             "prefix": "~",
-            "value": "had to choose which of his\nbusinesses to close."
+            "value": "had to choose which of hisbusinesses to close."
           },
           {
             "prefix": "~",
@@ -5996,7 +5579,7 @@
           },
           {
             "prefix": "=",
-            "value": "started producing big\nquantities of Soylent."
+            "value": "started producing bigquantities of Soylent."
           }
         ]
       }
@@ -6005,13 +5588,10 @@
   "U5 p52 3.3 Reading compr": {
     "title": "U5 p52 3.3 Reading compr",
     "boby": [
-      "The writer was surprised by the public reaction to\nSoylent because ",
+      "The writer was surprised by the public reaction toSoylent because ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "liquid food has always been associated with ill health."
@@ -6022,11 +5602,11 @@
           },
           {
             "prefix": "~",
-            "value": "there\nare lots of similar products available."
+            "value": "thereare lots of similar products available."
           },
           {
             "prefix": "~",
-            "value": "astronauts stopped using liquid food a\nlong time ago."
+            "value": "astronauts stopped using liquid food along time ago."
           }
         ]
       }
@@ -6035,20 +5615,17 @@
   "U5 p52 3.4 Reading compr": {
     "title": "U5 p52 3.4 Reading compr",
     "boby": [
-      "What does Rhinehart say about people's eating habits\nin the future? ",
+      "What does Rhinehart say about people's eating habitsin the future? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "They will feel less hungry at meal times."
           },
           {
             "prefix": "~",
-            "value": "They will prefer\neating liquid food."
+            "value": "They will prefereating liquid food."
           },
           {
             "prefix": "=",
@@ -6056,7 +5633,7 @@
           },
           {
             "prefix": "~",
-            "value": "They will\nappreciate eating out more than people do now."
+            "value": "They willappreciate eating out more than people do now."
           }
         ]
       }
@@ -6070,15 +5647,12 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "=",
-            "value": "Most\nof our food has been altered in some way."
+            "value": "Mostof our food has been altered in some way."
           },
           {
             "prefix": "~",
-            "value": "Food production needs to get more\nefficient."
+            "value": "Food production needs to get moreefficient."
           },
           {
             "prefix": "~",
@@ -6100,23 +5674,20 @@
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
             "value": "doubt that Soylent is only suitable for one group of people."
           },
           {
             "prefix": "=",
-            "value": "hope that\nSoylent may be a solution to a serious problem."
+            "value": "hope thatSoylent may be a solution to a serious problem."
           },
           {
             "prefix": "~",
-            "value": "surprise about the predicted\ndemand for Soylent products."
+            "value": "surprise about the predicteddemand for Soylent products."
           },
           {
             "prefix": "~",
-            "value": "disagreement that products like Soylent are a risk\nto family life."
+            "value": "disagreement that products like Soylent are a riskto family life."
           }
         ]
       },
@@ -6126,20 +5697,17 @@
   "U5 p52 6 Reading/Vocab expressions": {
     "title": "U5 p52 6 Reading/Vocab expressions",
     "boby": [
-      "Match the underlined phrases in the\narticle to their meanings:",
+      "Match the underlined phrases in thearticle to their meanings:",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "having none of it -> refuse to accept"
           },
           {
             "prefix": "=",
-            "value": "do away with\n-> remove the need for"
+            "value": "do away with-> remove the need for"
           },
           {
             "prefix": "=",
@@ -6147,7 +5715,7 @@
           },
           {
             "prefix": "=",
-            "value": "reached the end of the\nline -> no longer possible to continue"
+            "value": "reached the end of theline -> no longer possible to continue"
           },
           {
             "prefix": "=",
@@ -6155,7 +5723,7 @@
           },
           {
             "prefix": "=",
-            "value": "went\nviral -> spread quickly on the internet"
+            "value": "wentviral -> spread quickly on the internet"
           }
         ]
       },
@@ -6165,7 +5733,7 @@
   "U5 p54 6.1 Passive": {
     "title": "U5 p54 6.1 Passive",
     "boby": [
-      " People expect tourists to carry sticks to protect\nthemselves from curious monkeys.\nARE\nTourists ",
+      " People expect tourists to carry sticks to protectthemselves from curious monkeys.ARETourists ",
       {
         "type": "INPUT",
         "options": [
@@ -6179,13 +5747,13 @@
           }
         ]
       },
-      " sticks to protect\nthemselves from curious monkeys."
+      " sticks to protectthemselves from curious monkeys."
     ]
   },
   "U5 p54 6.2 Passive": {
     "title": "U5 p54 6.2 Passive",
     "boby": [
-      " Most people think monkeys are a huge tourist\nattraction. BE\nMonkeys ",
+      " Most people think monkeys are a huge touristattraction. BEMonkeys ",
       {
         "type": "INPUT",
         "options": [
@@ -6201,7 +5769,7 @@
   "U5 p54 6.3 Passive": {
     "title": "U5 p54 6.3 Passive",
     "boby": [
-      " Newspapers claim that twenty top chefs have been\ninvited to prepare the meal. BY\nIt ",
+      " Newspapers claim that twenty top chefs have beeninvited to prepare the meal. BYIt ",
       {
         "type": "INPUT",
         "options": [
@@ -6211,13 +5779,13 @@
           }
         ]
       },
-      " newspapers that twenty top chefs have been invited\nto prepare the meal."
+      " newspapers that twenty top chefs have been invitedto prepare the meal."
     ]
   },
   "U5 p54 6.4 Passive": {
     "title": "U5 p54 6.4 Passive",
     "boby": [
-      " The tourist office has estimated that over 10,000\nvisitors watch the feast. BEEN\nIt ",
+      " The tourist office has estimated that over 10,000visitors watch the feast. BEENIt ",
       {
         "type": "INPUT",
         "options": [
@@ -6233,7 +5801,7 @@
   "U5 p54 6.5 Passive": {
     "title": "U5 p54 6.5 Passive",
     "boby": [
-      " Everyone says monkeys can be very aggressive around\nfood. TO\nMonkeys ",
+      " Everyone says monkeys can be very aggressive aroundfood. TOMonkeys ",
       {
         "type": "INPUT",
         "options": [
@@ -6299,7 +5867,7 @@
           }
         ]
       },
-      " in\nvitamins."
+      " invitamins."
     ]
   },
   "U5 p57 Rev1.3": {
@@ -6383,7 +5951,7 @@
           }
         ]
       },
-      " their spicy\nfood."
+      " their spicyfood."
     ]
   },
   "U5 p57 Rev1.6": {
@@ -6393,9 +5961,6 @@
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "parts"
@@ -6414,7 +5979,7 @@
           }
         ]
       },
-      " are needed to make\nthat dish?"
+      " are needed to makethat dish?"
     ]
   },
   "U5 p57 Rev1.7": {
@@ -6470,7 +6035,7 @@
           }
         ]
       },
-      " by\nmore than 20 percent last year. // 2"
+      " bymore than 20 percent last year. // 2"
     ]
   },
   "U5 p57 Rev2.1": {
@@ -6486,7 +6051,7 @@
           }
         ]
       },
-      " cheese left. Can you go to the shops\nfor me?"
+      " cheese left. Can you go to the shopsfor me?"
     ]
   },
   "U5 p57 Rev2.2": {
@@ -6526,7 +6091,7 @@
           }
         ]
       },
-      " of cake left. Who’s\neaten it all?"
+      " of cake left. Who’seaten it all?"
     ]
   },
   "U5 p57 Rev2.4": {
@@ -6614,7 +6179,7 @@
           }
         ]
       },
-      " of food for the party\n// 3"
+      " of food for the party// 3"
     ]
   },
   "U5 p57 Rev3.1": {
@@ -6714,7 +6279,7 @@
           }
         ]
       },
-      " introduced new rulesabout food\nlabels."
+      " introduced new rulesabout foodlabels."
     ]
   },
   "U5 p57 Rev3.6": {
@@ -6734,7 +6299,7 @@
           }
         ]
       },
-      " available on\nthe website."
+      " available onthe website."
     ]
   },
   "U5 p57 Rev3.7": {
@@ -6774,7 +6339,7 @@
           }
         ]
       },
-      " an awful lot ofmoney to spend on\none meal. // 4"
+      " an awful lot ofmoney to spend onone meal. // 4"
     ]
   },
   "U5 p57 Rev4.1 Passive forms": {
@@ -6790,7 +6355,7 @@
           }
         ]
       },
-      " (teach) about\nhealthy eating in many schools."
+      " (teach) abouthealthy eating in many schools."
     ]
   },
   "U5 p57 Rev4.2 Passive forms": {
@@ -6798,18 +6363,15 @@
     "boby": [
       " This restaurant ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "has been revd"
           }
         ]
       },
-      " (rev in\nsix newspapers recently."
+      " (rev insix newspapers recently."
     ]
   },
   "U5 p57 Rev4.3 Passive forms": {
@@ -6825,7 +6387,7 @@
           }
         ]
       },
-      " (fry) until\nthey are soft."
+      " (fry) untilthey are soft."
     ]
   },
   "U5 p57 Rev4.4 Passive forms": {
@@ -6841,7 +6403,7 @@
           }
         ]
       },
-      " (say) to be extremely\ntalented."
+      " (say) to be extremelytalented."
     ]
   },
   "U5 p57 Rev4.5 Passive forms": {
@@ -6873,7 +6435,7 @@
           },
           {
             "prefix": "=",
-            "value": "were\ninvited"
+            "value": "wereinvited"
           }
         ]
       },
@@ -6883,13 +6445,10 @@
   "U6 p60 Listening 1.1": {
     "title": "U6 p60 Listening 1.1",
     "boby": [
-      "You hear a woman talking about a play. What did she\ndislike about it?",
+      "You hear a woman talking about a play. What did shedislike about it?",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "the lighting"
@@ -6909,16 +6468,13 @@
   "U6 p60 Listening 3.2": {
     "title": "U6 p60 Listening 3.2",
     "boby": [
-      "You hear a man and a woman talking about a visit to the\ntheatre. How does the woman feel about the arrangements? ",
+      "You hear a man and a woman talking about a visit to thetheatre. How does the woman feel about the arrangements? ",
       {
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
-            "value": "annoyed that the\nplay finishes so late"
+            "value": "annoyed that theplay finishes so late"
           },
           {
             "prefix": "=",
@@ -6926,7 +6482,7 @@
           },
           {
             "prefix": "~",
-            "value": "confused about\nwhat time the play starts"
+            "value": "confused aboutwhat time the play starts"
           }
         ]
       }
@@ -6935,13 +6491,10 @@
   "U6 p60 Listening 3.3": {
     "title": "U6 p60 Listening 3.3",
     "boby": [
-      "You hear part of a radio programme. What kind of\nprogramme is it? ",
+      "You hear part of a radio programme. What kind ofprogramme is it? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "a celebrity interview"
@@ -6961,16 +6514,13 @@
   "U6 p60 Listening 3.4": {
     "title": "U6 p60 Listening 3.4",
     "boby": [
-      "You hear a woman giving some information on the radio\nabout a comedy festival. Why is it going to be different this year? ",
+      "You hear a woman giving some information on the radioabout a comedy festival. Why is it going to be different this year? ",
       {
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
-            "value": "The\ntickets will be more expensive."
+            "value": "Thetickets will be more expensive."
           },
           {
             "prefix": "~",
@@ -6978,7 +6528,7 @@
           },
           {
             "prefix": "=",
-            "value": "It will\nbe on different dates."
+            "value": "It willbe on different dates."
           }
         ]
       }
@@ -6987,16 +6537,13 @@
   "U6 p60 Listening 3.5": {
     "title": "U6 p60 Listening 3.5",
     "boby": [
-      "You hear a man interviewing a ballet dancer on the\nradio. Why has she decided to retire later this year? ",
+      "You hear a man interviewing a ballet dancer on theradio. Why has she decided to retire later this year? ",
       {
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "~",
-            "value": "She is worried about\ngetting injured."
+            "value": "She is worried aboutgetting injured."
           },
           {
             "prefix": "~",
@@ -7004,7 +6551,7 @@
           },
           {
             "prefix": "=",
-            "value": "She wants to make her\nfamily the priority."
+            "value": "She wants to make herfamily the priority."
           }
         ]
       }
@@ -7013,16 +6560,13 @@
   "U6 p60 Listening 3.6": {
     "title": "U6 p60 Listening 3.6",
     "boby": [
-      "You hear a man and a woman talking on the radio about a\nnew art exhibition. What do they agree is special about it? ",
+      "You hear a man and a woman talking on the radio about anew art exhibition. What do they agree is special about it? ",
       {
         "type": "CHOICE",
         "options": [
           {
-            "value": ""
-          },
-          {
             "prefix": "=",
-            "value": "the variety of\ngenres"
+            "value": "the variety ofgenres"
           },
           {
             "prefix": "~",
@@ -7039,20 +6583,17 @@
   "U6 p60 Listening 3.7": {
     "title": "U6 p60 Listening 3.7",
     "boby": [
-      "You hear an actress being interviewed on the radio. What\nis she doing? ",
+      "You hear an actress being interviewed on the radio. Whatis she doing? ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "giving her opinion about the topic of the play"
           },
           {
             "prefix": "~",
-            "value": "describing her\nrelationship with the director"
+            "value": "describing herrelationship with the director"
           },
           {
             "prefix": "~",
@@ -7069,9 +6610,6 @@
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "her brother"
@@ -7101,7 +6639,7 @@
           }
         ]
       },
-      " in\nJuly. (end)"
+      " inJuly. (end)"
     ]
   },
   "U6 p61 GR 1.2 Future forms": {
@@ -7121,7 +6659,7 @@
           }
         ]
       },
-      "\nthere on time. (get)"
+      "there on time. (get)"
     ]
   },
   "U6 p61 GR 1.3 Future forms": {
@@ -7141,13 +6679,13 @@
           }
         ]
       },
-      "\nto drama college, whatever her parents say. (apply)"
+      "to drama college, whatever her parents say. (apply)"
     ]
   },
   "U6 p61 GR 1.4 Future forms": {
     "title": "U6 p61 GR 1.4 Future forms",
     "boby": [
-      " They're rehearsing so hard – I'm sure the\nperformance ",
+      " They're rehearsing so hard – I'm sure theperformance ",
       {
         "type": "INPUT",
         "options": [
@@ -7173,7 +6711,7 @@
           },
           {
             "prefix": "=",
-            "value": "'ll\ninvite"
+            "value": "'llinvite"
           }
         ]
       },
@@ -7207,7 +6745,7 @@
           }
         ]
       },
-      " you a secret?\n(tell)"
+      " you a secret?(tell)"
     ]
   },
   "U6 p61 GR 1.7 Future forms": {
@@ -7227,7 +6765,7 @@
           }
         ]
       },
-      " that it's\nactually quite simple if you follow my instructions. (find)"
+      " that it'sactually quite simple if you follow my instructions. (find)"
     ]
   },
   "U6 p61 GR 1.8 Future forms": {
@@ -7247,7 +6785,7 @@
           }
         ]
       },
-      " a music\nfestival in our town in July. (hold)"
+      " a musicfestival in our town in July. (hold)"
     ]
   },
   "U6 p61 GR 1.9 Future forms": {
@@ -7263,7 +6801,7 @@
           }
         ]
       },
-      "\nus. (see) // p. 152 Grammar Reference ex. 2: Match"
+      "us. (see) // p. 152 Grammar Reference ex. 2: Match"
     ]
   },
   "U6 p61 GR 2 Future forms": {
@@ -7271,42 +6809,39 @@
     "boby": [
       "Match the uses of future forms to the examples. ",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "=",
             "value": "will (a promise) -> I won't tell anyone"
           },
           {
             "prefix": "=",
-            "value": "will (an expert opinion) -> The road\nwill be closed."
+            "value": "will (an expert opinion) -> The roadwill be closed."
           },
           {
             "prefix": "=",
-            "value": "will (a decision made at the moment of speaking) -> I'll call\nGraham now, shall I?"
+            "value": "will (a decision made at the moment of speaking) -> I'll callGraham now, shall I?"
           },
           {
             "prefix": "=",
-            "value": "going to (an opinion based on present evidence) -> She's\ngone very pale – she's going to faint."
+            "value": "going to (an opinion based on present evidence) -> She'sgone very pale – she's going to faint."
           },
           {
             "prefix": "=",
-            "value": "going to (a personal intention) -> I'm\ngoing to apply to university next year."
+            "value": "going to (a personal intention) -> I'mgoing to apply to university next year."
           },
           {
             "prefix": "=",
-            "value": "Present continuous (a planned event) ->\nThey're getting married sometime next year."
+            "value": "Present continuous (a planned event) ->They're getting married sometime next year."
           },
           {
             "prefix": "=",
-            "value": "Present simple (a timetabled event)\n-> The conference is in the first week of April."
+            "value": "Present simple (a timetabled event)-> The conference is in the first week of April."
           },
           {
             "prefix": "=",
-            "value": "Present simple (a time clause\nwith a future meaning) -> When you arrive at the airport, phone me."
+            "value": "Present simple (a time clausewith a future meaning) -> When you arrive at the airport, phone me."
           }
         ]
       }
@@ -7315,24 +6850,21 @@
   "U6 p62 Reading 2": {
     "title": "U6 p62 Reading 2",
     "boby": [
-      " Complete this sentence to summarise the writer’s main\npoint.\n\nSocal media encourages people to...\n\n",
+      " Complete this sentence to summarise the writer’s mainpoint.Socal media encourages people to...",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "get a false impression of the celebrities they follow."
           },
           {
             "prefix": "~",
-            "value": "have unrealistic\nhopes for their own futures."
+            "value": "have unrealistichopes for their own futures."
           },
           {
             "prefix": "=",
-            "value": "become too focused on the opinion others have of\nthem."
+            "value": "become too focused on the opinion others have ofthem."
           }
         ]
       }
@@ -7341,40 +6873,37 @@
   "U6 p62 Reading 4": {
     "title": "U6 p62 Reading 4",
     "boby": [
-      "For the gaps in the text (1-6), choose the sentence that\nfits each gap. There is one extra sentence which you do not need to use. ",
+      "For the gaps in the text (1-6), choose the sentence thatfits each gap. There is one extra sentence which you do not need to use. ",
       {
-        "type": "CHOICE",
+        "type": "MATCHING",
         "options": [
           {
-            "value": ""
+            "prefix": "=",
+            "value": "1 ->Then came reality TV, which turned the attention back to ourselves."
           },
           {
             "prefix": "=",
-            "value": "1 ->\nThen came reality TV, which turned the attention back to ourselves."
+            "value": "2 ->Interestingly, what they all seem to have in common is digital attentionseeking."
           },
           {
             "prefix": "=",
-            "value": "2 ->\nInterestingly, what they all seem to have in common is digital attention\nseeking."
+            "value": "3 -> Such increases pre-date social media but they have clearlyworsened since its arrival."
           },
           {
             "prefix": "=",
-            "value": "3 -> Such increases pre-date social media but they have clearly\nworsened since its arrival."
+            "value": "4 -> The explanation for this is that narcissisticindividuals are much more likely to use social media to portray an enviable, ifunrealistic, self-image, broadcasting their life to an audience and gaining manyvirtual friends."
           },
           {
             "prefix": "=",
-            "value": "4 -> The explanation for this is that narcissistic\nindividuals are much more likely to use social media to portray an enviable, if\nunrealistic, self-image, broadcasting their life to an audience and gaining many\nvirtual friends."
+            "value": "5 -> Furthermore, the need to be appreciated is a crucial partof psychological wellbeing, unless it is taken too far and becomes a nonstopsearch to be valued by others."
           },
           {
             "prefix": "=",
-            "value": "5 -> Furthermore, the need to be appreciated is a crucial part\nof psychological wellbeing, unless it is taken too far and becomes a nonstop\nsearch to be valued by others."
+            "value": "6 -> New ‘self-help’ mathematical formulas couldbe built into Facebook, Twitter and Instagram."
           },
           {
             "prefix": "=",
-            "value": "6 -> New ‘self-help’ mathematical formulas could\nbe built into Facebook, Twitter and Instagram."
-          },
-          {
-            "prefix": "=",
-            "value": "-> However, the danger is when\nthese efforts to compensate are supported and rewarded by others."
+            "value": "-> However, the danger is whenthese efforts to compensate are supported and rewarded by others."
           }
         ]
       }
@@ -7520,7 +7049,7 @@
   "U6 p63 Reading Voc6.A8": {
     "title": "U6 p63 Reading Voc6.A8",
     "boby": [
-      "science (n)\n",
+      "science (n)",
       {
         "type": "INPUT",
         "options": [
@@ -7547,7 +7076,7 @@
   "U6 p63 Reading Voc6.A9": {
     "title": "U6 p63 Reading Voc6.A9",
     "boby": [
-      "therapy (n)\n",
+      "therapy (n)",
       {
         "type": "INPUT",
         "options": [
@@ -7685,7 +7214,7 @@
           }
         ]
       },
-      " (hope) about\nthe impact of technology on our lives."
+      " (hope) aboutthe impact of technology on our lives."
     ]
   },
   "U6 p63 Reading Voc8.2": {
@@ -7701,7 +7230,7 @@
           }
         ]
       },
-      "\n(create) than a ",
+      "(create) than a ",
       {
         "type": "INPUT",
         "options": [
@@ -7727,7 +7256,7 @@
           }
         ]
       },
-      " (ambition) people are more\nlikely to be disappointed in life."
+      " (ambition) people are morelikely to be disappointed in life."
     ]
   },
   "U6 p63 Reading Voc8.4": {
@@ -7743,13 +7272,13 @@
           }
         ]
       },
-      "\n(choose) of what to study at school."
+      "(choose) of what to study at school."
     ]
   },
   "U6 p63 Reading Voc8.5": {
     "title": "U6 p63 Reading Voc8.5",
     "boby": [
-      " It's important for children to get a lot of\nparental ",
+      " It's important for children to get a lot ofparental ",
       {
         "type": "INPUT",
         "options": [
@@ -7775,19 +7304,16 @@
           }
         ]
       },
-      " (evident) that sugar is\nbad for you."
+      " (evident) that sugar isbad for you."
     ]
   },
   "U6 p64 GR3 Future-perfect-&-continuous": {
     "title": "U6 p64 GR3 Future-perfect-&-continuous",
     "boby": [
-      "Read the passage and complete the gaps\nusing the future continuous or the future perfect with will. A bright future for\nour town In five years' time our town will be completely different. More people\n",
+      "Read the passage and complete the gapsusing the future continuous or the future perfect with will. A bright future forour town In five years' time our town will be completely different. More people",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "will be travelling"
@@ -7796,27 +7322,21 @@
       },
       " (travel) by bicycle as the council ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
           {
-            "value": "1:SA:"
-          },
-          {
             "prefix": "=",
-            "value": "will have\nconstructed"
+            "value": "will haveconstructed"
           }
         ]
       },
       " (construct) more bike lanes. They ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
           {
-            "value": "1:SA:"
-          },
-          {
             "prefix": "=",
-            "value": "will have\npedestrianised"
+            "value": "will havepedestrianised"
           },
           {
             "prefix": "=",
@@ -7824,84 +7344,66 @@
           }
         ]
       },
-      " (pedestrianise) the city centre and\npeople ",
+      " (pedestrianise) the city centre andpeople ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "will be strolling"
           }
         ]
       },
-      " (stroll) round the traffic-free streets. The\ncouncil ",
+      " (stroll) round the traffic-free streets. Thecouncil ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "will have renovated"
           }
         ]
       },
-      " (renovated) the old buildings such as the\nTown Hall and ",
+      " (renovated) the old buildings such as theTown Hall and ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "will have built"
           }
         ]
       },
-      " (build) new facilities such as a gym and a\nconcert hall. The river authorities ",
+      " (build) new facilities such as a gym and aconcert hall. The river authorities ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "will have cleaned up"
           }
         ]
       },
-      " (clean up) the\nriver bank and people ",
+      " (clean up) theriver bank and people ",
       {
-        "type": "CHOICE",
+        "type": "INPUT",
         "options": [
-          {
-            "value": "1:SA:"
-          },
           {
             "prefix": "=",
             "value": "will be canoeing"
           }
         ]
       },
-      " (canoe) on the water. Of course,\nall these changes will cost money, but we're sure it will be worth it."
+      " (canoe) on the water. Of course,all these changes will cost money, but we're sure it will be worth it."
     ]
   },
   "U6 p64 5 Future-perfect-&-continuous": {
     "title": "U6 p64 5 Future-perfect-&-continuous",
     "boby": [
-      "Read the rest of the article and choose\nthe correct option. I think by 2050 we'll ",
+      "Read the rest of the article and choosethe correct option. I think by 2050 we'll ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "=",
             "value": "be watching"
@@ -7912,13 +7414,10 @@
           }
         ]
       },
-      " an\nincreasing number of 3D films. Film-makers may even\n",
+      " anincreasing number of 3D films. Film-makers may even",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "be finding"
@@ -7929,13 +7428,10 @@
           }
         ]
       },
-      " a way to project our faces onto the characters on\nthe screen by that time. I think here in Hollywood we will still\n",
+      " a way to project our faces onto the characters onthe screen by that time. I think here in Hollywood we will still",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "=",
             "value": "be making"
@@ -7946,13 +7442,10 @@
           }
         ]
       },
-      " films — I don't think any other country will\n",
+      " films — I don't think any other country will",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": "1:MC:"
-          },
           {
             "prefix": "~",
             "value": "be replacing"
@@ -7969,7 +7462,7 @@
   "U6 p64 6.1 Future perfect & continuous": {
     "title": "U6 p64 6.1 Future perfect & continuous",
     "boby": [
-      " By 2050, most young people\n",
+      " By 2050, most young people",
       {
         "type": "INPUT",
         "options": [
@@ -7995,7 +7488,7 @@
         "options": [
           {
             "prefix": "=",
-            "value": "be\nusing"
+            "value": "beusing"
           }
         ]
       },
@@ -8015,7 +7508,7 @@
           }
         ]
       },
-      "\n(choose) from a huge cyber library whatever television programme we want to\nwatch."
+      "(choose) from a huge cyber library whatever television programme we want towatch."
     ]
   },
   "U6 p64 6.4 Future perfect & continuous": {
@@ -8031,7 +7524,7 @@
           }
         ]
       },
-      "\n(interact) with the screen when we move and speak."
+      "(interact) with the screen when we move and speak."
     ]
   },
   "U6 p64 6.5 Future perfect & continuous": {
@@ -8043,17 +7536,17 @@
         "options": [
           {
             "prefix": "=",
-            "value": "have\ninvented"
+            "value": "haveinvented"
           }
         ]
       },
-      " (invent) contact lenses with a chip inside so that we can watch the\nscreen in 3D."
+      " (invent) contact lenses with a chip inside so that we can watch thescreen in 3D."
     ]
   },
   "U6 p64 6.6 Future perfect & continuous": {
     "title": "U6 p64 6.6 Future perfect & continuous",
     "boby": [
-      " By 2050, holographic TV screens\nwill ",
+      " By 2050, holographic TV screenswill ",
       {
         "type": "INPUT",
         "options": [
@@ -8069,7 +7562,7 @@
   "U6 p65 Voc1.1": {
     "title": "U6 p65 Voc1.1",
     "boby": [
-      " Was there a subject at school that you really didn't get?\n= Was there a subject at school that you really didn't\n",
+      " Was there a subject at school that you really didn't get?= Was there a subject at school that you really didn't",
       {
         "type": "CHOICE",
         "options": [
@@ -8105,7 +7598,7 @@
   "U6 p65 Voc1.2": {
     "title": "U6 p65 Voc1.2",
     "boby": [
-      " What techniques do you use to get people to do what you\nwant?\n= What techniques do you use to\n",
+      " What techniques do you use to get people to do what youwant?= What techniques do you use to",
       {
         "type": "CHOICE",
         "options": [
@@ -8135,13 +7628,13 @@
           }
         ]
       },
-      " people to do what you\nwant?"
+      " people to do what youwant?"
     ]
   },
   "U6 p65 Voc1.3": {
     "title": "U6 p65 Voc1.3",
     "boby": [
-      " When do you normally get the time to relax?\n= When do you normally ",
+      " When do you normally get the time to relax?= When do you normally ",
       {
         "type": "CHOICE",
         "options": [
@@ -8171,13 +7664,13 @@
           }
         ]
       },
-      "\nthe time to relax?"
+      "the time to relax?"
     ]
   },
   "U6 p65 Voc1.4": {
     "title": "U6 p65 Voc1.4",
     "boby": [
-      " In which situations do you get angry?\n= In which situations do you\n",
+      " In which situations do you get angry?= In which situations do you",
       {
         "type": "CHOICE",
         "options": [
@@ -8213,7 +7706,7 @@
   "U6 p65 Voc1.5": {
     "title": "U6 p65 Voc1.5",
     "boby": [
-      " How do you get from one place to another?\n= How do you ",
+      " How do you get from one place to another?= How do you ",
       {
         "type": "CHOICE",
         "options": [
@@ -8243,13 +7736,13 @@
           }
         ]
       },
-      " from one\nplace to another?"
+      " from oneplace to another?"
     ]
   },
   "U6 p65 Voc1.6": {
     "title": "U6 p65 Voc1.6",
     "boby": [
-      " How many texts do you get in an average day?\n= How many texts do you ",
+      " How many texts do you get in an average day?= How many texts do you ",
       {
         "type": "CHOICE",
         "options": [
@@ -8279,13 +7772,13 @@
           }
         ]
       },
-      "\nin an average day?"
+      "in an average day?"
     ]
   },
   "U6 p67 Rev1.1": {
     "title": "U6 p67 Rev1.1",
     "boby": [
-      " Some people think that new technology will lead to the\n",
+      " Some people think that new technology will lead to the",
       {
         "type": "INPUT",
         "options": [
@@ -8311,7 +7804,7 @@
           }
         ]
       },
-      " (excess) amount of practice can lead to\nmore injuries for dancers."
+      " (excess) amount of practice can lead tomore injuries for dancers."
     ]
   },
   "U6 p67 Rev1.3": {
@@ -8327,7 +7820,7 @@
           }
         ]
       },
-      " (evident) as yet that robots will\nbe a serious threat to jobs."
+      " (evident) as yet that robots willbe a serious threat to jobs."
     ]
   },
   "U6 p67 Rev1.4": {
@@ -8343,7 +7836,7 @@
           }
         ]
       },
-      " (fiction) account of a great\npainter's life."
+      " (fiction) account of a greatpainter's life."
     ]
   },
   "U6 p67 Rev1.5": {
@@ -8359,7 +7852,7 @@
           }
         ]
       },
-      " (real) by\ngoing to a musical."
+      " (real) bygoing to a musical."
     ]
   },
   "U6 p67 Rev1.6": {
@@ -8375,7 +7868,7 @@
           }
         ]
       },
-      "\n(choose). // Part 2: Multiple choice"
+      "(choose). // Part 2: Multiple choice"
     ]
   },
   "U6 p67 Rev2.1": {
@@ -8411,13 +7904,13 @@
           }
         ]
       },
-      " to\nmy cousin is by talking about dance."
+      " tomy cousin is by talking about dance."
     ]
   },
   "U6 p67 Rev2.2": {
     "title": "U6 p67 Rev2.2",
     "boby": [
-      "City Lights is on TV tonight. I never got\n",
+      "City Lights is on TV tonight. I never got",
       {
         "type": "CHOICE",
         "options": [
@@ -8483,13 +7976,13 @@
           }
         ]
       },
-      "\nthe disappointment of not being in the play."
+      "the disappointment of not being in the play."
     ]
   },
   "U6 p67 Rev2.4": {
     "title": "U6 p67 Rev2.4",
     "boby": [
-      "If I stay in every night watching TV, it gets me\n",
+      "If I stay in every night watching TV, it gets me",
       {
         "type": "CHOICE",
         "options": [
@@ -8555,13 +8048,13 @@
           }
         ]
       },
-      " with\nsimply repeating the same jokes at every performance."
+      " withsimply repeating the same jokes at every performance."
     ]
   },
   "U6 p67 Rev2.6": {
     "title": "U6 p67 Rev2.6",
     "boby": [
-      "Everyone says it's a really good series, but I just can't get\n",
+      "Everyone says it's a really good series, but I just can't get",
       {
         "type": "CHOICE",
         "options": [
@@ -8607,7 +8100,7 @@
           }
         ]
       },
-      " (learn) my lines until\njust before the play starts."
+      " (learn) my lines untiljust before the play starts."
     ]
   },
   "U6 p67 Rev3.2": {
@@ -8623,7 +8116,7 @@
           }
         ]
       },
-      "\n(start) by the time we get there."
+      "(start) by the time we get there."
     ]
   },
   "U6 p67 Rev3.3": {
@@ -8643,7 +8136,7 @@
           }
         ]
       },
-      " (show) his still lifes\nat the exhibition."
+      " (show) his still lifesat the exhibition."
     ]
   },
   "U6 p67 Rev3.4": {
@@ -8659,7 +8152,7 @@
           }
         ]
       },
-      " (use) the same costumes in our\nnext production."
+      " (use) the same costumes in ournext production."
     ]
   },
   "U6 p67 Rev3.5": {
@@ -8679,7 +8172,7 @@
           }
         ]
       },
-      " (watch)\nlive theatre in fifty years' time."
+      " (watch)live theatre in fifty years' time."
     ]
   },
   "U6 p67 Rev3.6": {
@@ -8695,7 +8188,7 @@
           }
         ]
       },
-      " (lose) interest in\ncomputer games a long time before 2025. // Part 4: Multiple choice"
+      " (lose) interest incomputer games a long time before 2025. // Part 4: Multiple choice"
     ]
   },
   "U6 p67 Rev4.1": {
@@ -8715,7 +8208,7 @@
           },
           {
             "prefix": "~",
-            "value": "will\nmeet"
+            "value": "willmeet"
           }
         ]
       },
@@ -8743,7 +8236,7 @@
           }
         ]
       },
-      ", will you\ntext me?"
+      ", will youtext me?"
     ]
   },
   "U6 p67 Rev4.3": {
@@ -8767,7 +8260,7 @@
           }
         ]
       },
-      " my\ndrama course by the end of next year."
+      " mydrama course by the end of next year."
     ]
   },
   "U6 p67 Rev4.4": {
@@ -8791,7 +8284,7 @@
           }
         ]
       },
-      " in\nfront of hundreds of people."
+      " infront of hundreds of people."
     ]
   },
   "U6 p67 Rev4.5": {
@@ -8807,7 +8300,7 @@
           },
           {
             "prefix": "~",
-            "value": "will have\nspoken"
+            "value": "will havespoken"
           },
           {
             "prefix": "=",
@@ -8863,7 +8356,7 @@
           }
         ]
       },
-      " really\nwell tomorrow."
+      " reallywell tomorrow."
     ]
   },
   "U6 p67 Rev4.8": {
@@ -8887,13 +8380,13 @@
           }
         ]
       },
-      " the\ntheatre doors at 7.30 and then you have to wait until the interval to go in."
+      " thetheatre doors at 7.30 and then you have to wait until the interval to go in."
     ]
   },
   "U6 p68-69 ProgressTest2 4.1": {
     "title": "U6 p68-69 ProgressTest2 4.1",
     "boby": [
-      " You will get the results by Friday. GIVEN\nI ",
+      " You will get the results by Friday. GIVENI ",
       {
         "type": "INPUT",
         "options": [
@@ -8913,7 +8406,7 @@
   "U6 p68-69 ProgressTest2 4.2": {
     "title": "U6 p68-69 ProgressTest2 4.2",
     "boby": [
-      " A fast-food chain has taken over two of our\nlocal restaurants. BY\nTwo of our local restaurants ",
+      " A fast-food chain has taken over two of ourlocal restaurants. BYTwo of our local restaurants ",
       {
         "type": "INPUT",
         "options": [
@@ -8929,7 +8422,7 @@
   "U6 p68-69 ProgressTest2 4.3": {
     "title": "U6 p68-69 ProgressTest2 4.3",
     "boby": [
-      " Nearly all the shops in this town are\nexpensive. HARDLY\nThere ",
+      " Nearly all the shops in this town areexpensive. HARDLYThere ",
       {
         "type": "INPUT",
         "options": [
@@ -8949,7 +8442,7 @@
   "U6 p68-69 ProgressTest2 4.4": {
     "title": "U6 p68-69 ProgressTest2 4.4",
     "boby": [
-      " Many people believe that too much sugar is\nbad for your health. TO\nToo much sugar ",
+      " Many people believe that too much sugar isbad for your health. TOToo much sugar ",
       {
         "type": "INPUT",
         "options": [
@@ -8965,7 +8458,7 @@
   "U6 p68-69 ProgressTest2 4.5": {
     "title": "U6 p68-69 ProgressTest2 4.5",
     "boby": [
-      " George hadn't finished doing his homework\nwhen I went to pick him up. STILL\nGeorge ",
+      " George hadn't finished doing his homeworkwhen I went to pick him up. STILLGeorge ",
       {
         "type": "INPUT",
         "options": [
@@ -8979,7 +8472,7 @@
           },
           {
             "prefix": "=",
-            "value": "still\nhad not finished his homework"
+            "value": "stillhad not finished his homework"
           }
         ]
       },
@@ -8989,7 +8482,7 @@
   "U6 p68-69 ProgressTest2 4.6": {
     "title": "U6 p68-69 ProgressTest2 4.6",
     "boby": [
-      " My brother often arrives unexpectedly.\nTURNING\nMy brother is ",
+      " My brother often arrives unexpectedly.TURNINGMy brother is ",
       {
         "type": "INPUT",
         "options": [
@@ -9031,13 +8524,13 @@
           }
         ]
       },
-      "\nsurprised that he went to check."
+      "surprised that he went to check."
     ]
   },
   "U7 p77 [So,such,too,enough,very] 1.2": {
     "title": "U7 p77 [So,such,too,enough,very] 1.2",
     "boby": [
-      "My brother isn't practical\n",
+      "My brother isn't practical",
       {
         "type": "CHOICE",
         "options": [
@@ -9069,7 +8562,7 @@
   "U7 p77 [So,such,too,enough,very] 1.3": {
     "title": "U7 p77 [So,such,too,enough,very] 1.3",
     "boby": [
-      "Isn't your car\n",
+      "Isn't your car",
       {
         "type": "CHOICE",
         "options": [
@@ -9127,7 +8620,7 @@
           }
         ]
       },
-      "\nmany people who could do that."
+      "many people who could do that."
     ]
   },
   "U7 p77 [So,such,too,enough,very] 1.5": {
@@ -9159,13 +8652,13 @@
           }
         ]
       },
-      " a\ngood time that we decided to stay for longer."
+      " agood time that we decided to stay for longer."
     ]
   },
   "U7 p77 [So,such,too,enough,very] 1.6": {
     "title": "U7 p77 [So,such,too,enough,very] 1.6",
     "boby": [
-      "Is that fruit ripe\n",
+      "Is that fruit ripe",
       {
         "type": "CHOICE",
         "options": [
@@ -9223,7 +8716,7 @@
           }
         ]
       },
-      " well\nin his exams that nobody believed him at first."
+      " wellin his exams that nobody believed him at first."
     ]
   },
   "U7 p77 [So,such,too,enough,very] 1.8": {
@@ -9255,13 +8748,13 @@
           }
         ]
       },
-      "\ninteresting book."
+      "interesting book."
     ]
   },
   "U7 p77 [Key word transformation] 6.1": {
     "title": "U7 p77 [Key word transformation] 6.1",
     "boby": [
-      " It was too foggy for us to ski.\nSO\nIt was ",
+      " It was too foggy for us to ski.SOIt was ",
       {
         "type": "INPUT",
         "options": [
@@ -9281,7 +8774,7 @@
   "U7 p77 [Key word transformation] 6.2": {
     "title": "U7 p77 [Key word transformation] 6.2",
     "boby": [
-      " He couldn't afford a taxi, so he\nwent by bus.\nENOUGH\nHe ",
+      " He couldn't afford a taxi, so hewent by bus.ENOUGHHe ",
       {
         "type": "INPUT",
         "options": [
@@ -9295,7 +8788,7 @@
           },
           {
             "prefix": "=",
-            "value": "did not have enough\nmoney"
+            "value": "did not have enoughmoney"
           },
           {
             "prefix": "=",
@@ -9309,7 +8802,7 @@
   "U7 p77 [Key word transformation] 6.3": {
     "title": "U7 p77 [Key word transformation] 6.3",
     "boby": [
-      " There was so much traffic that we\nmissed the show.\nSUCH\nThere was ",
+      " There was so much traffic that wemissed the show.SUCHThere was ",
       {
         "type": "INPUT",
         "options": [
@@ -9325,7 +8818,7 @@
   "U7 p77 [Key word transformation] 6.4": {
     "title": "U7 p77 [Key word transformation] 6.4",
     "boby": [
-      " I had a wonderful time and I\nreally enjoyed seeing everyone again.\nGREAT\nI had a wonderful time and ",
+      " I had a wonderful time and Ireally enjoyed seeing everyone again.GREATI had a wonderful time and ",
       {
         "type": "INPUT",
         "options": [
@@ -9341,7 +8834,7 @@
   "U7 p77 [Key word transformation] 6.5": {
     "title": "U7 p77 [Key word transformation] 6.5",
     "boby": [
-      " He said I didn't need to make an\nappointment.\nNEED\nHe said ",
+      " He said I didn't need to make anappointment.NEEDHe said ",
       {
         "type": "INPUT",
         "options": [
@@ -9357,7 +8850,7 @@
   "U7 p77 [Key word transformation] 6.6": {
     "title": "U7 p77 [Key word transformation] 6.6",
     "boby": [
-      " I think that taking your coat is\nunnecessary.\nPOINT\nI think that ",
+      " I think that taking your coat isunnecessary.POINTI think that ",
       {
         "type": "INPUT",
         "options": [
@@ -9398,7 +8891,7 @@
           }
         ]
       },
-      " not unusual to have\ndinner at 10.30p.m."
+      " not unusual to havedinner at 10.30p.m."
     ]
   },
   "U7 p77 [It/There is] 4.2": {
@@ -9425,7 +8918,7 @@
           }
         ]
       },
-      " common for men to greet\neach other with a kiss on the cheek."
+      " common for men to greeteach other with a kiss on the cheek."
     ]
   },
   "U7 p77 [It/There is] 4.3": {
@@ -9444,7 +8937,7 @@
           }
         ]
       },
-      " might sometimes be applause when a\nguest arrives."
+      " might sometimes be applause when aguest arrives."
     ]
   },
   "U7 p77 [It/There is] 4.4": {
@@ -9471,7 +8964,7 @@
           }
         ]
       },
-      " no need to\ntip waiters in restaurants."
+      " no need totip waiters in restaurants."
     ]
   },
   "U7 p77 [It/There is] GR+.1": {
@@ -9490,7 +8983,7 @@
           }
         ]
       },
-      " is good that you can come to the\nparty."
+      " is good that you can come to theparty."
     ]
   },
   "U7 p77 [It/There is] GR+.2": {
@@ -9528,7 +9021,7 @@
           }
         ]
       },
-      " might be a traffic jam unless we\nleave early."
+      " might be a traffic jam unless weleave early."
     ]
   },
   "U7 p77 [It/There is] GR+.4": {
@@ -9604,7 +9097,7 @@
           }
         ]
       },
-      " is someone at the door. Can you\nanswer it, please?"
+      " is someone at the door. Can youanswer it, please?"
     ]
   },
   "U7 p77 [It/There is] GR+.8": {
@@ -9623,19 +9116,16 @@
           }
         ]
       },
-      " isn't any time to have a quick\ncoffee first."
+      " isn't any time to have a quickcoffee first."
     ]
   },
   "U7 p79 Review 3.1": {
     "title": "U7 p79 Review 3.1",
     "boby": [
-      "The fishing village was _________ far away to visit one\nday.  ",
+      "The fishing village was _________ far away to visit oneday.  ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "so"
@@ -9659,13 +9149,10 @@
   "U7 p79 Review 3.2": {
     "title": "U7 p79 Review 3.2",
     "boby": [
-      "I need to get a _________ ticket because I am coming back\nthis evening.",
+      "I need to get a _________ ticket because I am coming backthis evening.",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "round"
@@ -9689,13 +9176,10 @@
   "U7 p79 Review 3.3": {
     "title": "U7 p79 Review 3.3",
     "boby": [
-      "There's no ________ buying a car if you're never going\nto drive it.",
+      "There's no ________ buying a car if you're never goingto drive it.",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "reason"
@@ -9719,13 +9203,10 @@
   "U7 p79 Review 3.4": {
     "title": "U7 p79 Review 3.4",
     "boby": [
-      "It was ______ a beautiful place that they decided to stay\nthere longer.",
+      "It was ______ a beautiful place that they decided to staythere longer.",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "so"
@@ -9749,13 +9230,10 @@
   "U7 p79 Review 3.5": {
     "title": "U7 p79 Review 3.5",
     "boby": [
-      "It's a very ___________ location, cut off from the\noutside world.\n \n",
+      "It's a very ___________ location, cut off from theoutside world. ",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "alone"
@@ -9779,13 +9257,10 @@
   "U7 p79 Review 3.6": {
     "title": "U7 p79 Review 3.6",
     "boby": [
-      "You can' t just turn ___________ like this, unexpectedly,\nand expect me to be free.",
+      "You can' t just turn ___________ like this, unexpectedly,and expect me to be free.",
       {
         "type": "CHOICE",
         "options": [
-          {
-            "value": ""
-          },
           {
             "prefix": "~",
             "value": "on"
@@ -9819,7 +9294,7 @@
           }
         ]
       },
-      ", I didn't get\nit, unfortunately."
+      ", I didn't getit, unfortunately."
     ]
   },
   "U8 p84 Voc Linking words 5.2": {
@@ -9834,7 +9309,7 @@
           }
         ]
       },
-      " I am more than qualified for the\njob, I didn't even get an interview."
+      " I am more than qualified for thejob, I didn't even get an interview."
     ]
   },
   "U8 p84 Voc Linking words 5.3": {
@@ -9850,13 +9325,13 @@
           }
         ]
       },
-      " the work was\nperfect for me."
+      " the work wasperfect for me."
     ]
   },
   "U8 p84 Voc Linking words 5.4": {
     "title": "U8 p84 Voc Linking words 5.4",
     "boby": [
-      "I think the reason I didn't get the job was my\npoor Spanish, ",
+      "I think the reason I didn't get the job was mypoor Spanish, ",
       {
         "type": "INPUT",
         "options": [
@@ -9882,7 +9357,7 @@
           }
         ]
       },
-      "\nlearning Spanish."
+      "learning Spanish."
     ]
   },
   "U8 p84 Voc Linking words 5.6": {
@@ -9897,7 +9372,7 @@
           }
         ]
       },
-      " improve my vocabulary, I am\nwatching French films."
+      " improve my vocabulary, I amwatching French films."
     ]
   },
   "U8 p84 Voc Linking words 5.7": {
@@ -9912,13 +9387,13 @@
           }
         ]
       },
-      " the high salary I was offered, I\ndecided to turn down the job."
+      " the high salary I was offered, Idecided to turn down the job."
     ]
   },
   "U8 p84 Voc Linking words 5.8": {
     "title": "U8 p84 Voc Linking words 5.8",
     "boby": [
-      "I enjoyed my time at the law firm. I made a lot\nof friends there ",
+      "I enjoyed my time at the law firm. I made a lotof friends there ",
       {
         "type": "INPUT",
         "options": [
