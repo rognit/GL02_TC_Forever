@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "dependencies": {
     "colors": "^1.4.0",
     "html-to-text": "^9.0.5"

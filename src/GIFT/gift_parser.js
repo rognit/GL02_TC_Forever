@@ -11,7 +11,11 @@
 // - value qui est le texte de l'option de la sub-question (string)
 // - feedback : ce qui suit le caractère '#' dans l'option (si il n'existe pas alors celui ci est undefined)
 
-const { convert } = require('html-to-text');
+//TODO : bug sur "1:SA:"
+//TODO : tester les corrections
+//TODO : bug sur les matchings
+
+import { convert } from 'html-to-text';
 
 const TYPES = {
     BOOLEAN: 'BOOLEAN',
@@ -68,7 +72,7 @@ class SubQuestion {
                 type: TYPES.INPUT,
                 options,
             });
-        } else if (options.every(x => x.prefix === '=' || x.prefix === '~') && options.some(x => x.prefix === '=')) {
+        } else if (options.every(x => x.prefix === '=' || '~') && options.some(x => x.prefix === '=')) {
             return new SubQuestion({
                 type: TYPES.CHOICE,
                 options,
@@ -193,7 +197,6 @@ class GIFT {
     static cleanText(str) {
         return convert(str)
             .replace(/~=/g, '=')
-            .replace(/\n/g, ' ')
             .replace(/\[html\]/g, ' ');
     }
     
@@ -219,8 +222,8 @@ class GIFT {
         return this.boby.filter(x => x instanceof SubQuestion);
     }
 }
-
+export { GIFT }
 // exemple :
-// text = "::Q1:: ceci est une question test : {~1 =2 #commentaire}"
+//let text = "::EM U42 Ultimate q1::What's the answer to this multiple-choice question? {  ~wrong answer#feedback comment on the wrong answer  ~another wrong answer#feedback comment on this wrong answer  =right answer#Very good!}//From The Hitchhiker's Guide to the Galaxy"
 //let question = GIFT.fromString(text)
 //console.log(question)
