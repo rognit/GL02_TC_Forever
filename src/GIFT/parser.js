@@ -11,9 +11,7 @@
 // - value qui est le texte de l'option de la sub-question (string)
 // - feedback : ce qui suit le caractère '#' dans l'option (si il n'existe pas alors celui ci est undefined)
 
-//TODO : bug sur "1:SA:"
 //TODO : tester les corrections
-//TODO : bug sur les matchings
 
 import { convert } from 'html-to-text';
 

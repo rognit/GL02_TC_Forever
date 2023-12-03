@@ -1,9 +1,6 @@
 import fs from 'fs';
 import path from 'path';
-
-import { GIFT } from "./gift_parser.js";
-
-
+import { GIFT } from "./parser.js";
 
 function splitGIFT(path) {
     const fileContent = fs.readFileSync(path, 'utf-8');
@@ -46,28 +43,30 @@ function save(data, file) {
     fs.writeFileSync(file, jsonContent);
 }
 
-
-const folderPath = '../../SujetB_data';
-const giftDictionary = {};
-
-fs.readdirSync(folderPath).forEach((file) => {
-    const filePath = path.join(folderPath, file);
-
-    // Split the text based on every second occurrence of ::
-    const splitted_gift = splitGIFT(filePath);
-
-    for (let i in splitted_gift) {
-        try {
-            const parsedGift = GIFT.fromString(splitted_gift[i]);
-            if (parsedGift.SubQuestions.length !== 0) {
-                giftDictionary[parsedGift.title] = parsedGift;
-            }
-        } catch (error) {
-
+function construct(file_name) {
+    const folderPath = '../../SujetB_data';
+    const giftDictionary = {};
+    
+    fs.readdirSync(folderPath).forEach((file) => {
+        const filePath = path.join(folderPath, file);
+    
+        // Split the text based on every second occurrence of ::
+        const splitted_gift = splitGIFT(filePath);
+    
+        for (let i in splitted_gift) {
+            try {
+                const parsedGift = GIFT.fromString(splitted_gift[i]);
+                if (parsedGift.SubQuestions.length !== 0) {
+                    giftDictionary[parsedGift.title] = parsedGift;
+                }
+            } catch (error) {}
         }
-    }
-});
+    });
+    
+    console.log(Object.keys(giftDictionary).length);
+    save(giftDictionary, file_name);
+}
 
-console.log(Object.keys(giftDictionary).length);
-save(giftDictionary, "gift_db.json");
+
+
 

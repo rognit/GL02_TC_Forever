@@ -609,28 +609,401 @@
       }
     ]
   },
-  "": {
-    "title": "",
+  "EM U5 p34 Gra1.1": {
+    "title": "EM U5 p34 Gra1.1",
     "boby": [
-      "Max says that a ten-year investigation has shown that lucky people ",
+      "Would you like ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "some"
+          },
+          {
+            "prefix": "~",
+            "value": "a few"
+          }
+        ]
+      },
+      " rice with your chicken?"
+    ]
+  },
+  "EM U5 p34 Gra1.2": {
+    "title": "EM U5 p34 Gra1.2",
+    "boby": [
+      "I mustn't eat too ",
       {
         "type": "CHOICE",
         "options": [
           {
             "prefix": "~",
-            "value": " believethey will succeed."
+            "value": "many"
           },
           {
             "prefix": "=",
-            "value": " look for good opportunities."
-          },
-          {
-            "prefix": "~",
-            "value": " depend very little ontalent."
+            "value": "much"
           }
         ]
       },
-      "undefined"
+      " chocolate — it's bad for me!"
+    ]
+  },
+  "EM U5 p34 Gra1.3": {
+    "title": "EM U5 p34 Gra1.3",
+    "boby": [
+      "People who eat too ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "much"
+          },
+          {
+            "prefix": "~",
+            "value": "many"
+          }
+        ]
+      },
+      " salt can suffer from highblood pressure"
+    ]
+  },
+  "EM U5 p34 Gra1.4": {
+    "title": "EM U5 p34 Gra1.4",
+    "boby": [
+      "I drink ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "hardly any"
+          },
+          {
+            "prefix": "~",
+            "value": "a few"
+          }
+        ]
+      },
+      " coffee, if I drink too",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "many"
+          },
+          {
+            "prefix": "=",
+            "value": "much"
+          }
+        ]
+      },
+      ", I can't sleep"
+    ]
+  },
+  "EM U5 p34 Gra1.5": {
+    "title": "EM U5 p34 Gra1.5",
+    "boby": [
+      "I buy very ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "few"
+          },
+          {
+            "prefix": "~",
+            "value": "little"
+          }
+        ]
+      },
+      " eggs as I keep chickens, so I havenew-laid eggs"
+    ]
+  },
+  "EM U5 p34 Gra1.6": {
+    "title": "EM U5 p34 Gra1.6",
+    "boby": [
+      "I eat ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "hardly any"
+          },
+          {
+            "prefix": "~",
+            "value": "a few"
+          }
+        ]
+      },
+      " meat — I prefer vegetables!"
+    ]
+  },
+  "EM U5 p34 Gra1.7": {
+    "title": "EM U5 p34 Gra1.7",
+    "boby": [
+      "There is always ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "many"
+          },
+          {
+            "prefix": "=",
+            "value": "a lot of"
+          }
+        ]
+      },
+      " news about food scaresthese days"
+    ]
+  },
+  "EM U5 p34 Gra1.8": {
+    "title": "EM U5 p34 Gra1.8",
+    "boby": [
+      "There are ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "lots of"
+          },
+          {
+            "prefix": "~",
+            "value": "much"
+          }
+        ]
+      },
+      " fantastic desserts at that newrestaurant! // Grammar Ex. 2"
+    ]
+  },
+  "EM U5 p34 Gra2.1": {
+    "title": "EM U5 p34 Gra2.1",
+    "boby": [
+      "I knew very ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "few"
+          },
+          {
+            "prefix": "~",
+            "value": "a few"
+          },
+          {
+            "prefix": "~",
+            "value": "little"
+          },
+          {
+            "prefix": "~",
+            "value": "a little"
+          }
+        ]
+      },
+      " people al theparty, so I didn’t stay long."
+    ]
+  },
+  "EM U5 p34 Gra2.2": {
+    "title": "EM U5 p34 Gra2.2",
+    "boby": [
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "Few"
+          },
+          {
+            "prefix": "=",
+            "value": "A few"
+          },
+          {
+            "prefix": "~",
+            "value": "Little"
+          },
+          {
+            "prefix": "~",
+            "value": "A little"
+          }
+        ]
+      },
+      " of us are going to have abarbecue in the garden tonight. Do you fancy coming?"
+    ]
+  },
+  "EM U5 p34 Gra2.3": {
+    "title": "EM U5 p34 Gra2.3",
+    "boby": [
+      "Please could I have ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "few"
+          },
+          {
+            "prefix": "~",
+            "value": "a few"
+          },
+          {
+            "prefix": "~",
+            "value": "little"
+          },
+          {
+            "prefix": "=",
+            "value": "a little"
+          }
+        ]
+      },
+      " sugar —this coffee is rather strong."
+    ]
+  },
+  "EM U5 p34 Gra2.4": {
+    "title": "EM U5 p34 Gra2.4",
+    "boby": [
+      "I've got ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "few"
+          },
+          {
+            "prefix": "~",
+            "value": "a few"
+          },
+          {
+            "prefix": "~",
+            "value": "little"
+          },
+          {
+            "prefix": "=",
+            "value": "a little"
+          }
+        ]
+      },
+      " free time this weekso I can do the work if you like."
+    ]
+  },
+  "EM U5 p34 Gra2.5": {
+    "title": "EM U5 p34 Gra2.5",
+    "boby": [
+      "I've eaten so many already that there are only ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "few"
+          },
+          {
+            "prefix": "=",
+            "value": "afew"
+          },
+          {
+            "prefix": "~",
+            "value": "little"
+          },
+          {
+            "prefix": "~",
+            "value": "a little"
+          }
+        ]
+      },
+      " chocolates left!"
+    ]
+  },
+  "EM U5 p34 Gra2.6": {
+    "title": "EM U5 p34 Gra2.6",
+    "boby": [
+      "I knew very ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "few"
+          },
+          {
+            "prefix": "~",
+            "value": "a few"
+          },
+          {
+            "prefix": "=",
+            "value": "little"
+          },
+          {
+            "prefix": "~",
+            "value": "a little"
+          }
+        ]
+      },
+      " about Thal food soI bought a cookery book to learn more."
+    ]
+  },
+  "EM U5 p34 Gra2.7": {
+    "title": "EM U5 p34 Gra2.7",
+    "boby": [
+      "I know ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "few"
+          },
+          {
+            "prefix": "=",
+            "value": "a few"
+          },
+          {
+            "prefix": "~",
+            "value": "little"
+          },
+          {
+            "prefix": "~",
+            "value": "a little"
+          }
+        ]
+      },
+      " people who enjoy veryspicy food, but not many."
+    ]
+  },
+  "EM U5 p34 Gra2.8": {
+    "title": "EM U5 p34 Gra2.8",
+    "boby": [
+      "People say that ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "few"
+          },
+          {
+            "prefix": "~",
+            "value": "a few"
+          },
+          {
+            "prefix": "~",
+            "value": "little"
+          },
+          {
+            "prefix": "=",
+            "value": "a little"
+          }
+        ]
+      },
+      " knowledge goesa long way!"
     ]
   },
   "EM U5 p34 Voc1.1": {
@@ -2768,6 +3141,82 @@
           }
         ]
       }
+    ]
+  },
+  "U3 p31 6 -ed adjectives and prepositions": {
+    "title": "U3 p31 6 -ed adjectives and prepositions",
+    "boby": [
+      "Choose the correct preposition. Whatsports do you get excited ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "with"
+          },
+          {
+            "prefix": "=",
+            "value": "about"
+          }
+        ]
+      },
+      "? What sports do you find exciting?Do you ever get frustrated ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "on"
+          },
+          {
+            "prefix": "=",
+            "value": "with"
+          }
+        ]
+      },
+      " a sportsperson/team? Whichperson/team do you find frustrating? Who are you impressed ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "by"
+          },
+          {
+            "prefix": "~",
+            "value": "for"
+          }
+        ]
+      },
+      "? Whodo you find impressive? Who or what do you get annoyed ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "of"
+          },
+          {
+            "prefix": "=",
+            "value": "by"
+          }
+        ]
+      },
+      "? What doyou sometimes feel embarrassed ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "in"
+          },
+          {
+            "prefix": "=",
+            "value": "by"
+          }
+        ]
+      },
+      "? Who do you find embarrassing?"
     ]
   },
   "U3 p32 GR2 Present perfect vs past simple": {
@@ -5814,6 +6263,122 @@
       " be very aggressive around food."
     ]
   },
+  "U5 p54 GR4.1 Passive reporting forms": {
+    "title": "U5 p54 GR4.1 Passive reporting forms",
+    "boby": [
+      " People reported that there weregunshots.It ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "was reported that there were gunshots"
+          },
+          {
+            "prefix": "=",
+            "value": "was reported that there weregunshots."
+          }
+        ]
+      },
+      "."
+    ]
+  },
+  "U5 p54 GR4.2 Passive reporting forms": {
+    "title": "U5 p54 GR4.2 Passive reporting forms",
+    "boby": [
+      " People claim that the money wasstolen.It ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "is claimed that the money was stolen"
+          },
+          {
+            "prefix": "=",
+            "value": "'s claimed that the money wasstolen"
+          },
+          {
+            "prefix": "=",
+            "value": "is claimed that the money was stolen."
+          },
+          {
+            "prefix": "=",
+            "value": "'s claimed that the money wasstolen."
+          }
+        ]
+      },
+      "."
+    ]
+  },
+  "U5 p54 GR4.3 Passive reporting forms": {
+    "title": "U5 p54 GR4.3 Passive reporting forms",
+    "boby": [
+      " People think that the suspect hasleft the country.The suspect ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "is thought to have left the country"
+          },
+          {
+            "prefix": "=",
+            "value": "is thought to have left thecountry."
+          }
+        ]
+      },
+      "."
+    ]
+  },
+  "U5 p54 GR4.4 Passive reporting forms": {
+    "title": "U5 p54 GR4.4 Passive reporting forms",
+    "boby": [
+      " People say that the police made alot of mistakes.The police ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "are said to have made a lot of mistakes"
+          },
+          {
+            "prefix": "=",
+            "value": "are said to have made a lotof mistakes."
+          }
+        ]
+      },
+      "."
+    ]
+  },
+  "U5 p54 GR4.5 Passive reporting forms": {
+    "title": "U5 p54 GR4.5 Passive reporting forms",
+    "boby": [
+      " People believe that the criminalhad a false passport.It ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "is believed that the criminal had a false passport"
+          },
+          {
+            "prefix": "=",
+            "value": "'s believed that thecriminal had a false passport"
+          },
+          {
+            "prefix": "=",
+            "value": "is believed that the criminal had a falsepassport."
+          },
+          {
+            "prefix": "=",
+            "value": "'s believed that the criminal had a false passport."
+          }
+        ]
+      },
+      "."
+    ]
+  },
   "U5 p57 Rev1.1": {
     "title": "U5 p57 Rev1.1",
     "boby": [
@@ -6440,6 +7005,102 @@
         ]
       },
       " (invite) to their wedding, which is on Saturday"
+    ]
+  },
+  "U6 p59 Voc10.1 the arts": {
+    "title": "U6 p59 Voc10.1 the arts",
+    "boby": [
+      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I'm not convinced I like all classical ballet but I love ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "contemporary"
+          }
+        ]
+      },
+      " dance."
+    ]
+  },
+  "U6 p59 Voc10.2 the arts": {
+    "title": "U6 p59 Voc10.2 the arts",
+    "boby": [
+      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I sometimes nip into an art ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "gallery"
+          }
+        ]
+      },
+      " or exhibition during my lunch break."
+    ]
+  },
+  "U6 p59 Voc10.3 the arts": {
+    "title": "U6 p59 Voc10.3 the arts",
+    "boby": [
+      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I prefer landscapes or portraits to more ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "abstract"
+          }
+        ]
+      },
+      " paintings."
+    ]
+  },
+  "U6 p59 Voc10.4 the arts": {
+    "title": "U6 p59 Voc10.4 the arts",
+    "boby": [
+      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I'll often go to a play more than once if there's a different ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "cast"
+          }
+        ]
+      },
+      "performing."
+    ]
+  },
+  "U6 p59 Voc10.5 the arts": {
+    "title": "U6 p59 Voc10.5 the arts",
+    "boby": [
+      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I tend to go for original theatre ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "productions"
+          }
+        ]
+      },
+      " by controversial directors."
+    ]
+  },
+  "U6 p59 Voc10.6 the arts": {
+    "title": "U6 p59 Voc10.6 the arts",
+    "boby": [
+      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I'm a keen film-goer but I usually avoid ",
+      {
+        "type": "INPUT",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "blockbusters"
+          }
+        ]
+      },
+      "."
     ]
   },
   "U6 p60 Listening 1.1": {
@@ -8495,6 +9156,230 @@
       " unexpectedly."
     ]
   },
+  "U7 p76 GR2.1 Relative clauses": {
+    "title": "U7 p76 GR2.1 Relative clauses",
+    "boby": [
+      "The letter is in the file",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "when"
+          },
+          {
+            "prefix": "=",
+            "value": "where"
+          },
+          {
+            "prefix": "~",
+            "value": "whom"
+          },
+          {
+            "prefix": "~",
+            "value": "whose"
+          },
+          {
+            "prefix": "~",
+            "value": "why"
+          }
+        ]
+      },
+      " I keep my bills."
+    ]
+  },
+  "U7 p76 GR2.2 Relative clauses": {
+    "title": "U7 p76 GR2.2 Relative clauses",
+    "boby": [
+      "It wasn't clear ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "when"
+          },
+          {
+            "prefix": "~",
+            "value": "where"
+          },
+          {
+            "prefix": "~",
+            "value": "whom"
+          },
+          {
+            "prefix": "~",
+            "value": "whose"
+          },
+          {
+            "prefix": "=",
+            "value": "why"
+          }
+        ]
+      },
+      "the children had stayed at home."
+    ]
+  },
+  "U7 p76 GR2.3 Relative clauses": {
+    "title": "U7 p76 GR2.3 Relative clauses",
+    "boby": [
+      "The lawyer from ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "when"
+          },
+          {
+            "prefix": "~",
+            "value": "where"
+          },
+          {
+            "prefix": "=",
+            "value": "whom"
+          },
+          {
+            "prefix": "~",
+            "value": "whose"
+          },
+          {
+            "prefix": "~",
+            "value": "why"
+          }
+        ]
+      },
+      "we had received the advice was well known."
+    ]
+  },
+  "U7 p76 GR2.4 Relative clauses": {
+    "title": "U7 p76 GR2.4 Relative clauses",
+    "boby": [
+      "Please give Luke this message at any point",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": "when"
+          },
+          {
+            "prefix": "~",
+            "value": "where"
+          },
+          {
+            "prefix": "~",
+            "value": "whom"
+          },
+          {
+            "prefix": "~",
+            "value": "whose"
+          },
+          {
+            "prefix": "~",
+            "value": "why"
+          }
+        ]
+      },
+      " it is convenient."
+    ]
+  },
+  "U7 p76 GR2.5 Relative clauses": {
+    "title": "U7 p76 GR2.5 Relative clauses",
+    "boby": [
+      "The old men directed us to a small hotel,",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "when"
+          },
+          {
+            "prefix": "=",
+            "value": "where"
+          },
+          {
+            "prefix": "~",
+            "value": "whom"
+          },
+          {
+            "prefix": "~",
+            "value": "whose"
+          },
+          {
+            "prefix": "~",
+            "value": "why"
+          }
+        ]
+      },
+      " we spent the night."
+    ]
+  },
+  "U7 p76 GR2.6 Relative clauses": {
+    "title": "U7 p76 GR2.6 Relative clauses",
+    "boby": [
+      "Can you name the person from",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "when"
+          },
+          {
+            "prefix": "~",
+            "value": "where"
+          },
+          {
+            "prefix": "=",
+            "value": "whom"
+          },
+          {
+            "prefix": "~",
+            "value": "whose"
+          },
+          {
+            "prefix": "~",
+            "value": "why"
+          }
+        ]
+      },
+      " you received this information?"
+    ]
+  },
+  "U7 p76 GR2.7 Relative clauses": {
+    "title": "U7 p76 GR2.7 Relative clauses",
+    "boby": [
+      "The car, ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": "when"
+          },
+          {
+            "prefix": "~",
+            "value": "where"
+          },
+          {
+            "prefix": "~",
+            "value": "whom"
+          },
+          {
+            "prefix": "=",
+            "value": "whose"
+          },
+          {
+            "prefix": "~",
+            "value": "why"
+          }
+        ]
+      },
+      " ownerwas not insured, was involved in a crash."
+    ]
+  },
   "U7 p77 [So,such,too,enough,very] 1.1": {
     "title": "U7 p77 [So,such,too,enough,very] 1.1",
     "boby": [
@@ -9404,6 +10289,167 @@
         ]
       },
       "."
+    ]
+  },
+  "U9 p94 Listening 4.1": {
+    "title": "U9 p94 Listening 4.1",
+    "boby": [
+      "Max says that top sportspeople usually believe theirsuccess is due to ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": " good fortune."
+          },
+          {
+            "prefix": "=",
+            "value": " hard work."
+          },
+          {
+            "prefix": "~",
+            "value": " raw talent."
+          }
+        ]
+      }
+    ]
+  },
+  "U9 p94 Listening 4.2": {
+    "title": "U9 p94 Listening 4.2",
+    "boby": [
+      "According to Max, sportspeople are achieving more thesedays because ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": " people in general have become stronger and fitter."
+          },
+          {
+            "prefix": "=",
+            "value": " standardsare getting higher."
+          },
+          {
+            "prefix": "~",
+            "value": " technology is responsible for improved performance."
+          }
+        ]
+      }
+    ]
+  },
+  "U9 p94 Listening 4.3": {
+    "title": "U9 p94 Listening 4.3",
+    "boby": [
+      "What does Max say about very talented young children? ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": " It's easy to tell which will be the top performers."
+          },
+          {
+            "prefix": "~",
+            "value": " They will succeedwithout special training."
+          },
+          {
+            "prefix": "=",
+            "value": " As they get older their development may be slower."
+          }
+        ]
+      }
+    ]
+  },
+  "U9 p94 Listening 4.4": {
+    "title": "U9 p94 Listening 4.4",
+    "boby": [
+      "According to Max, in his book Bounce, Matthew Syed sayshe had a greater chance of success because of ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": " his parents’ love of tabletennis."
+          },
+          {
+            "prefix": "=",
+            "value": " his competitive brother."
+          },
+          {
+            "prefix": "~",
+            "value": " his own ambition."
+          }
+        ]
+      }
+    ]
+  },
+  "U9 p94 Listening 4.5": {
+    "title": "U9 p94 Listening 4.5",
+    "boby": [
+      "For Matthew, the advantage of joining the Omega Club wasthat ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "=",
+            "value": " it was open all the time."
+          },
+          {
+            "prefix": "~",
+            "value": " it had a lot of good players."
+          },
+          {
+            "prefix": "~",
+            "value": " it hadgreat facilities."
+          }
+        ]
+      }
+    ]
+  },
+  "U9 p94 Listening 4.6": {
+    "title": "U9 p94 Listening 4.6",
+    "boby": [
+      "Matthew thinks the reason Omega Club members have beenso successful is ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": " hard to explain."
+          },
+          {
+            "prefix": "~",
+            "value": " because they met famous players."
+          },
+          {
+            "prefix": "=",
+            "value": " ahappy accident."
+          }
+        ]
+      }
+    ]
+  },
+  "U9 p94 Listening 4.7": {
+    "title": "U9 p94 Listening 4.7",
+    "boby": [
+      "Max says that a ten-year investigation has shown thatlucky people ",
+      {
+        "type": "CHOICE",
+        "options": [
+          {
+            "prefix": "~",
+            "value": " believe they will succeed."
+          },
+          {
+            "prefix": "=",
+            "value": " look for good opportunities."
+          },
+          {
+            "prefix": "~",
+            "value": "depend very little on talent."
+          }
+        ]
+      }
     ]
   }
 }

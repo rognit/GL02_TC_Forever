@@ -6,8 +6,7 @@ function search(key) {
 
     return Object.keys(loadedGiftDictionary).filter(title =>
         title.includes(key)
-      );
-    
+      );    
 }
 
-console.log(search("EM U42"));
+console.log(search("EM U"));
