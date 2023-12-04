@@ -1,7 +1,9 @@
 {
   "type": "module",
   "dependencies": {
+    "clear": "^0.1.0",
     "colors": "^1.4.0",
-    "html-to-text": "^9.0.5"
+    "html-to-text": "^9.0.5",
+    "inquirer": "^9.2.12"
   }
 }
