@@ -10,3 +10,10 @@ export function search(key) {
       .sort((a, b) => b.length - a.length)
       .map(title => loadedGiftDictionary[title]);  
 }
+
+export function getAllTestNames() {
+  const jsonContent = fs.readFileSync('./src/GIFT/test_db.json', 'utf-8');
+  const loadedTestDatabase = JSON.parse(jsonContent);
+
+  return loadedTestDatabase.map(test => test.name);
+}
