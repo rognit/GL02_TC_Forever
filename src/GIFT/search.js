@@ -8,7 +8,5 @@ export function search(key) {
     return Object.keys(loadedGiftDictionary)
       .filter(title => title.includes(key))
       .sort((a, b) => b.length - a.length)
-      .map(title => loadedGiftDictionary[title])
-      .slice(0, 10);
-  
+      .map(title => loadedGiftDictionary[title]);  
 }

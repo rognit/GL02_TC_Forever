@@ -134,6 +134,10 @@ class SubQuestion {
             result.push(this.options[i].value)
         }
     } 
+
+    static ShowQuestion() {
+        
+    }
 }
 
 class Option {

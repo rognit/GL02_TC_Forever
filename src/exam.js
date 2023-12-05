@@ -1,6 +1,6 @@
 import { GIFT } from "./GIFT/parser.js";
 
-class Test {
+class Exam {
     /**
      * @param {[GIFT]} questions
      */

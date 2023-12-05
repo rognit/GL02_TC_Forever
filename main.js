@@ -1,5 +1,5 @@
 import inquirer from 'inquirer';
-import { get_question_menu } from './src/menus.js';
+import { get_question_menu, create_test_menu } from './src/menus.js';
 
 const mainMenuQuestions = [
     {
@@ -9,6 +9,7 @@ const mainMenuQuestions = [
       choices: [
         'Search Question',
         'Create a test',
+        'Pass a test',
         'Exit',
       ],
     },
@@ -25,17 +26,16 @@ async function runMainMenu() {
         case 'Search Question':
           await get_question_menu();
           break;
-        case 'Action 2':
-          action2();
+        case 'Create a test':
+          await create_test_menu();
           break;
-        case 'Action 3':
+        case 'Pass a test':
           action3();
           break;
         case 'Exit':
           console.log('Exiting...');
           keepRunning = false;
           break;
-  
         default:
           console.log('Invalid choice. Please choose a valid option.');
       }
