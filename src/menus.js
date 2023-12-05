@@ -34,8 +34,8 @@ export async function get_question_menu() {
   return selectedQuestion; // Renvoie la question sélectionnée
 }
 
-function saveTest(questions) {
-  const testFileName = 'test_db.json'; // Nom du fichier de sauvegarde
+function saveTest(testName, questions) {
+  const testFileName = 'test_db.json';
 
   // Lecture du contenu actuel du fichier (s'il existe)
   let existingTests = [];
@@ -47,7 +47,7 @@ function saveTest(questions) {
   }
 
   // Ajout du nouveau test à la liste des tests existants
-  existingTests.push(...questions);
+  existingTests.push({ name: testName, questions });
 
   // Écriture du contenu mis à jour dans le fichier
   fs.writeFileSync(`./src/GIFT/${testFileName}`, JSON.stringify(existingTests, null, 2), 'utf8');
@@ -56,6 +56,7 @@ function saveTest(questions) {
 export async function create_test_menu() {
   const questions = [];
   let selectedQuestion;
+  let testName = ''; 
 
   while (true) {
 
@@ -114,11 +115,14 @@ export async function create_test_menu() {
       } else {
         console.log('Error: Test has reached the maximum limit of 20 questions.');//pareil une secu normalement ne sert a rien
       }
-    } else if (userInput.mainOption === 'Finish and Save Test') { //a faire
-      
-        saveTest(questions);
-        console.log('Test created and saved successfully!');
-        break;
+    } else if (userInput.mainOption === 'Finish and Save Test') {
+      if (!testName) {
+        testName = await getTestName(); // Demandez le nom du test s'il n'est pas déjà défini
+      }
+
+      saveTest(testName, questions);
+      console.log('Test created and saved successfully!');
+      break;
     }
   }
 
@@ -142,5 +146,15 @@ export async function create_test_menu() {
     const randomIndex = Math.floor(Math.random() * searchResults.length);
     return searchResults[randomIndex];
   }
+}
+
+async function getTestName() {
+  const userInput = await inquirer.prompt({
+    type: 'input',
+    name: 'testName',
+    message: 'Enter a name for the test:',
+  });
+
+  return userInput.testName;
 }
 

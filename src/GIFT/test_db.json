@@ -1,563 +1,477 @@
 [
   {
-    "title": "U6 p63 Reading Voc8.5",
-    "boby": [
-      " It's important for children to get a lot ofparental ",
+    "name": "Test test",
+    "questions": [
       {
-        "type": "INPUT",
-        "options": [
+        "title": "U3 p32 Gra8.1 Present perfect simple vs continuous",
+        "boby": [
+          " I ",
           {
-            "prefix": "=",
-            "value": "approval"
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "have beenriding"
+              },
+              {
+                "prefix": "=",
+                "value": "have ridden"
+              },
+              {
+                "prefix": "=",
+                "value": "'ve been riding"
+              },
+              {
+                "prefix": "=",
+                "value": "'ve ridden"
+              },
+              {
+                "prefix": "=",
+                "value": "´ve been riding"
+              },
+              {
+                "prefix": "=",
+                "value": "´ve ridden"
+              }
+            ]
+          },
+          "_(ride)_ a motorbike since I was seventeen."
+        ]
+      },
+      {
+        "title": "EM U5 p37 Reading 1.1",
+        "boby": [
+          "Choose the best title for the text.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "Is powdered foodthe future? Huel put to the test"
+              },
+              {
+                "prefix": "~",
+                "value": "It’s nutritious and delicious\\: I’m going withHuel"
+              },
+              {
+                "prefix": "~",
+                "value": "Give me a hamburger every time\\: Huel is not for me"
+              }
+            ]
+          },
+          " // 2"
+        ]
+      },
+      {
+        "title": "U6 p60 Listening 3.8",
+        "boby": [
+          "You hear a man and a woman talking. Who is the man? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "her brother"
+              },
+              {
+                "prefix": "~",
+                "value": "her teacher"
+              },
+              {
+                "prefix": "=",
+                "value": "her friend"
+              }
+            ]
           }
         ]
       },
-      " (approve) when they're growing up."
-    ]
-  },
-  {
-    "title": "U5 p57 Rev3.3",
-    "boby": [
-      "Only one of my brothers ",
       {
-        "type": "CHOICE",
-        "options": [
+        "title": "U6 p63 Reading Voc8.1",
+        "boby": [
+          " I don't always feel very ",
           {
-            "prefix": "=",
-            "value": "is"
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "hopeful"
+              }
+            ]
           },
+          " (hope) aboutthe impact of technology on our lives."
+        ]
+      },
+      {
+        "title": "U6 p60 Listening 3.5",
+        "boby": [
+          "You hear a man interviewing a ballet dancer on theradio. Why has she decided to retire later this year? ",
           {
-            "prefix": "~",
-            "value": "are"
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "She is worried aboutgetting injured."
+              },
+              {
+                "prefix": "~",
+                "value": "She no longer enjoys performing."
+              },
+              {
+                "prefix": "=",
+                "value": "She wants to make herfamily the priority."
+              }
+            ]
           }
         ]
       },
-      " a good cook."
-    ]
-  },
-  {
-    "title": "U7 p77 [So,such,too,enough,very] 1.6",
-    "boby": [
-      "Is that fruit ripe",
       {
-        "type": "CHOICE",
-        "options": [
+        "title": "U7 p76 GR2.3 Relative clauses",
+        "boby": [
+          "The lawyer from ",
           {
-            "prefix": "=",
-            "value": "enough"
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "when"
+              },
+              {
+                "prefix": "~",
+                "value": "where"
+              },
+              {
+                "prefix": "=",
+                "value": "whom"
+              },
+              {
+                "prefix": "~",
+                "value": "whose"
+              },
+              {
+                "prefix": "~",
+                "value": "why"
+              }
+            ]
           },
+          "we had received the advice was well known."
+        ]
+      },
+      {
+        "title": "U3 p32 CD.25 Present perfect vs past simple",
+        "boby": [
+          "Serena _____ most of the drinkslast night.",
           {
-            "prefix": "~",
-            "value": "so"
-          },
-          {
-            "prefix": "~",
-            "value": "such"
-          },
-          {
-            "prefix": "~",
-            "value": "too"
-          },
-          {
-            "prefix": "~",
-            "value": "very"
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "bought"
+              },
+              {
+                "prefix": "~",
+                "value": "'s bought"
+              }
+            ]
           }
         ]
       },
-      " to eat yet?"
-    ]
-  },
-  {
-    "title": "U3 p30 4.5",
-    "boby": [
-      "The writer mentions Wimbledon to show that ",
       {
-        "type": "CHOICE",
-        "options": [
+        "title": "U4 p38 Reading 4.10",
+        "boby": [
+          "Which person's superpower cannot be explained byscientists? ",
           {
-            "prefix": "~",
-            "value": "some sports are lesslikely to inspire strong feelings."
-          },
-          {
-            "prefix": "~",
-            "value": "some passions last for many years."
-          },
-          {
-            "prefix": "=",
-            "value": "sportsfans can behave uncharacteristically."
-          },
-          {
-            "prefix": "~",
-            "value": "people often behave strangely to get onTV."
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "A. Liam Hoekstra"
+              },
+              {
+                "prefix": "~",
+                "value": "B. Wim Hof"
+              },
+              {
+                "prefix": "~",
+                "value": "C. Dean Karnazes"
+              },
+              {
+                "prefix": "=",
+                "value": "D. Isao Machii"
+              }
+            ]
           }
+        ]
+      },
+      {
+        "title": "U5 p57 Rev3.1",
+        "boby": [
+          "A high percentage of people ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "is"
+              },
+              {
+                "prefix": "=",
+                "value": "are"
+              }
+            ]
+          },
+          " allergic to nuts."
+        ]
+      },
+      {
+        "title": "U7 p77 [It/There is] GR+.4",
+        "boby": [
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "It"
+              },
+              {
+                "prefix": "~",
+                "value": "There"
+              }
+            ]
+          },
+          " is almost lunchtime."
+        ]
+      },
+      {
+        "title": "U6 p67 Rev2.5",
+        "boby": [
+          "Comedians can't get ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "away"
+              },
+              {
+                "prefix": "~",
+                "value": "down"
+              },
+              {
+                "prefix": "~",
+                "value": "into"
+              },
+              {
+                "prefix": "~",
+                "value": "over"
+              },
+              {
+                "prefix": "~",
+                "value": "round"
+              },
+              {
+                "prefix": "~",
+                "value": "through"
+              }
+            ]
+          },
+          " withsimply repeating the same jokes at every performance."
+        ]
+      },
+      {
+        "title": "U7 p76 GR2.4 Relative clauses",
+        "boby": [
+          "Please give Luke this message at any point",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "when"
+              },
+              {
+                "prefix": "~",
+                "value": "where"
+              },
+              {
+                "prefix": "~",
+                "value": "whom"
+              },
+              {
+                "prefix": "~",
+                "value": "whose"
+              },
+              {
+                "prefix": "~",
+                "value": "why"
+              }
+            ]
+          },
+          " it is convenient."
+        ]
+      },
+      {
+        "title": "U5 p49 GR1.8 Expressions of quantity",
+        "boby": [
+          "There isn't ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "no"
+              },
+              {
+                "prefix": "=",
+                "value": "any"
+              }
+            ]
+          },
+          " chocolate left."
+        ]
+      },
+      {
+        "title": "U7 p76 GR2.3 Relative clauses",
+        "boby": [
+          "The lawyer from ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "when"
+              },
+              {
+                "prefix": "~",
+                "value": "where"
+              },
+              {
+                "prefix": "=",
+                "value": "whom"
+              },
+              {
+                "prefix": "~",
+                "value": "whose"
+              },
+              {
+                "prefix": "~",
+                "value": "why"
+              }
+            ]
+          },
+          "we had received the advice was well known."
+        ]
+      },
+      {
+        "title": "U6 p68-69 ProgressTest2 4.5",
+        "boby": [
+          " George hadn't finished doing his homeworkwhen I went to pick him up. STILLGeorge ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "was still doing his homework"
+              },
+              {
+                "prefix": "=",
+                "value": "still hadn't finished his homework"
+              },
+              {
+                "prefix": "=",
+                "value": "stillhad not finished his homework"
+              }
+            ]
+          },
+          " when I went to pick him up."
+        ]
+      },
+      {
+        "title": "U6 p61 GR 1.2 Future forms",
+        "boby": [
+          " She assures me that she ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "will get"
+              },
+              {
+                "prefix": "=",
+                "value": "'ll get"
+              }
+            ]
+          },
+          "there on time. (get)"
+        ]
+      },
+      {
+        "title": "U5 p57 Rev4.2 Passive forms",
+        "boby": [
+          " This restaurant ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "has been revd"
+              }
+            ]
+          },
+          " (rev insix newspapers recently."
+        ]
+      },
+      {
+        "title": "U3 p32 CD.29 Present perfect vs past simple",
+        "boby": [
+          "Stephen _____ in insurance untillast summer.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "worked"
+              },
+              {
+                "prefix": "~",
+                "value": "'s worked"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U6 p61 GR 1.9 Future forms",
+        "boby": [
+          " He'll open the door as soon as he ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "sees"
+              }
+            ]
+          },
+          "us. (see) // p. 152 Grammar Reference ex. 2: Match"
+        ]
+      },
+      {
+        "title": "U3 p32 Gra8.3 Present perfect simple vs continuous",
+        "boby": [
+          " I ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "lived"
+              }
+            ]
+          },
+          "_(live)_ abroad when I was a child."
         ]
       }
-    ]
-  },
-  {
-    "title": "U5 p54 6.2 Passive",
-    "boby": [
-      " Most people think monkeys are a huge touristattraction. BEMonkeys ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "are thought to be"
-          }
-        ]
-      },
-      " a huge tourist attraction by most people."
-    ]
-  },
-  {
-    "title": "EM U6 p46-47 4.1",
-    "boby": [
-      " I couldn't wait to see my friend again after her longtrip abroad. (LOOKING)I ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "was looking forward to seeing"
-          }
-        ]
-      },
-      " my friend again after her long trip abroad."
-    ]
-  },
-  {
-    "title": "EM U4 p33 Review 3 Word formation",
-    "boby": [
-      "Read the text below. Use the word given incapitals to form a word that fits in the gap in the same line. // There is anexample at the beginning (0). Why do they do it? People are attracted toattempting extreme activities for a ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "variety"
-          }
-        ]
-      },
-      " (VARY) of reasons. Someenjoy the challenge, others the feeling of ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "excitement"
-          }
-        ]
-      },
-      " (EXCITE) they getfrom testing themselves. So although their actual ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "motivation"
-          }
-        ]
-      },
-      " (MOTIVATE)may differ, people who participate in extreme sports probably share an inabilityto accept all the ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "limits"
-          }
-        ]
-      },
-      " (LIMIT) that most of us think of as normal.They experience a sense of ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "dissatisfaction"
-          }
-        ]
-      },
-      " (SATISFY) with the routine ofeveryday life, and feel a need to push the boundaries of what is possible, tosee how far they can go. Is this similar to simply being ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "competitive"
-          }
-        ]
-      },
-      "(COMPETE)? Possibly, but it may be more to do with having a dream. Of course",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "professional"
-          }
-        ]
-      },
-      " (PROFESSION) athletes who train for extreme events like thetriathlon or the marathon may hope for ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "financial"
-          }
-        ]
-      },
-      " (FINANCE) rewards, butprimarily it seems they like being different. They enjoy the feeling of beingset apart from other people by their ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "achievements"
-          }
-        ]
-      },
-      " (ACHIEVE), which arethings most of us would fear to do. // Part 4: Key word transformation"
-    ]
-  },
-  {
-    "title": "U5 p54 6.5 Passive",
-    "boby": [
-      " Everyone says monkeys can be very aggressive aroundfood. TOMonkeys ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "are said to"
-          }
-        ]
-      },
-      " be very aggressive around food."
-    ]
-  },
-  {
-    "title": "U3 p33 UoE/Reading 'Hygge'",
-    "boby": [
-      "Complete the text with one word in each gap.HYGGE: THE ART OF SIMPLE PLEASURESThe Danes are famous for being one of the world's happiest nations. One possiblereason ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "for"
-          }
-        ]
-      },
-      " this could be the untranslatable concept of 'hygge'. Hyggehas already gained a lot of publicity outside Denmark. This is thanks to astream of recently published self-help books, ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "which"
-          },
-          {
-            "prefix": "=",
-            "value": "that"
-          }
-        ]
-      },
-      " all urge us toembrace hygge in order to improve our sense of well-being and happiness.Writer, Helen Russell, who moved to Denmark several years ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "ago"
-          }
-        ]
-      },
-      ", is ahygge enthusiast. She has been fascinated by the idea ever ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "since"
-          }
-        ]
-      },
-      " shearrived. Her book, The Year of Living Danishly: Uncovering The Secrets of theWorld's Happiest Country, makes it easy to understand ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "why"
-          }
-        ]
-      },
-      " Helen and herfamily are still living ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "there"
-          },
-          {
-            "prefix": "=",
-            "value": "there."
-          }
-        ]
-      },
-      " . Helen says 'hygge' can bedefined ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "as"
-          }
-        ]
-      },
-      " 'the absence of anything annoying or emotionallyoverwhelming'. It's all about being kind to yourself and celebrating the simplethings in life, ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "like"
-          }
-        ]
-      },
-      " spending time with friends and family, or eatingice cream. So find your inner Dane – and do what makes you happy without feelingguilty about it."
-    ]
-  },
-  {
-    "title": "U7 p77 [So,such,too,enough,very] 1.7",
-    "boby": [
-      "He did ",
-      {
-        "type": "CHOICE",
-        "options": [
-          {
-            "prefix": "~",
-            "value": "enough"
-          },
-          {
-            "prefix": "=",
-            "value": "so"
-          },
-          {
-            "prefix": "~",
-            "value": "such"
-          },
-          {
-            "prefix": "~",
-            "value": "too"
-          },
-          {
-            "prefix": "~",
-            "value": "very"
-          }
-        ]
-      },
-      " wellin his exams that nobody believed him at first."
-    ]
-  },
-  {
-    "title": "U4 p43 3.5",
-    "boby": [
-      "How did Leo feel when he was crossing the Antarctic plateau?",
-      {
-        "type": "CHOICE",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "Hehadn't expected it to be so difficult."
-          },
-          {
-            "prefix": "~",
-            "value": "He was worried they wouldn't reach theSouth Pole."
-          },
-          {
-            "prefix": "~",
-            "value": "He doubted his skills as a leader."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "U7 p77 [Key word transformation] 6.5",
-    "boby": [
-      " He said I didn't need to make anappointment.NEEDHe said ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "there was no need"
-          }
-        ]
-      },
-      " for me to make an appointment."
-    ]
-  },
-  {
-    "title": "U7 p77 [It/There is] 4.1",
-    "boby": [
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "It is"
-          },
-          {
-            "prefix": "=",
-            "value": "it is"
-          },
-          {
-            "prefix": "=",
-            "value": "It's"
-          },
-          {
-            "prefix": "=",
-            "value": "it's"
-          }
-        ]
-      },
-      " not unusual to havedinner at 10.30p.m."
-    ]
-  },
-  {
-    "title": "U7 p76 GR2.1 Relative clauses",
-    "boby": [
-      "The letter is in the file",
-      {
-        "type": "CHOICE",
-        "options": [
-          {
-            "prefix": "~",
-            "value": "when"
-          },
-          {
-            "prefix": "=",
-            "value": "where"
-          },
-          {
-            "prefix": "~",
-            "value": "whom"
-          },
-          {
-            "prefix": "~",
-            "value": "whose"
-          },
-          {
-            "prefix": "~",
-            "value": "why"
-          }
-        ]
-      },
-      " I keep my bills."
-    ]
-  },
-  {
-    "title": "U10 p106-7 Reading Prepositions RS.4",
-    "boby": [
-      "… meeting online doesn't quite live",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "up"
-          }
-        ]
-      },
-      " to the romantic ideal …"
-    ]
-  },
-  {
-    "title": "U3 p32 CD.13 Present perfect vs past simple",
-    "boby": [
-      "We _____ going to my grandparentshouse when we were little.",
-      {
-        "type": "CHOICE",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "always loved"
-          },
-          {
-            "prefix": "~",
-            "value": "have always loved"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "U6 p59 Voc10.4 the arts",
-    "boby": [
-      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I'll often go to a play more than once if there's a different ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "cast"
-          }
-        ]
-      },
-      "performing."
-    ]
-  },
-  {
-    "title": "U7 p77 [Key word transformation] 6.3",
-    "boby": [
-      " There was so much traffic that wemissed the show.SUCHThere was ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "such a lot of traffic"
-          }
-        ]
-      },
-      " that we missed the show."
-    ]
-  },
-  {
-    "title": "U6 p63 Reading Voc6.B6",
-    "boby": [
-      "promote (v) ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "promotion"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "title": "U6 p67 Rev1.2",
-    "boby": [
-      " An ",
-      {
-        "type": "INPUT",
-        "options": [
-          {
-            "prefix": "=",
-            "value": "excessive"
-          }
-        ]
-      },
-      " (excess) amount of practice can lead tomore injuries for dancers."
     ]
   }
 ]
