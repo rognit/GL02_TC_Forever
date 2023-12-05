@@ -2,35 +2,36 @@ import inquirer from 'inquirer';
 import { search } from '../src/GIFT/search.js';
 import fs from 'fs';
 
-export async function get_question_menu(is_for_creating_test) {
-    process.stdout.write('\x1B[2J\x1B[0f');
-    const userInput = await inquirer.prompt({
-      type: 'input',
-      name: 'question',
-      message: 'Enter the name of a question:',
-    });
+export async function get_question_menu() {
+  process.stdout.write('\x1B[2J\x1B[0f');
+  const userInput = await inquirer.prompt({
+    type: 'input',
+    name: 'question',
+    message: 'Enter the name of a question:',
+  });
 
-    const searchResults = search(userInput.question);
-    const resultTitles = searchResults.map(q => q.title);
+  const searchResults = search(userInput.question);
+  const resultTitles = searchResults.map(q => q.title);
 
+  const userInput2 = await inquirer.prompt({
+    type: 'list',
+    name: 'selectedQuestion',
+    message: 'Select a question:',
+    choices: resultTitles,
+  });
+  
+  const selectedQuestion = searchResults.find(q => q.title === userInput2.selectedQuestion);
 
-    const userInput2 = await inquirer.prompt({
-      type: 'list',
-      name: 'selectedQuestion',
-      message: 'Select a question:',
-      choices: resultTitles,
-    });
-    
-    const selectedQuestion = searchResults.find(q => q.title === userInput2.selectedQuestion);
+  console.log('Selected Question:', selectedQuestion);
 
-    console.log('Selected Question:', selectedQuestion);
+  // Wait for the user to press Enter
+  await inquirer.prompt({
+    type: 'input',
+    name: 'enter',
+    message: 'Press Enter to continue...',
+  });
 
-    // Wait for the user to press Enter
-    await inquirer.prompt({
-      type: 'input',
-      name: 'enter',
-      message: 'Press Enter to continue...',
-    });
+  return selectedQuestion; // Renvoie la question sélectionnée
 }
 
 function saveTest(questions) {
@@ -39,21 +40,22 @@ function saveTest(questions) {
   // Lecture du contenu actuel du fichier (s'il existe)
   let existingTests = [];
   try {
-    const fileContent = fs.readFileSync(testFileName, 'utf8');
+    const fileContent = fs.readFileSync(`./src/GIFT/${testFileName}`, 'utf8');
     existingTests = JSON.parse(fileContent);
   } catch (error) {
     // Ignorer les erreurs liées à la lecture du fichier
   }
 
   // Ajout du nouveau test à la liste des tests existants
-  existingTests.push(questions);
+  existingTests.push(...questions);
 
   // Écriture du contenu mis à jour dans le fichier
-  fs.writeFileSync(testFileName, JSON.stringify(existingTests, null, 2), 'utf8');
+  fs.writeFileSync(`./src/GIFT/${testFileName}`, JSON.stringify(existingTests, null, 2), 'utf8');
 }
 
 export async function create_test_menu() {
   const questions = [];
+  let selectedQuestion;
 
   while (true) {
 
@@ -91,13 +93,15 @@ export async function create_test_menu() {
     //on reutilise get_question_menu
     if (userInput.mainOption === 'Choose a Question') {
       if (questions.length < 20) {
-        const questionNumber = await get_question_menu();
-        questions.push({
-          number: questionNumber,
-        });
+        const result = await get_question_menu();
+        selectedQuestion = result; // Utilisez la question sélectionnée
+        // Vous pouvez également utiliser le résultat de l'attente de l'utilisateur ici si nécessaire
+        questions.push(selectedQuestion);
       } else {
-        console.log('Error: Test has reached the maximum limit of 20 questions.'); //au cas ou mais pas necessaire normalement (on a deja mis condition sur l'apparition des choix)
+        console.log('Error: Test has reached the maximum limit of 20 questions.');
       }
+    
+        
     } else if (userInput.mainOption === 'Fill the Test') {
       const remainingQuestions = 20 - questions.length;
 
@@ -117,30 +121,26 @@ export async function create_test_menu() {
         break;
     }
   }
-}
 
-// Example function to get random questions
-async function getRandomQuestions(count) {
-  // Implement logic to fetch random questions from your database or source
-  // Adjust as needed based on your data model
-  const randomQuestions = [];
-
-  // Example: Fetch random questions from a hypothetical question database
-  for (let i = 0; i < count; i++) {
-    const questionNumber = await getRandomQuestionNumber();
-    randomQuestions.push({
-      number: questionNumber,
-    });
+  async function getRandomQuestions(count) {
+    const randomQuestions = [];
+  
+    for (let i = 0; i < count; i++) {
+      const randomQuestion = await getRandomQuestion();
+      randomQuestions.push(randomQuestion);
+    }
+  
+    return randomQuestions;
   }
-
-  return randomQuestions;
+  
+  async function getRandomQuestion() {
+    // Utilisez la fonction search pour récupérer une question aléatoire complète
+    const key = ''; // Vous pouvez ajuster la clé de recherche selon vos besoins
+    const searchResults = search(key);
+  
+    // Sélectionnez une question aléatoire parmi les résultats
+    const randomIndex = Math.floor(Math.random() * searchResults.length);
+    return searchResults[randomIndex];
+  }
 }
 
-// Example function to fetch a random question number (adjust as needed)
-async function getRandomQuestionNumber() {
-  // Implement logic to fetch a random question number from your database or source
-  // Adjust as needed based on your data model
-  return Math.floor(Math.random() * 100); // Example: Generate a random number between 0 and 99
-}
-
-// Rest of the code remains the same...
