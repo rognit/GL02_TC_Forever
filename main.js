@@ -10,6 +10,7 @@ const mainMenuQuestions = [
         'Search Question',
         'Create a test',
         'Pass a test',
+        'View test result',
         'Exit',
       ],
     },
@@ -32,6 +33,9 @@ async function runMainMenu() {
         case 'Pass a test':
           action3();
           break;
+        case 'View test result':
+            action3();
+            break;
         case 'Exit':
           console.log('Exiting...');
           keepRunning = false;
