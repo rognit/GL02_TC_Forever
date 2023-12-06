@@ -121,18 +121,22 @@ class SubQuestion {
 
     //méthode propre a la class qui retourne tout les values des options
     static getOptionsValues() {
-        let result = []
+        let result = [];
+        let i;
         for (i in this.options) {
             result.push(this.options[i].value)
         }
+        return result;
     }
 
     //méthode propre a la class qui retourne tout les values des options avec un certain prefixe
     static getOptionsValuesWithprefix(prefix) {
-        let result = []
+        let result = [];
+        let i;
         for (i in this.options.filter(x => x.prefix === prefix)) {
             result.push(this.options[i].value)
         }
+        return result;
     } 
 
     static ShowQuestion() {
@@ -177,7 +181,7 @@ class Option {
 class GIFT {
     constructor(title, body) {
         this.title = title;
-        this.boby = body;
+        this.body = body;
     }
 
     //cette méthode est appelée pour convertir un string en question GIFT
@@ -226,7 +230,8 @@ class GIFT {
 
     // pour avoir toute les sub-questions de la question GIFT
     get SubQuestions() {
-        return this.boby.filter(x => x instanceof SubQuestion);
+        console.log("body en question : "+this.body)
+        return this.body.filter(x => x instanceof SubQuestion);
     }
 }
 export { GIFT }

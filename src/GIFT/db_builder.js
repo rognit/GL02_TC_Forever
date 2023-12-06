@@ -59,14 +59,19 @@ function construct(file_name) {
                 if (parsedGift.SubQuestions.length !== 0) {
                     giftDictionary[parsedGift.title] = parsedGift;
                 }
-            } catch (error) {}
+            } catch (error) {
+                console.log(error);
+            }
         }
     });
     
     console.log(Object.keys(giftDictionary).length);
-    save(giftDictionary, file_name);
-}
+    const destinationFolder = '../Storage/'; // Chemin du nouveau dossier
+    const destinationPath = path.join(destinationFolder, file_name); // Création du chemin complet
+    save(giftDictionary, destinationPath);
 
+}
+construct("question_db.json");
 
 
 

@@ -1,7 +1,6 @@
 import inquirer from 'inquirer';
-import { search } from '../src/GIFT/search.js';
 import fs from 'fs';
-import { getAllTestNames } from '../src/GIFT/search.js';
+import { search, getAllTestNames } from './GIFT/search.js';
 import { GIFT } from './GIFT/parser.js';
 
 export async function get_question_menu() {
@@ -37,314 +36,315 @@ export async function get_question_menu() {
 }
 
 function saveTest(testName, questions) {
-  const testFileName = 'test_db.json';
+    const testFileName = 'test_db.json';
 
-  // Lecture du contenu actuel du fichier (s'il existe)
-  let existingTests = [];
-  try {
-    const fileContent = fs.readFileSync(`./src/GIFT/${testFileName}`, 'utf8');
-    existingTests = JSON.parse(fileContent);
-  } catch (error) {
-    // Ignorer les erreurs liées à la lecture du fichier
-  }
+    // Lecture du contenu actuel du fichier (s'il existe)
+    let existingTests = [];
+    try {
+        const fileContent = fs.readFileSync(`./Storage/${testFileName}`, 'utf8');
+        existingTests = JSON.parse(fileContent);
+    } catch (error) {
+        console.log('Error while saving test:', error);
+    }
 
-  // Ajout du nouveau test à la liste des tests existants
-  existingTests.push({ name: testName, questions });
+    // Ajout du nouveau test à la liste des tests existants
+    existingTests.push({ name: testName, questions });
 
-  // Écriture du contenu mis à jour dans le fichier
-  fs.writeFileSync(`./src/GIFT/${testFileName}`, JSON.stringify(existingTests, null, 2), 'utf8');
+    // Écriture du contenu mis à jour dans le fichier
+    try {
+        fs.writeFileSync(`./Storage/${testFileName}`, JSON.stringify(existingTests, null, 2), 'utf8');
+    } catch (error) {
+        console.error('Error while saving test:', error);
+    }
 }
 
 export async function create_test_menu() {
-  const questions = [];
-  let selectedQuestion;
-  let testName = ''; 
+    const questions = [];
+    let selectedQuestion;
+    let testName = '';
 
-  while (true) {
+    while (true) {
 
-    //constante pour controller l'apparition des choix 
-    const remainingQuestions = 20 - questions.length;
-
-    const choices = [];
-
-    //si le test a moins de 15 questions, l'option pour sauvegarder n'apparais pas
-    if (questions.length >= 15) {
-      choices.unshift('Finish and Save Test');
-    }
-
-    //si le test a 20 questions, alors il n'est plus possible d'en ajouter ou de le remplir
-    if (questions.length < 20) {
-      choices.unshift('Fill the Test');
-    }
-    
-    if (questions.length < 20) {
-      choices.unshift('Choose a Question');
-    }
-
-
-
-    
-
-    const userInput = await inquirer.prompt({
-      type: 'list',
-      name: 'mainOption',
-      message: 'Choose an option:',
-      choices: choices,
-    });
-
-
-    //on reutilise get_question_menu
-    if (userInput.mainOption === 'Choose a Question') {
-      if (questions.length < 20) {
-        const result = await get_question_menu();
-        selectedQuestion = result; // Utilisez la question sélectionnée
-        // Vous pouvez également utiliser le résultat de l'attente de l'utilisateur ici si nécessaire
-        questions.push(selectedQuestion);
-      } else {
-        console.log('Error: Test has reached the maximum limit of 20 questions.');
-      }
-    
-        
-    } else if (userInput.mainOption === 'Fill the Test') {
+      //constante pour controller l'apparition des choix
       const remainingQuestions = 20 - questions.length;
 
-      //cette option rempli le test totalement (donc jusqu'a 20 questions), on pourrais pousser plus loin en remplissant jusqu'a un nombre aleatoire entre 15 et 20
-      if (remainingQuestions > 0) {
-        const randomQuestions = await getRandomQuestions(remainingQuestions);
+      const choices = [];
 
-        questions.push(...randomQuestions);
-        console.log(`${randomQuestions.length} random questions added to the test.`);
-      } else {
-        console.log('Error: Test has reached the maximum limit of 20 questions.');//pareil une secu normalement ne sert a rien
-      }
-    } else if (userInput.mainOption === 'Finish and Save Test') {
-      if (!testName) {
-        testName = await getTestName(); // Demandez le nom du test s'il n'est pas déjà défini
+      //si le test a moins de 15 questions, l'option pour sauvegarder n'apparais pas
+      if (questions.length >= 15) {
+        choices.unshift('Finish and Save Test');
       }
 
-      saveTest(testName, questions);
-      console.log('Test created and saved successfully!');
-      break;
-    }
-  }
+      //si le test a 20 questions, alors il n'est plus possible d'en ajouter ou de le remplir
+      if (questions.length < 20) {
+        choices.unshift('Fill the Test');
+      }
 
-  async function getRandomQuestions(count) {
-    const randomQuestions = [];
-  
-    for (let i = 0; i < count; i++) {
-      const randomQuestion = await getRandomQuestion();
-      randomQuestions.push(randomQuestion);
+      if (questions.length < 20) {
+        choices.unshift('Choose a Question');
+      }
+
+      const userInput = await inquirer.prompt({
+        type: 'list',
+        name: 'mainOption',
+        message: 'Choose an option:',
+        choices: choices,
+      });
+
+
+      //on reutilise get_question_menu
+      if (userInput.mainOption === 'Choose a Question') {
+        if (questions.length < 20) {
+          const result = await get_question_menu();
+          selectedQuestion = result; // Utilisez la question sélectionnée
+          // Vous pouvez également utiliser le résultat de l'attente de l'utilisateur ici si nécessaire
+          questions.push(selectedQuestion);
+        } else {
+          console.log('Error: Test has reached the maximum limit of 20 questions.');
+        }
+
+
+      } else if (userInput.mainOption === 'Fill the Test') {
+        const remainingQuestions = 20 - questions.length;
+
+        //cette option rempli le test totalement (donc jusqu'a 20 questions), on pourrais pousser plus loin en remplissant jusqu'a un nombre aleatoire entre 15 et 20
+        if (remainingQuestions > 0) {
+          const randomQuestions = await getRandomQuestions(remainingQuestions);
+
+          questions.push(...randomQuestions);
+          console.log(`${randomQuestions.length} random questions added to the test.`);
+        } else {
+          console.log('Error: Test has reached the maximum limit of 20 questions.');//pareil une secu normalement ne sert a rien
+        }
+      } else if (userInput.mainOption === 'Finish and Save Test') {
+        if (!testName) {
+          testName = await getTestName(); // Demandez le nom du test s'il n'est pas déjà défini
+        }
+
+        saveTest(testName, questions);
+        console.log('Test created and saved successfully!');
+        break;
+      }
     }
-  
-    return randomQuestions;
-  }
-  
-  async function getRandomQuestion() {
-    // Utilisez la fonction search pour récupérer une question aléatoire complète
-    const key = ''; // Vous pouvez ajuster la clé de recherche selon vos besoins
-    const searchResults = search(key);
-  
-    // Sélectionnez une question aléatoire parmi les résultats
-    const randomIndex = Math.floor(Math.random() * searchResults.length);
-    return searchResults[randomIndex];
-  }
+
+    async function getRandomQuestions(count) {
+      const randomQuestions = [];
+
+      for (let i = 0; i < count; i++) {
+        const randomQuestion = await getRandomQuestion();
+        randomQuestions.push(randomQuestion);
+      }
+
+      return randomQuestions;
+    }
+
+    async function getRandomQuestion() {
+      // Utilisez la fonction search pour récupérer une question aléatoire complète
+      const key = ''; // Vous pouvez ajuster la clé de recherche selon vos besoins
+      const searchResults = search(key);
+
+      // Sélectionnez une question aléatoire parmi les résultats
+      const randomIndex = Math.floor(Math.random() * searchResults.length);
+      return searchResults[randomIndex];
+    }
 }
 
 async function getTestName() {
-  const userInput = await inquirer.prompt({
-    type: 'input',
-    name: 'testName',
-    message: 'Enter a name for the test:',
-  });
+const userInput = await inquirer.prompt({
+  type: 'input',
+  name: 'testName',
+  message: 'Enter a name for the test:',
+});
 
-  return userInput.testName;
+return userInput.testName;
 }
 
-export async function simulate_test_menu() {
-  const testNames = getAllTestNames();
+    export async function simulate_test_menu() {
+    const testNames = getAllTestNames();
 
-  const userInput = await inquirer.prompt({
-    type: 'list',
-    name: 'selectedTest',
-    message: 'Choose a test to simulate:',
-    choices: testNames,
-  });
+    const userInput = await inquirer.prompt({
+      type: 'list',
+      name: 'selectedTest',
+      message: 'Choose a test to simulate:',
+      choices: testNames,
+    });
 
-  const jsonContent = fs.readFileSync('./src/GIFT/test_db.json', 'utf-8');
-  const loadedTestDatabase = JSON.parse(jsonContent);
+    const jsonContent = fs.readFileSync('./src/Storage/test_db.json', 'utf-8');
+    const loadedTestDatabase = JSON.parse(jsonContent);
 
-  const selectedTest = loadedTestDatabase.find(test => test.name === userInput.selectedTest);
-  const userResponses = [];
-  // Parcours de chaque question dans le test
-  for (const giftQuestion of selectedTest.questions) {
-    console.log('\nQuestion:', giftQuestion.title);
+    const selectedTest = loadedTestDatabase.find(test => test.name === userInput.selectedTest);
+    const userResponses = [];
+    // Parcours de chaque question dans le test
+    for (const giftQuestion of selectedTest.questions) {
+      console.log('\nQuestion:', giftQuestion.title);
+      console.log(giftQuestion);
 
-    // Assurez-vous que body est un tableau de SubQuestion
-    const body = GIFT.constructBody(giftQuestion.body);
+      // Assurez-vous que body est un tableau de SubQuestion
+      const body = GIFT.constructBody(giftQuestion.body);
 
-    // Avant la boucle for (const part of giftQuestion.body) {
-    for (const part of body) {
+      // Avant la boucle for (const part of giftQuestion.body) {
+      for (const part of body) {
         if (typeof part === 'string') {
             console.log(part);
         } else if (part instanceof SubQuestion) {
-        switch (part.type) {
+          switch (part.type) {
 
-          case TYPES.BOOLEAN:
-            console.log('Type: BOOLEAN');
-            console.log('Options:', part.options);
+            case TYPES.BOOLEAN:
+              console.log('Type: BOOLEAN');
+              console.log('Options:', part.options);
 
-            // Afficher la question
-            console.log('Question:', part.options[0].value);
+              // Afficher la question
+              console.log('Question:', part.options[0].value);
 
-            // Demander la réponse à l'utilisateur
-            const userAnswerBoolean = await inquirer.prompt({
-                type: 'list',
-                name: 'answer',
-                message: 'Answer (TRUE/FALSE):',
-                choices: ['TRUE', 'FALSE'],
-            });
-
-            // Corriger la réponse
-            const isCorrectBoolean = SubQuestion.correct(userAnswerBoolean.answer);
-            console.log('User Answer:', userAnswerBoolean.answer);
-            console.log('Correct:', isCorrectBoolean);
-
-            // Stocker la réponse dans la structure de données
-            userResponses.push({
-                question: giftQuestion.title,
-                type: part.type,
-                userAnswer: userAnswerBoolean.answer,
-                isCorrect: isCorrectBoolean,
+              // Demander la réponse à l'utilisateur
+              const userAnswerBoolean = await inquirer.prompt({
+                  type: 'list',
+                  name: 'answer',
+                  message: 'Answer (TRUE/FALSE):',
+                  choices: ['TRUE', 'FALSE'],
               });
-            break;
 
-          case TYPES.NUMBER:
-            console.log('Type: NUMBER');
-            console.log('Options:', part.options);
+              // Corriger la réponse
+              const isCorrectBoolean = SubQuestion.correct(userAnswerBoolean.answer);
+              console.log('User Answer:', userAnswerBoolean.answer);
+              console.log('Correct:', isCorrectBoolean);
 
-            // Afficher la question
-            console.log('Question:', part.options[0].value);
+              // Stocker la réponse dans la structure de données
+              userResponses.push({
+                  question: giftQuestion.title,
+                  type: part.type,
+                  userAnswer: userAnswerBoolean.answer,
+                  isCorrect: isCorrectBoolean,
+                });
+              break;
 
-            // Demander la réponse à l'utilisateur
-            const userAnswerNumber = await inquirer.prompt({
-                type: 'input',
-                name: 'answer',
-                message: 'Answer (a number):',
-            });
+            case TYPES.NUMBER:
+              console.log('Type: NUMBER');
+              console.log('Options:', part.options);
 
-            // Corriger la réponse
-            const isCorrectNumber = SubQuestion.correct(Number(userAnswerNumber.answer));
-            console.log('User Answer:', userAnswerNumber.answer);
-            console.log('Correct:', isCorrectNumber);
+              // Afficher la question
+              console.log('Question:', part.options[0].value);
 
-            // Stocker la réponse dans la structure de données
-            userResponses.push({
-                question: giftQuestion.title,
-                type: part.type,
-                userAnswer: userAnswerNumber.answer,
-                isCorrect: isCorrectNumber,
-            });
-            break;
+              // Demander la réponse à l'utilisateur
+              const userAnswerNumber = await inquirer.prompt({
+                  type: 'input',
+                  name: 'answer',
+                  message: 'Answer (a number):',
+              });
 
-          case TYPES.MATCHING:
-            console.log('Type: MATCHING');
-            console.log('Options:', part.options);
+              // Corriger la réponse
+              const isCorrectNumber = SubQuestion.correct(Number(userAnswerNumber.answer));
+              console.log('User Answer:', userAnswerNumber.answer);
+              console.log('Correct:', isCorrectNumber);
 
-            // Afficher la question
-            console.log('Question:', part.options[0].value);
+              // Stocker la réponse dans la structure de données
+              userResponses.push({
+                  question: giftQuestion.title,
+                  type: part.type,
+                  userAnswer: userAnswerNumber.answer,
+                  isCorrect: isCorrectNumber,
+              });
+              break;
 
-            // Afficher les paires à associer
-            const pairs = part.options.map(option => option.value.split('->').map(pair => pair.trim()));
-            console.log('Pairs to Match:', pairs);
+            case TYPES.MATCHING:
+              console.log('Type: MATCHING');
+              console.log('Options:', part.options);
 
-            // Demander les réponses à l'utilisateur
-            const userAnswersMatching = await inquirer.prompt(pairs.map(pair => ({
-                type: 'input',
-                name: pair[0],
-                message: `Match ${pair[0]} with:`,
-            })));
+              // Afficher la question
+              console.log('Question:', part.options[0].value);
 
-            // Corriger les réponses
-            const isCorrectMatching = SubQuestion.correct(userAnswersMatching);
-            console.log('User Answers:', userAnswersMatching);
-            console.log('Correct:', isCorrectMatching);
+              // Afficher les paires à associer
+              const pairs = part.options.map(option => option.value.split('->').map(pair => pair.trim()));
+              console.log('Pairs to Match:', pairs);
 
-            // Stocker les réponses dans la structure de données
-            userResponses.push({
-                question: giftQuestion.title,
-                type: part.type,
-                userAnswer: userAnswersMatching,
-                isCorrect: isCorrectMatching,
-            });
-            break;
+              // Demander les réponses à l'utilisateur
+              const userAnswersMatching = await inquirer.prompt(pairs.map(pair => ({
+                  type: 'input',
+                  name: pair[0],
+                  message: `Match ${pair[0]} with:`,
+              })));
 
-          case TYPES.INPUT:
-            console.log('Type: INPUT');
-            console.log('Options:', part.options);
+              // Corriger les réponses
+              const isCorrectMatching = SubQuestion.correct(userAnswersMatching);
+              console.log('User Answers:', userAnswersMatching);
+              console.log('Correct:', isCorrectMatching);
 
-            // Afficher la question
-            console.log('Question:', part.options[0].value);
+              // Stocker les réponses dans la structure de données
+              userResponses.push({
+                  question: giftQuestion.title,
+                  type: part.type,
+                  userAnswer: userAnswersMatching,
+                  isCorrect: isCorrectMatching,
+              });
+              break;
 
-            // Demander la réponse à l'utilisateur
-            const userAnswerInput = await inquirer.prompt({
-                type: 'input',
-                name: 'answer',
-                message: 'Answer:',
-            });
+            case TYPES.INPUT:
+              console.log('Type: INPUT');
+              console.log('Options:', part.options);
 
-            // Corriger la réponse
-            const isCorrectInput = SubQuestion.correct(userAnswerInput.answer);
-            console.log('User Answer:', userAnswerInput.answer);
-            console.log('Correct:', isCorrectInput);
+              // Afficher la question
+              console.log('Question:', part.options[0].value);
 
-            // Stocker la réponse dans la structure de données
-            userResponses.push({
-                question: giftQuestion.title,
-                type: part.type,
-                userAnswer: userAnswerInput.answer,
-                isCorrect: isCorrectInput,
-            });
-            break;
+              // Demander la réponse à l'utilisateur
+              const userAnswerInput = await inquirer.prompt({
+                  type: 'input',
+                  name: 'answer',
+                  message: 'Answer:',
+              });
 
-          case TYPES.CHOICE:
-            console.log('Type: CHOICE');
-            console.log('Options:', part.options);
+              // Corriger la réponse
+              const isCorrectInput = SubQuestion.correct(userAnswerInput.answer);
+              console.log('User Answer:', userAnswerInput.answer);
+              console.log('Correct:', isCorrectInput);
 
-            // Afficher la question
-            console.log('Question:', part.options[0].value);
+              // Stocker la réponse dans la structure de données
+              userResponses.push({
+                  question: giftQuestion.title,
+                  type: part.type,
+                  userAnswer: userAnswerInput.answer,
+                  isCorrect: isCorrectInput,
+              });
+              break;
 
-            // Afficher les choix possibles
-            const choices = part.options.map(option => option.value);
-            console.log('Choices:', choices);
+            case TYPES.CHOICE:
+              console.log('Type: CHOICE');
+              console.log('Options:', part.options);
 
-            // Demander la réponse à l'utilisateur
-            const userAnswerChoice = await inquirer.prompt({
-                type: 'list',
-                name: 'answer',
-                message: 'Choose an answer:',
-                choices: choices,
-            });
+              // Afficher la question
+              console.log('Question:', part.options[0].value);
 
-            // Corriger la réponse
-            const isCorrectChoice = SubQuestion.correct(userAnswerChoice.answer);
-            console.log('User Answer:', userAnswerChoice.answer);
-            console.log('Correct:', isCorrectChoice);
+              // Afficher les choix possibles
+              const choices = part.options.map(option => option.value);
+              console.log('Choices:', choices);
 
-            // Stocker la réponse dans la structure de données
-            userResponses.push({
-                question: giftQuestion.title,
-                type: part.type,
-                userAnswer: userAnswerChoice.answer,
-                isCorrect: isCorrectChoice,
-            });
-            break;
-          default:
-            console.error('Unknown question type:', part.type);
+              // Demander la réponse à l'utilisateur
+              const userAnswerChoice = await inquirer.prompt({
+                  type: 'list',
+                  name: 'answer',
+                  message: 'Choose an answer:',
+                  choices: choices,
+              });
+
+              // Corriger la réponse
+              const isCorrectChoice = SubQuestion.correct(userAnswerChoice.answer);
+              console.log('User Answer:', userAnswerChoice.answer);
+              console.log('Correct:', isCorrectChoice);
+
+              // Stocker la réponse dans la structure de données
+              userResponses.push({
+                  question: giftQuestion.title,
+                  type: part.type,
+                  userAnswer: userAnswerChoice.answer,
+                  isCorrect: isCorrectChoice,
+              });
+              break;
+            default:
+              console.error('Unknown question type:', part.type);
+          }
         }
       }
     }
-  }
 
-  console.log('\nSimulation complete.'); // Message après avoir simulé toutes les questions du test
+    console.log('\nSimulation complete.'); // Message après avoir simulé toutes les questions du test
 }
 

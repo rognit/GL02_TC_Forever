@@ -21,13 +21,12 @@ class Exam {
     }
 
     static verify_test_quality() {
-        if (this.questions.length >= 15 && this.questions.length <= 20) {
-            return true;
-        }
-        return false;
+        return this.questions.length >= 15 && this.questions.length <= 20;
+
     }
 
     static pass() {
+        let q;
         for (q in this.questions) {
             console.log(q);
         }
