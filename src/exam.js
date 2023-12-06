@@ -5,6 +5,8 @@ import vegaEmbed from 'vega-embed';
 import open from 'open';
 import fs from 'fs';
 import path from 'path';
+import inquirer from 'inquirer';
+import { search } from './GIFT/search.js';
 
 export class Exam {
     /**
@@ -41,6 +43,9 @@ export class Exam {
         }
     }
 
+
+   
+
     async viewProfile() {
 
         console.log(this.questions);
@@ -72,3 +77,58 @@ export class Exam {
 
     }
 }
+
+export async function saveTest(testName, questions) {
+    const testFileName = 'test_db.json';
+
+    // Lecture du contenu actuel du fichier (s'il existe)
+    let existingTests = [];
+    try {
+        const fileContent = fs.readFileSync(`./src/Storage/${testFileName}`, 'utf8');
+        existingTests = JSON.parse(fileContent);
+    } catch (error) {
+        console.log('Error while saving test:', error);
+    }
+
+    // Ajout du nouveau test à la liste des tests existants
+    existingTests.push({ name: testName, questions });
+
+    // Écriture du contenu mis à jour dans le fichier
+    try {
+        fs.writeFileSync(`./src/Storage/${testFileName}`, JSON.stringify(existingTests, null, 2), 'utf8');
+    } catch (error) {
+        console.error('Error while saving test:', error);
+    }
+}
+
+export async function getRandomQuestions(count) {
+    const randomQuestions = [];
+
+    for (let i = 0; i < count; i++) {
+      const randomQuestion = await getRandomQuestion();
+      randomQuestions.push(randomQuestion);
+    }
+
+    return randomQuestions;
+  }
+
+
+  export async function getTestName() {
+    const userInput = await inquirer.prompt({
+      type: 'input',
+      name: 'testName',
+      message: 'Enter a name for the test:',
+    });
+    
+    return userInput.testName;
+    }
+
+   export async function getRandomQuestion() {
+        // Utilisez la fonction search pour récupérer une question aléatoire complète
+        const key = ''; // Vous pouvez ajuster la clé de recherche selon vos besoins
+        const searchResults = search(key);
+  
+        // Sélectionnez une question aléatoire parmi les résultats
+        const randomIndex = Math.floor(Math.random() * searchResults.length);
+        return searchResults[randomIndex];
+      }

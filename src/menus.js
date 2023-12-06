@@ -2,7 +2,7 @@ import inquirer from 'inquirer';
 import fs from 'fs';
 import { search, getAllTestNames } from './GIFT/search.js';
 import { GIFT } from './GIFT/parser.js';
-import { Exam } from './exam.js';
+import { Exam, saveTest,getRandomQuestions, getRandomQuestion, getTestName} from './exam.js';
 
 export async function get_question_menu() {
   process.stdout.write('\x1B[2J\x1B[0f');
@@ -36,28 +36,6 @@ export async function get_question_menu() {
   return selectedQuestion; // Renvoie la question sélectionnée
 }
 
-function saveTest(testName, questions) {
-    const testFileName = 'test_db.json';
-
-    // Lecture du contenu actuel du fichier (s'il existe)
-    let existingTests = [];
-    try {
-        const fileContent = fs.readFileSync(`./Storage/${testFileName}`, 'utf8');
-        existingTests = JSON.parse(fileContent);
-    } catch (error) {
-        console.log('Error while saving test:', error);
-    }
-
-    // Ajout du nouveau test à la liste des tests existants
-    existingTests.push({ name: testName, questions });
-
-    // Écriture du contenu mis à jour dans le fichier
-    try {
-        fs.writeFileSync(`./Storage/${testFileName}`, JSON.stringify(existingTests, null, 2), 'utf8');
-    } catch (error) {
-        console.error('Error while saving test:', error);
-    }
-}
 
 export async function create_test_menu() {
     const questions = [];
@@ -128,37 +106,12 @@ export async function create_test_menu() {
       }
     }
 
-    async function getRandomQuestions(count) {
-      const randomQuestions = [];
+    
 
-      for (let i = 0; i < count; i++) {
-        const randomQuestion = await getRandomQuestion();
-        randomQuestions.push(randomQuestion);
-      }
-
-      return randomQuestions;
-    }
-
-    async function getRandomQuestion() {
-      // Utilisez la fonction search pour récupérer une question aléatoire complète
-      const key = ''; // Vous pouvez ajuster la clé de recherche selon vos besoins
-      const searchResults = search(key);
-
-      // Sélectionnez une question aléatoire parmi les résultats
-      const randomIndex = Math.floor(Math.random() * searchResults.length);
-      return searchResults[randomIndex];
-    }
+    
 }
 
-async function getTestName() {
-const userInput = await inquirer.prompt({
-  type: 'input',
-  name: 'testName',
-  message: 'Enter a name for the test:',
-});
 
-return userInput.testName;
-}
 
 export async function simulate_test_menu() {
     const testNames = getAllTestNames();
