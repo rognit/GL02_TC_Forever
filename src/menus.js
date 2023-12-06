@@ -68,8 +68,11 @@ export async function create_test_menu() {
 
     //on reutilise get_question_menu
     if (userInput.mainOption === 'Choose a Question') {
-      const result = await get_question_menu();
-      questions.push(result);
+      if (userInput.mainOption === 'Choose a Question') {
+        const result = await get_question_menu();
+        if (result) {
+          questions.push(result);
+        }}
       // Vous pouvez également utiliser le résultat de l'attente de l'utilisateur ici si nécessaire
     } else if (userInput.mainOption === 'Fill the Test') {
       const remainingQuestions = 20 - questions.length;
@@ -153,7 +156,17 @@ export async function simulate_test_menu() {
         choices: options,
       });
       console.log(`Your choice: ${userInput.userChoice}`);
+    } else if (question.body[1].type === 'BOOLEAN') {
+      // Question de type BOOLEAN
+      const userInput = await inquirer.prompt({
+        type: 'list',
+        name: 'userBoolean',
+        message: 'Choose True or False:',
+        choices: ['True', 'False'],
+      });
+      console.log(`Your choice: ${userInput.userBoolean}`);
     }
+
 
     // Ajouter d'autres types de questions selon vos besoins
 
