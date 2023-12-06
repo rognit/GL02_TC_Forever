@@ -2,8 +2,10 @@ import inquirer from 'inquirer';
 import { saveVCardFromUserInput } from '../src/Vcard/vcard.js';
 import fs from 'fs';
 import { search, getAllTestNames } from './GIFT/search.js';
-import { GIFT, SubQuestion } from './GIFT/parser.js';
+import {SubQuestion } from './GIFT/parser.js';
 import { Exam, saveTest, getRandomQuestions, getTestName } from './exam.js';
+import { GIFT } from "./GIFT/gift.js";
+
 let userResponses = [];
 
 export async function get_question_menu() {

@@ -1,4 +1,4 @@
-import { GIFT } from "./GIFT/parser.js";
+import { GIFT } from "./GIFT/gift.js";
 import vega from 'vega';
 import vegaLite from 'vega-lite';
 import vegaEmbed from 'vega-embed';
