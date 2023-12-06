@@ -113,7 +113,6 @@ export async function create_vcard_menu() {
   saveVCardFromUserInput(answers)
 }
 
-// Ajouter des calculs pour les valeurs dérivées comme email et siteWeb
 export async function simulate_test_menu() {
   const testNames = getAllTestNames();
 
@@ -129,149 +128,60 @@ export async function simulate_test_menu() {
 
   const selectedTest = loadedTestDatabase.find(test => test.name === userInput.selectedTest);
 
-  // Réinitialiser la variable userResponses avant de commencer la simulation
-  userResponses = [];
+  const questions = selectedTest.questions;
 
-  // Utiliser une boucle for...of pour assurer une exécution synchrone des simulations
-  for (const giftQuestion of selectedTest.questions) {
-    console.log('\nQuestion:', giftQuestion.title);
+  for (const question of questions) {
+    console.log(`Question: ${question.title}`);
+    console.log(`Body: ${processBody(question.body)}`);
 
-    // Assurez-vous que giftQuestion.body est une chaîne de caractères
-    let body;
-    if (typeof giftQuestion.body === 'string') {
-      body = GIFT.constructBody(giftQuestion.body);
-    } else if (Array.isArray(giftQuestion.body)) {
-      // Si giftQuestion.body est déjà un tableau (peut-être déjà converti)
-      body = giftQuestion.body;
-    } else {
-      console.error('Invalid format for question body:', giftQuestion.body);
-      return;
+    // Vérifier le type de la question
+    if (question.body[1].type === 'INPUT') {
+      // Question de type INPUT
+      const userInput = await inquirer.prompt({
+        type: 'input',
+        name: 'userInput',
+        message: 'Enter your answer:',
+      });
+      console.log(`Your answer: ${userInput.userInput}`);
+    } else if (question.body[1].type === 'CHOICE') {
+      // Question de type CHOICE
+      const options = question.body[1].options.map(option => option.value);
+      const userInput = await inquirer.prompt({
+        type: 'list',  // Utilisez 'list' au lieu de 'input'
+        name: 'userChoice',
+        message: 'Choose one of the options:',
+        choices: options,
+      });
+      console.log(`Your choice: ${userInput.userChoice}`);
     }
 
-    // Assurez-vous que body est un tableau de SubQuestion
-    const subQuestions = GIFT.constructBody(body);
+    // Ajouter d'autres types de questions selon vos besoins
 
-    for (const part of subQuestions) {
-      if (typeof part === 'string') {
-        console.log(part);
-      } else if (part instanceof SubQuestion) {
-        switch (part.type) {
-          case TYPES.INPUT:
-            console.log('Type: INPUT');
-            console.log('Question:', part.options[0].value);
-            const userAnswerInput = await inquirer.prompt({
-              type: 'input',
-              name: 'answer',
-              message: 'Answer:',
-            });
-            const isCorrectInput = SubQuestion.correct(userAnswerInput.answer);
-            console.log('User Answer:', userAnswerInput.answer);
-            console.log('Correct:', isCorrectInput);
-            userResponses.push({
-              question: giftQuestion.title,
-              type: part.type,
-              userAnswer: userAnswerInput.answer,
-              isCorrect: isCorrectInput,
-            });
-            break;
-
-          case TYPES.BOOLEAN:
-            console.log('Type: BOOLEAN');
-            console.log('Question:', part.options[0].value);
-            const userAnswerBoolean = await inquirer.prompt({
-              type: 'list',
-              name: 'answer',
-              message: 'Answer (TRUE/FALSE):',
-              choices: ['TRUE', 'FALSE'],
-            });
-            const isCorrectBoolean = SubQuestion.correct(userAnswerBoolean.answer);
-            console.log('User Answer:', userAnswerBoolean.answer);
-            console.log('Correct:', isCorrectBoolean);
-            userResponses.push({
-              question: giftQuestion.title,
-              type: part.type,
-              userAnswer: userAnswerBoolean.answer,
-              isCorrect: isCorrectBoolean,
-            });
-            break;
-
-          case TYPES.NUMBER:
-            console.log('Type: NUMBER');
-            console.log('Question:', part.options[0].value);
-            const userAnswerNumber = await inquirer.prompt({
-              type: 'input',
-              name: 'answer',
-              message: 'Answer (a number):',
-            });
-            const isCorrectNumber = SubQuestion.correct(Number(userAnswerNumber.answer));
-            console.log('User Answer:', userAnswerNumber.answer);
-            console.log('Correct:', isCorrectNumber);
-            userResponses.push({
-              question: giftQuestion.title,
-              type: part.type,
-              userAnswer: userAnswerNumber.answer,
-              isCorrect: isCorrectNumber,
-            });
-            break;
-
-          case TYPES.MATCHING:
-            console.log('Type: MATCHING');
-            console.log('Question:', part.options[0].value);
-            const pairs = part.options.map(option => option.value.split('->').map(pair => pair.trim()));
-            console.log('Pairs to Match:', pairs);
-            const userAnswersMatching = await inquirer.prompt(pairs.map(pair => ({
-              type: 'input',
-              name: pair[0],
-              message: `Match ${pair[0]} with:`,
-            })));
-            const isCorrectMatching = SubQuestion.correct(userAnswersMatching);
-            console.log('User Answers:', userAnswersMatching);
-            console.log('Correct:', isCorrectMatching);
-            userResponses.push({
-              question: giftQuestion.title,
-              type: part.type,
-              userAnswer: userAnswersMatching,
-              isCorrect: isCorrectMatching,
-            });
-            break;
-
-          case TYPES.CHOICE:
-            console.log('Type: CHOICE');
-            console.log('Question:', part.options[0].value);
-            const choices = part.options.map(option => option.value);
-            console.log('Choices:', choices);
-            const userAnswerChoice = await inquirer.prompt({
-              type: 'list',
-              name: 'answer',
-              message: 'Choose an answer:',
-              choices: choices,
-            });
-            const isCorrectChoice = SubQuestion.correct(userAnswerChoice.answer);
-            console.log('User Answer:', userAnswerChoice.answer);
-            console.log('Correct:', isCorrectChoice);
-            userResponses.push({
-              question: giftQuestion.title,
-              type: part.type,
-              userAnswer: userAnswerChoice.answer,
-              isCorrect: isCorrectChoice,
-            });
-            break;
-
-          default:
-            console.error('Unknown question type:', part.type);
-        }
-      }
-    }
-
-    await inquirer.prompt({
-      type: 'input',
-      name: 'continue',
-      message: 'Press Enter to continue to the next question...',
-    });
+    console.log(); // Ajouter une ligne vide entre les questions
   }
 
-  console.log('\nSimulation complete.'); // Message après avoir simulé toutes les questions du test
+  console.log('Test completed!');
 }
+
+function processBody(body) {
+  if (Array.isArray(body)) {
+    let optionIndex = 1;
+    return body.map((item) => {
+      if (typeof item === 'string') {
+        return item;
+      } else if (item.type === 'INPUT') {
+        return '';
+      } else if (item.type === 'CHOICE') {
+        return '';
+      } else if (typeof item === 'object' && item.value) {
+        return typeof item.value === 'string' ? item.value : '';
+      }
+    }).join('');
+  } else {
+    return ''; // Gérer d'autres types de corps si nécessaire
+  }
+}
+
 
 
 export async function inputToSearchVcard() {
