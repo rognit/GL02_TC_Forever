@@ -1,6 +1,6 @@
 import inquirer from 'inquirer';
 import { search } from '../src/GIFT/search.js';
-import { saveVCardFromUserInput } from '../src/vcard.js';
+import { saveVCardFromUserInput } from '../src/Vcard/vcard.js';
 
 export async function get_question_menu() {
   process.stdout.write('\x1B[2J\x1B[0f');
