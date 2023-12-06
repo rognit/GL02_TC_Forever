@@ -2,7 +2,7 @@ import inquirer from 'inquirer';
 import fs from 'fs';
 import { search, getAllTestNames } from './GIFT/search.js';
 import { GIFT } from './GIFT/parser.js';
-import { Exam, saveTest,getRandomQuestions, getRandomQuestion, getTestName} from './exam.js';
+import { Exam, saveTest,getRandomQuestions, getTestName} from './exam.js';
 
 export async function get_question_menu() {
   process.stdout.write('\x1B[2J\x1B[0f');
@@ -13,18 +13,21 @@ export async function get_question_menu() {
   });
 
   const searchResults = search(userInput.question);
-  const resultTitles = searchResults.map(q => q.title);
 
-  const userInput2 = await inquirer.prompt({
-    type: 'list',
-    name: 'selectedQuestion',
-    message: 'Select a question:',
-    choices: resultTitles,
-  });
-  
-  const selectedQuestion = searchResults.find(q => q.title === userInput2.selectedQuestion);
+  if (searchResults.length != 0) {
+    const resultTitles = searchResults.map(q => q.title);
+    const userInput2 = await inquirer.prompt({
+      type: 'list',
+      name: 'selectedQuestion',
+      message: 'Select a question:',
+      choices: resultTitles,
+    });
 
-  console.log('Selected Question:', selectedQuestion);
+    const selectedQuestion = searchResults.find(q => q.title === userInput2.selectedQuestion);
+    console.log('Selected Question:', selectedQuestion);
+  } else {
+    console.log('0 question matched the input')
+  }
 
   // Wait for the user to press Enter
   await inquirer.prompt({
@@ -32,21 +35,16 @@ export async function get_question_menu() {
     name: 'enter',
     message: 'Press Enter to continue...',
   });
-
-  return selectedQuestion; // Renvoie la question sélectionnée
 }
 
 
 export async function create_test_menu() {
     const questions = [];
-    let selectedQuestion;
     let testName = '';
 
     while (true) {
-
+      process.stdout.write('\x1B[2J\x1B[0f');
       //constante pour controller l'apparition des choix
-      const remainingQuestions = 20 - questions.length;
-
       const choices = [];
 
       //si le test a moins de 15 questions, l'option pour sauvegarder n'apparais pas
@@ -57,9 +55,6 @@ export async function create_test_menu() {
       //si le test a 20 questions, alors il n'est plus possible d'en ajouter ou de le remplir
       if (questions.length < 20) {
         choices.unshift('Fill the Test');
-      }
-
-      if (questions.length < 20) {
         choices.unshift('Choose a Question');
       }
 
@@ -70,31 +65,19 @@ export async function create_test_menu() {
         choices: choices,
       });
 
-
       //on reutilise get_question_menu
       if (userInput.mainOption === 'Choose a Question') {
-        if (questions.length < 20) {
           const result = await get_question_menu();
-          selectedQuestion = result; // Utilisez la question sélectionnée
+          questions.push(result);
           // Vous pouvez également utiliser le résultat de l'attente de l'utilisateur ici si nécessaire
-          questions.push(selectedQuestion);
-        } else {
-          console.log('Error: Test has reached the maximum limit of 20 questions.');
-        }
-
-
       } else if (userInput.mainOption === 'Fill the Test') {
         const remainingQuestions = 20 - questions.length;
 
         //cette option rempli le test totalement (donc jusqu'a 20 questions), on pourrais pousser plus loin en remplissant jusqu'a un nombre aleatoire entre 15 et 20
-        if (remainingQuestions > 0) {
-          const randomQuestions = await getRandomQuestions(remainingQuestions);
+        const randomQuestions = await getRandomQuestions(remainingQuestions);
+        questions.push(...randomQuestions);
+        console.log(`${randomQuestions.length} random questions added to the test.`);
 
-          questions.push(...randomQuestions);
-          console.log(`${randomQuestions.length} random questions added to the test.`);
-        } else {
-          console.log('Error: Test has reached the maximum limit of 20 questions.');//pareil une secu normalement ne sert a rien
-        }
       } else if (userInput.mainOption === 'Finish and Save Test') {
         if (!testName) {
           testName = await getTestName(); // Demandez le nom du test s'il n'est pas déjà défini
@@ -105,11 +88,9 @@ export async function create_test_menu() {
         break;
       }
     }
-
-    
-
-    
 }
+
+
 
 
 
