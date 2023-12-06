@@ -2,6 +2,7 @@ import inquirer from 'inquirer';
 import fs from 'fs';
 import { search, getAllTestNames } from './GIFT/search.js';
 import { GIFT } from './GIFT/parser.js';
+import { Exam } from './exam.js';
 
 export async function get_question_menu() {
   process.stdout.write('\x1B[2J\x1B[0f');
@@ -159,7 +160,7 @@ const userInput = await inquirer.prompt({
 return userInput.testName;
 }
 
-    export async function simulate_test_menu() {
+export async function simulate_test_menu() {
     const testNames = getAllTestNames();
 
     const userInput = await inquirer.prompt({
@@ -348,3 +349,28 @@ return userInput.testName;
     console.log('\nSimulation complete.'); // Message après avoir simulé toutes les questions du test
 }
 
+export async function viewTests() {
+    const jsonContent = fs.readFileSync('./src/Storage/test_db.json', 'utf-8');
+    const loadedTestDatabase = JSON.parse(jsonContent);
+
+    const testNames = loadedTestDatabase.map(test => test.name);
+    const userInput = await inquirer.prompt({
+        type: 'list',
+        name: 'selectedTest',
+        message: 'Choose a test to see its profile:',
+        choices: testNames,
+    });
+
+    // Trouver les données du test sélectionné
+    const testData = loadedTestDatabase.find(test => test.name === userInput.selectedTest);
+
+    // Créer une instance de l'examen
+    if (testData) {
+        const examInstance = new Exam(testData.name, testData.questions);
+
+        // Appeler viewProfile sur l'instance de l'examen
+        examInstance.viewProfile();
+    } else {
+        console.log("Le test sélectionné n'a pas été trouvé.");
+    }
+}

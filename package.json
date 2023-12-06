@@ -1,9 +1,14 @@
 {
   "type": "module",
   "dependencies": {
+    "canvas": "^2.11.2",
     "clear": "^0.1.0",
     "colors": "^1.4.0",
     "html-to-text": "^9.0.5",
-    "inquirer": "^9.2.12"
+    "inquirer": "^9.2.12",
+    "open": "^9.1.0",
+    "vega": "^5.26.1",
+    "vega-embed": "^6.23.0",
+    "vega-lite": "^5.16.3"
   }
 }
