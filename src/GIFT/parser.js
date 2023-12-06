@@ -23,7 +23,7 @@ const TYPES = {
     CHOICE: 'CHOICE',
 };
 
-class SubQuestion {
+export class SubQuestion {
     /**
      * @param {string} type
      * @param {[Option]} options
@@ -89,17 +89,17 @@ class SubQuestion {
     // CHOICE : un array de string (si il y a plusieur choix de juste)
     // MATCHING : une map qui associe les deux élements
     static correct(answer) {
-        switch(this.type) {
+        switch(this.constructor.type) {
             case BOOLEAN:
                 return this.options[0].value[0] === answer;
             case NUMBER:
-                for (i in options) {
+                for (const i of options) {
                     const test = i.value.split(':');
-                    if (test.lenght === 2) {
+                    if (test.length === 2) {
                         return (num > test[0] - test[1] && num < test[0] + test[1])
                     } 
                     const test2 = i.value.split('..');
-                    if (test.lenght === 2) {
+                    if (test.length === 2) {
                         return (num > test2[0] && num < test2[0])
                     }
                     return i.value === num;
@@ -122,22 +122,22 @@ class SubQuestion {
     //méthode propre a la class qui retourne tout les values des options
     static getOptionsValues() {
         let result = [];
-        let i;
-        for (i in this.options) {
-            result.push(this.options[i].value)
+        for (const option of this.options) {
+            result.push(option.value);
         }
         return result;
     }
+    
 
     //méthode propre a la class qui retourne tout les values des options avec un certain prefixe
     static getOptionsValuesWithprefix(prefix) {
         let result = [];
-        let i;
-        for (i in this.options.filter(x => x.prefix === prefix)) {
-            result.push(this.options[i].value)
+        for (const option of this.options.filter(x => x.prefix === prefix)) {
+            result.push(option.value);
         }
         return result;
-    } 
+    }
+    
 
     static ShowQuestion() {
         
@@ -191,7 +191,7 @@ class GIFT {
 
         const index = str.indexOf("::" + title + "::");
         if (index !== -1) {
-            str = str.substring(index + title.length + 4, str.lenght);
+            str = str.substring(index + title.length + 4, str.length);
         }
         const body = this.constructBody(str);
 
@@ -218,14 +218,20 @@ class GIFT {
     }
 
     static constructBody(rawQuestion) {
+        // Vérifier que rawQuestion est une chaîne de caractères
+        if (typeof rawQuestion !== 'string') {
+            console.error('Raw question is not a string.');
+            return [];
+        }
+    
         let body = rawQuestion.match(/[^{}]+(?=([^]*{[^}]*}[^}]*$)|([^]*$))/g);
         let i = rawQuestion.startsWith('{') ? 0 : 1;
-        
+    
         for (i; i < body.length; i += 2) {
-            body[i] = SubQuestion.fromString(body[i])
+            body[i] = SubQuestion.fromString(body[i]);
         }
-
-        return body
+    
+        return body;
     }
 
     // pour avoir toute les sub-questions de la question GIFT

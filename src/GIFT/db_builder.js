@@ -4,38 +4,48 @@ import { GIFT } from "./parser.js";
 
 function splitGIFT(path) {
     const fileContent = fs.readFileSync(path, 'utf-8');
+    const cleanedContent = cleanHTMLTags(fileContent);
+    console.log(cleanedContent); // Affiche le contenu nettoyé dans la console
     const regex = /::(.*?)::/g;
 
     const raw_content = [];
     let lastIndex = 0;
     let match;
 
-    let i = fileContent.startsWith("::") ? 0 : 1; 
+    let i = cleanedContent.startsWith("::") ? 0 : 1; 
 
-    while ((match = regex.exec(fileContent)) !== null) {
+    while ((match = regex.exec(cleanedContent)) !== null) {
         // Content before the current match
-        const contentBefore = fileContent.substring(lastIndex, match.index);
+        const contentBefore = cleanedContent.substring(lastIndex, match.index);
         if (contentBefore.trim() !== "") {
             raw_content.push(contentBefore.trim());
         }
         raw_content.push("::" + match[1] + "::");
-      
+
         lastIndex = match.index + match[0].length;
     }
-      
-    const contentAfter = fileContent.substring(lastIndex).trim();
+
+    const contentAfter = cleanedContent.substring(lastIndex).trim();
     if (contentAfter !== "") {
         raw_content.push(contentAfter);
     }
-      
-    let content = []
+
+    let content = [];
     while (i < raw_content.length) {
         content.push(raw_content[i] + raw_content[i + 1]);
         i += 2;
     }
-    
-    return content
+
+    return content;
 }
+
+function cleanHTMLTags(str) {
+    // Retire toutes les balises HTML du texte
+    return str.replace(/<\/?[^>]+(>|$)/g, "")
+              .replace(/&nbsp;/g, " "); // Remplace &nbsp; par un espace
+}
+
+
 
 function save(data, file) {
     const jsonContent = JSON.stringify(data, null, 2);
