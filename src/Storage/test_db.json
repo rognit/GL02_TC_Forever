@@ -9011,5 +9011,461 @@
         ]
       }
     ]
+  },
+  {
+    "name": "",
+    "questions": []
+  },
+  {
+    "name": "",
+    "questions": []
+  },
+  {
+    "name": "",
+    "questions": [
+      {
+        "title": "EM U5 p37 Reading 3.6",
+        "body": [
+          "Orange juice ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "heightens"
+              },
+              {
+                "prefix": "=",
+                "value": "heightened"
+              }
+            ]
+          },
+          " the flavour ofstrawberries."
+        ]
+      },
+      {
+        "title": "EM U5 p34 Gra2.2",
+        "body": [
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "Few"
+              },
+              {
+                "prefix": "=",
+                "value": "A few"
+              },
+              {
+                "prefix": "~",
+                "value": "Little"
+              },
+              {
+                "prefix": "~",
+                "value": "A little"
+              }
+            ]
+          },
+          " of us are going to have abarbecue in the garden tonight. Do you fancy coming?"
+        ]
+      },
+      {
+        "title": "U3 p32 CD.29 Present perfect vs past simple",
+        "body": [
+          "Stephen _____ in insurance untillast summer.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "worked"
+              },
+              {
+                "prefix": "~",
+                "value": "'s worked"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U3 p30 4.5",
+        "body": [
+          "The writer mentions Wimbledon to show that ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "some sports are lesslikely to inspire strong feelings."
+              },
+              {
+                "prefix": "~",
+                "value": "some passions last for many years."
+              },
+              {
+                "prefix": "=",
+                "value": "sportsfans can behave uncharacteristically."
+              },
+              {
+                "prefix": "~",
+                "value": "people often behave strangely to get onTV."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U1 p7 Adverbs GR 1.5",
+        "body": [
+          " They've been told that. (often) ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "They've oftenbeen told that."
+              },
+              {
+                "prefix": "=",
+                "value": "They have often been told that."
+              },
+              {
+                "prefix": "=",
+                "value": "They've often been told that"
+              },
+              {
+                "prefix": "=",
+                "value": "They have often been told that"
+              },
+              {
+                "prefix": "=",
+                "value": "They’ve often been told that"
+              },
+              {
+                "prefix": "=",
+                "value": "They’ve oftenbeen told that."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U3 p32 CD.01 Present perfect vs past simple",
+        "body": [
+          "I _____ interested in theatresince I was very young.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "have been"
+              },
+              {
+                "prefix": "~",
+                "value": "was"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U3 p32 CD.29 Present perfect vs past simple",
+        "body": [
+          "Stephen _____ in insurance untillast summer.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "worked"
+              },
+              {
+                "prefix": "~",
+                "value": "'s worked"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U6 p67 Rev3.4",
+        "body": [
+          " We might ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "use|be using"
+              }
+            ]
+          },
+          " (use) the same costumes in ournext production."
+        ]
+      },
+      {
+        "title": "U5 p54 6.4 Passive",
+        "body": [
+          " The tourist office has estimated that over 10,000visitors watch the feast. BEENIt ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "has been estimated"
+              }
+            ]
+          },
+          " that over 10,000 visitors watch the feast."
+        ]
+      },
+      {
+        "title": "EM U6 p46-47 4.4",
+        "body": [
+          " I never seem to find the time to read newspapers thesedays. (ROUND)I never seem to ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "get round to reading"
+              }
+            ]
+          },
+          " newspapers these days."
+        ]
+      },
+      {
+        "title": "U5 p52 3.6 Reading compr",
+        "body": [
+          "In the final paragraph, the writer expresses ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "doubt that Soylent is only suitable for one group of people."
+              },
+              {
+                "prefix": "=",
+                "value": "hope thatSoylent may be a solution to a serious problem."
+              },
+              {
+                "prefix": "~",
+                "value": "surprise about the predicteddemand for Soylent products."
+              },
+              {
+                "prefix": "~",
+                "value": "disagreement that products like Soylent are a riskto family life."
+              }
+            ]
+          },
+          " // ex 6: Vocabulary / Expressions"
+        ]
+      },
+      {
+        "title": "U10 p106-7 Reading 2.6",
+        "body": [
+          "The writer says that online dating agencies arepopular because they ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "mean people are less reliant on chance."
+              },
+              {
+                "prefix": "~",
+                "value": "give peoplehope of finding the perfect soulmate."
+              },
+              {
+                "prefix": "~",
+                "value": "are more reliable than traditional waysof meeting the right person."
+              },
+              {
+                "prefix": "~",
+                "value": "give people a much wider choice of potentialpartners."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U10 p106-7 Reading Prepositions RS.3",
+        "body": [
+          "This suits men ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "in"
+              }
+            ]
+          },
+          " particular …"
+        ]
+      },
+      {
+        "title": "U6 p67 Rev2.2",
+        "body": [
+          "City Lights is on TV tonight. I never got",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "away"
+              },
+              {
+                "prefix": "~",
+                "value": "down"
+              },
+              {
+                "prefix": "~",
+                "value": "into"
+              },
+              {
+                "prefix": "~",
+                "value": "over"
+              },
+              {
+                "prefix": "=",
+                "value": "round"
+              },
+              {
+                "prefix": "~",
+                "value": "through"
+              }
+            ]
+          },
+          " to seeing that at the cinema."
+        ]
+      },
+      {
+        "title": "U6 p67 Rev4.4",
+        "body": [
+          "This time tomorrow, I ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "will dance"
+              },
+              {
+                "prefix": "=",
+                "value": "will be dancing"
+              },
+              {
+                "prefix": "~",
+                "value": "dance"
+              }
+            ]
+          },
+          " infront of hundreds of people."
+        ]
+      },
+      {
+        "title": "EM U5 p37 Reading 2.3",
+        "body": [
+          "  What does '_these_' in line 38 refer to? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "Unknown possible chemicals"
+              },
+              {
+                "prefix": "~",
+                "value": "Lists on the label"
+              },
+              {
+                "prefix": "~",
+                "value": "Other healthy meals"
+              },
+              {
+                "prefix": "~",
+                "value": "The mainingredients"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U6 p63 Reading Voc6.B5",
+        "body": [
+          "generous (adj) ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "generosity"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U6 p64 6.4 Future perfect & continuous",
+        "body": [
+          " By 2050, we'll ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "be interacting"
+              }
+            ]
+          },
+          "(interact) with the screen when we move and speak."
+        ]
+      },
+      {
+        "title": "EM U5 p35 Gra3.4",
+        "body": [
+          "There ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "was"
+              },
+              {
+                "prefix": "=",
+                "value": "were"
+              }
+            ]
+          },
+          " few people in the restaurant."
+        ]
+      },
+      {
+        "title": "EM U5 p34 Gra1.6",
+        "body": [
+          "I eat ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "hardly any"
+              },
+              {
+                "prefix": "~",
+                "value": "a few"
+              }
+            ]
+          },
+          " meat — I prefer vegetables!"
+        ]
+      }
+    ]
   }
 ]

@@ -30,8 +30,8 @@ export class SubQuestion {
      */
 
     constructor({ type, options = [] }) {
-      this.type = type;
-      this.options = options;
+        this.type = type;
+        this.options = options;
     }
 
     //permet de séparer les différentes options de la sub-question
@@ -40,19 +40,19 @@ export class SubQuestion {
             .split(/((?<!\\)[=~](?:(?:\\[=~#\{\}])|(?:[^=~]))+)/g)
             .filter(x => x)
             .map(x => x.trim());
-      }
+    }
 
     //cette méthode est appelée pour convertir un string en sub-question
     static fromString(str) {
         const test_bool = str.split('#')[0].trim();
         if (/^(TRUE|FALSE|T|F)$/.test(test_bool)) {
             return new SubQuestion({
-              type: TYPES.BOOLEAN,
-              options: [
-                Option.fromString(str),
-              ],
+                type: TYPES.BOOLEAN,
+                options: [
+                    Option.fromString(str),
+                ],
             });
-        } 
+        }
         const options = this.splitOptions(str.trim()).map(x => Option.fromString(x));
 
         if (str.startsWith('#')) {
@@ -89,7 +89,7 @@ export class SubQuestion {
     // CHOICE : un array de string (si il y a plusieur choix de juste)
     // MATCHING : une map qui associe les deux élements
     static correct(answer) {
-        switch(this.constructor.type) {
+        switch (this.constructor.type) {
             case BOOLEAN:
                 return this.options[0].value[0] === answer;
             case NUMBER:
@@ -97,7 +97,7 @@ export class SubQuestion {
                     const test = i.value.split(':');
                     if (test.length === 2) {
                         return (num > test[0] - test[1] && num < test[0] + test[1])
-                    } 
+                    }
                     const test2 = i.value.split('..');
                     if (test.length === 2) {
                         return (num > test2[0] && num < test2[0])
@@ -127,7 +127,7 @@ export class SubQuestion {
         }
         return result;
     }
-    
+
 
     //méthode propre a la class qui retourne tout les values des options avec un certain prefixe
     static getOptionsValuesWithprefix(prefix) {
@@ -137,10 +137,10 @@ export class SubQuestion {
         }
         return result;
     }
-    
+
 
     static ShowQuestion() {
-        
+
     }
 }
 
@@ -154,7 +154,7 @@ class Option {
         this.prefix = prefix;
         this.value = value;
         this.feedback = feedback;
-    } 
+    }
 
     //cette méthode est appelée pour convertir un string en option
     static fromString(option) {
@@ -178,69 +178,19 @@ class Option {
     }
 }
 
-class GIFT {
-    constructor(title, body) {
-        this.title = title;
-        this.body = body;
-    }
-
-    //cette méthode est appelée pour convertir un string en question GIFT
-    static fromString(str) {
-        str = this.cleanText(str)
-        const title = this.constructTitle(str);
-
-        const index = str.indexOf("::" + title + "::");
-        if (index !== -1) {
-            str = str.substring(index + title.length + 4, str.length);
-        }
-        const body = this.constructBody(str);
-
-        return new GIFT(title, body);
-    }
-
-    //méthode qui permet de nettoyer le texte avant qu'il soit convertit en objet javascript
-    //je l'ai fait en remarquant des erreurs dans les question GIFT donné et car certaines informations ne nous interesse pas (html)
-    static cleanText(str) {
-        return convert(str)
-            .replace(/~=/g, '=')
-            .replace(/\[html\]/g, ' ')
-            .replace(/\[markdown\]/g, ' ')
-            .replace(/\n/g, "")
-            .replace(/\r/g, "")
-            .replace(/1:MC:/g, "")
-            .replace(/1:SA:/g, "");
-    }
-    
-    static constructTitle(rawQuestion) {
-        let titleMatch = (/::(.*?)::/).exec(rawQuestion);
-
-        return (titleMatch === null) ? '' : titleMatch[1];
-    }
-
-    static constructBody(rawQuestion) {
-        // Vérifier que rawQuestion est une chaîne de caractères
-        if (typeof rawQuestion !== 'string') {
-            console.error('Raw question is not a string.');
-            return [];
-        }
-    
-        let body = rawQuestion.match(/[^{}]+(?=([^]*{[^}]*}[^}]*$)|([^]*$))/g);
-        let i = rawQuestion.startsWith('{') ? 0 : 1;
-    
-        for (i; i < body.length; i += 2) {
-            body[i] = SubQuestion.fromString(body[i]);
-        }
-    
-        return body;
-    }
-
-    // pour avoir toute les sub-questions de la question GIFT
-    get SubQuestions() {
-        console.log("body en question : "+this.body)
-        return this.body.filter(x => x instanceof SubQuestion);
-    }
+//méthode qui permet de nettoyer le texte avant qu'il soit convertit en objet javascript
+//je l'ai fait en remarquant des erreurs dans les question GIFT donné et car certaines informations ne nous interesse pas (html)
+export function cleanText(str) {
+    return convert(str)
+        .replace(/~=/g, '=')
+        .replace(/\[html\]/g, ' ')
+        .replace(/\[markdown\]/g, ' ')
+        .replace(/\n/g, "")
+        .replace(/\r/g, "")
+        .replace(/1:MC:/g, "")
+        .replace(/1:SA:/g, "");
 }
-export { GIFT }
+
 // exemple :
 //let text = "::EM U42 Ultimate q1::What's the answer to this multiple-choice question? {  ~wrong answer#feedback comment on the wrong answer  ~another wrong answer#feedback comment on this wrong answer  =right answer#Very good!}//From The Hitchhiker's Guide to the Galaxy"
 //let question = GIFT.fromString(text)

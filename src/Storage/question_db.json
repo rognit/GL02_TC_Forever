@@ -406,24 +406,24 @@
   "EM U4 p33 Review 4.1 more irritating than": {
     "title": "EM U4 p33 Review 4.1 more irritating than",
     "body": [
-      " Nothing irritates me morethan getting hundreds of spam emails.MOREThere is nothing ",
+      " Nothing irritates me morethan getting hundreds of spam emails. MORE There is nothing ",
       {
         "type": "INPUT",
         "options": [
           {
             "prefix": "=",
-            "value": "more irritating than",
+            "value": "more irritatingthan",
             "feedback": "comparative"
           }
         ]
       },
-      " getting hundreds of spamemails."
+      " getting hundreds of spam emails."
     ]
   },
   "EM U4 p33 Review 4.3 so excited by/about": {
     "title": "EM U4 p33 Review 4.3 so excited by/about",
     "body": [
-      " The tennis game was soexciting that the spectators cheered loudly at the end.WEREThe spectators ",
+      " The tennis game was soexciting that the spectators cheered loudly at the end. WERE The spectators",
       {
         "type": "INPUT",
         "options": [
@@ -434,17 +434,17 @@
           {
             "prefix": "=",
             "value": "were so excited about",
-            "feedback": "phrase: so ... that..."
+            "feedback": "phrase: so ... that ..."
           }
         ]
       },
-      " the tennis game that they cheered loudly at the end."
+      " the tennisgame that they cheered loudly at the end."
     ]
   },
   "EM U4 p33 Review 4.2 interesting for/to": {
     "title": "EM U4 p33 Review 4.2 interesting for/to",
     "body": [
-      " I'm very interesled in learningabout the culture of other countriesISLearning about the culture of other countries ",
+      " I'm very interesled in learningabout the culture of other countries IS Learning about the culture of othercountries ",
       {
         "type": "INPUT",
         "options": [
@@ -454,8 +454,8 @@
           },
           {
             "prefix": "=",
-            "value": "is veryinteresting to",
-            "feedback": "change of adjective form: interested – interesting"
+            "value": "is very interesting to",
+            "feedback": "change of adjectiveform: interested – interesting"
           }
         ]
       },
@@ -465,7 +465,7 @@
   "EM U4 p33 Review 4.4 worried by": {
     "title": "EM U4 p33 Review 4.4 worried by",
     "body": [
-      " I find it very worrying if things gowrong on holiday.GETI ",
+      " I find it very worrying if things gowrong on holiday. GET I ",
       {
         "type": "INPUT",
         "options": [
@@ -476,17 +476,17 @@
           {
             "prefix": "=",
             "value": "get very worried by",
-            "feedback": "change of adjective to verb"
+            "feedback": "change ofadjective to verb"
           }
         ]
       },
-      "things going wrong on holiday."
+      " things going wrong on holiday."
     ]
   },
   "EM U4 p33 Review 4.5 boring": {
     "title": "EM U4 p33 Review 4.5 boring",
     "body": [
-      " I get bored by people who talk too much.FINDI ",
+      " I get bored by people who talk too much.FIND I ",
       {
         "type": "INPUT",
         "options": [
@@ -497,20 +497,20 @@
           }
         ]
       },
-      " when people talktoo much."
+      " when peopletalk too much."
     ]
   },
   "EM U4 p33 Review 4.6 for the first time": {
     "title": "EM U4 p33 Review 4.6 for the first time",
     "body": [
-      " I had never seen a glacierbefore I went to NorwayIWhen I was in Norway, ",
+      " I had never seen a glacierbefore I went to Norway I When I was in Norway, ",
       {
         "type": "INPUT",
         "options": [
           {
             "prefix": "=",
             "value": "I saw a glacier for",
-            "feedback": "I had never seen – I saw ... for thefirst time"
+            "feedback": "I hadnever seen – I saw ... for the first time"
           }
         ]
       },
@@ -1829,7 +1829,7 @@
   "EM U6 p46-47 4.1": {
     "title": "EM U6 p46-47 4.1",
     "body": [
-      " I couldn't wait to see my friend again after her longtrip abroad. (LOOKING)I ",
+      " I couldn't wait to see my friend again after her longtrip abroad. (LOOKING) I ",
       {
         "type": "INPUT",
         "options": [
@@ -1839,13 +1839,13 @@
           }
         ]
       },
-      " my friend again after her long trip abroad."
+      " my friend again afterher long trip abroad."
     ]
   },
   "EM U6 p46-47 4.2": {
     "title": "EM U6 p46-47 4.2",
     "body": [
-      " The last time Joe saw Carlos was the day they bothgraduated from university. (SEEN)Carlos ",
+      " The last time Joe saw Carlos was the day they bothgraduated from university. (SEEN) Carlos ",
       {
         "type": "INPUT",
         "options": [
@@ -1855,13 +1855,13 @@
           }
         ]
       },
-      " the day they both graduated from university."
+      " the day theyboth graduated from university."
     ]
   },
   "EM U6 p46-47 4.3": {
     "title": "EM U6 p46-47 4.3",
     "body": [
-      " ‘You must do your homework, Tom’, said Carol.(REMINDED)Carol ",
+      " ‘You must do your homework, Tom’, said Carol.(REMINDED) Carol ",
       {
         "type": "INPUT",
         "options": [
@@ -1877,7 +1877,7 @@
   "EM U6 p46-47 4.4": {
     "title": "EM U6 p46-47 4.4",
     "body": [
-      " I never seem to find the time to read newspapers thesedays. (ROUND)I never seem to ",
+      " I never seem to find the time to read newspapers thesedays. (ROUND) I never seem to ",
       {
         "type": "INPUT",
         "options": [
@@ -1893,7 +1893,7 @@
   "EM U6 p46-47 4.5": {
     "title": "EM U6 p46-47 4.5",
     "body": [
-      " Nothing irritates me as much as getting piles of junkmail through the post. (MORE)There is nothing ",
+      " Nothing irritates me as much as getting piles of junkmail through the post. (MORE) There is nothing ",
       {
         "type": "INPUT",
         "options": [
@@ -1903,13 +1903,13 @@
           }
         ]
       },
-      " getting piles of junk mail through thepost."
+      " gettingpiles of junk mail through the post."
     ]
   },
   "EM U6 p46-47 4.6": {
     "title": "EM U6 p46-47 4.6",
     "body": [
-      " The idea of flying is very frightening for somepeople. (ARE)Some people ",
+      " The idea of flying is very frightening for somepeople. (ARE) Some people ",
       {
         "type": "INPUT",
         "options": [
@@ -1923,7 +1923,7 @@
           }
         ]
       },
-      " the idea of flying."
+      " theidea of flying."
     ]
   },
   "U1 p10 GR2.1 Present tenses & habits": {
@@ -2212,41 +2212,41 @@
   "U1 p8-9 Reading \"Coachella\" 2 reading for gist": {
     "title": "U1 p8-9 Reading \"Coachella\" 2 reading for gist",
     "body": [
-      " You are going to read a newspaper article about an American music festival,Coachella. Read the article quickly for gist and choose the phrase which bestsummarises each paragraph.",
+      " You are going to read anewspaper article about an American music festival, Coachella. Read the articlequickly for gist and choose the phrase which best summarises each paragraph.",
       {
         "type": "MATCHING",
         "options": [
           {
             "prefix": "=",
-            "value": "A. When the American 90s rock band Pearl Jam put on a concert in the dried-up,baking-hot Coachella Valley in California, it was an attempt to prove that theycould break away from the monopoly of the concert giant TicketMaster, who, theybelieved, was using its considerable power to exploit music fans by continuallyincreasing prices. Their concert was well attended and inspired the idea for afuture, more ambitious event. Naturally, nobody could have predicted quite howimportant Coachella would eventually become.-> 4. The original inspiration of Coachella"
+            "value": "A. When the American 90s rock band Pearl Jam put on a concert in the dried-up,baking-hot Coachella Valley in California, it was an attempt to prove that theycould break away from the monopoly of the concert giant TicketMaster, who, theybelieved, was using its considerable power to exploit music fans by continuallyincreasing prices. Their concert was well attended and inspired the idea for afuture, more ambitious event. Naturally, nobody could have predicted quite howimportant Coachella would eventually become. -> 4. The original inspiration ofCoachella"
           },
           {
             "prefix": "=",
-            "value": "B. Six years later, in 1999, the same venue hosted its first weekend-long musicfestival. Although initially making a loss, this was blamed on the unbearablyhigh temperatures and the lack of available campsite facilities. What's more, ittook only a few more years until its quality line-ups, from small bands toheadliners, were attracting worldwide attention.-> 7. Overcoming problematic beginnings"
+            "value": "B. Six years later, in 1999, the same venue hosted its firstweekend-long music festival. Although initially making a loss, this was blamedon the unbearably high temperatures and the lack of available campsitefacilities. What's more, it took only a few more years until its qualityline-ups, from small bands to headliners, were attracting worldwide attention.-> 7. Overcoming problematic beginnings"
           },
           {
             "prefix": "=",
-            "value": "C. If one band is responsible for confirming Coachella's arrival on the worldstage, it is Daft Punk's iconic appearance there in 2006.  As a direct result ofthe festival's success, promoters expanded it to a three-day event, and in 2009,Coachella presented its most mainstream line-up, including Paul McCartney, theKillers, and The Cure. The following year Jay-Z became the first rap headlinerand by 2012 such was the popularity of Coachella that it had developed into twoweekends of three-day shows.-> 2. Getting bigger and better"
+            "value": "C. If one band is responsible forconfirming Coachella's arrival on the world stage, it is Daft Punk's iconicappearance there in 2006.  As a direct result of the festival's success,promoters expanded it to a three-day event, and in 2009, Coachella presented itsmost mainstream line-up, including Paul McCartney, the Killers, and The Cure.The following year Jay-Z became the first rap headliner and by 2012 such was thepopularity of Coachella that it had developed into two weekends of three-dayshows. -> 2. Getting bigger and better"
           },
           {
             "prefix": "=",
-            "value": "D. In an effort to attract America's impoverished younger generation to anexpensive annual visit to the desert, the promoters made two clever decisions.One smart move was to get a much-missed band or singer such as Rage Against theMachine to reform every year. Most notable was a holographic representation ofthe late rapper 2Pac in 2012. ln a stroke of genius, they decided to cater forthe section of the audience who adored the music that used to be labelledelectronic and who flocked to dance in big tents to their favourite DJs.-> 1. Appealing to the target market"
+            "value": "D. In an effort to attract America'simpoverished younger generation to an expensive annual visit to the desert, thepromoters made two clever decisions. One smart move was to get a much-missedband or singer such as Rage Against the Machine to reform every year. Mostnotable was a holographic representation of the late rapper 2Pac in 2012. ln astroke of genius, they decided to cater for the section of the audience whoadored the music that used to be labelled electronic and who flocked to dance inbig tents to their favourite DJs. -> 1. Appealing to the target market"
           },
           {
             "prefix": "=",
-            "value": "E. By keeping its cool musical reputation, the festival would go from strengthto strength. In 2016, half a million fans bought their tickets in under 20minutes, and each year around 100,000 attendees a day now splash out around $375on admission. Of course, the costs don't stop there. It is now the mostprofitable festival in the world.-> 6. A money-making success"
+            "value": "E. Bykeeping its cool musical reputation, the festival would go from strength tostrength. In 2016, half a million fans bought their tickets in under 20 minutes,and each year around 100,000 attendees a day now splash out around $375 onadmission. Of course, the costs don't stop there. It is now the most profitablefestival in the world. -> 6. A money-making success"
           },
           {
             "prefix": "=",
-            "value": " F. Just two hours from Los Angeles, Coachella swiftly became the place to seeand be seen. The presence of models and other celebrities soon began to attractstyle bloggers, drawn by the fashion rather than the music. Which, in turn, hasmade Coachella irresistible to fashion houses, beauty companies and otherlifestyle labels.-> 5. A fashionable destination"
+            "value": " F. Just two hours from LosAngeles, Coachella swiftly became the place to see and be seen. The presence ofmodels and other celebrities soon began to attract style bloggers, drawn by thefashion rather than the music. Which, in turn, has made Coachella irresistibleto fashion houses, beauty companies and other lifestyle labels. -> 5. Afashionable destination"
           },
           {
             "prefix": "=",
-            "value": "G. Although for several years luxury brands have been hosting free concerts andpool parties for invited guests and photographing Instagram stars modellingdesigner clothes, this has until recently been outside festival hours. As aresult, they are now effectively separate events, to the point that 'No-chella'as it has become known, is, in the opinion of some, in danger of overshadowingthe 'real' festival.\\nCoachella has certainly come a long way from the original anti-establishmentPearl Jam gig.-> 3. Choosing between two attractions"
+            "value": "G. Although for several years luxury brands have beenhosting free concerts and pool parties for invited guests and photographingInstagram stars modelling designer clothes, this has until recently been outsidefestival hours. As a result, they are now effectively separate events, to thepoint that 'No-chella' as it has become known, is, in the opinion of some, indanger of overshadowing the 'real' festival.\\nCoachella has certainly come along way from the original anti-establishment Pearl Jam gig. -> 3. Choosingbetween two attractions"
           }
         ]
       },
-      " // question: 25402755 name: U1 p8-9 #9Vocabulary"
+      " // question: 25402755 name: U1 p8-9 #9 Vocabulary"
     ]
   },
   "U1 p8-9 9 Vocabulary": {
@@ -4154,7 +4154,7 @@
   "U3 p33 UoE/Reading 'Hygge'": {
     "title": "U3 p33 UoE/Reading 'Hygge'",
     "body": [
-      "Complete the text with one word in each gap.HYGGE: THE ART OF SIMPLE PLEASURESThe Danes are famous for being one of the world's happiest nations. One possiblereason ",
+      "Complete the text with one word in each gap.Hygge: the art of simple pleasures The Danes are famous for being one of theworld's happiest nations. One possible reason ",
       {
         "type": "INPUT",
         "options": [
@@ -4164,7 +4164,7 @@
           }
         ]
       },
-      " this could be the untranslatable concept of 'hygge'. Hyggehas already gained a lot of publicity outside Denmark. This is thanks to astream of recently published self-help books, ",
+      " this could be theuntranslatable concept of 'hygge'. Hygge has already gained a lot of publicityoutside Denmark. This is thanks to a stream of recently published self-helpbooks, ",
       {
         "type": "INPUT",
         "options": [
@@ -4178,7 +4178,7 @@
           }
         ]
       },
-      " all urge us toembrace hygge in order to improve our sense of well-being and happiness.Writer, Helen Russell, who moved to Denmark several years ",
+      " all urge us to embrace hygge in order to improve oursense of well-being and happiness. Writer, Helen Russell, who moved to Denmarkseveral years ",
       {
         "type": "INPUT",
         "options": [
@@ -4188,7 +4188,7 @@
           }
         ]
       },
-      ", is ahygge enthusiast. She has been fascinated by the idea ever ",
+      ", is a hygge enthusiast. She has been fascinated by theidea ever ",
       {
         "type": "INPUT",
         "options": [
@@ -4198,7 +4198,7 @@
           }
         ]
       },
-      " shearrived. Her book, The Year of Living Danishly: Uncovering The Secrets of theWorld's Happiest Country, makes it easy to understand ",
+      " she arrived. Her book, The Year of Living Danishly:Uncovering The Secrets of the World's Happiest Country, makes it easy tounderstand ",
       {
         "type": "INPUT",
         "options": [
@@ -4208,7 +4208,7 @@
           }
         ]
       },
-      " Helen and herfamily are still living ",
+      " Helen and her family are still living",
       {
         "type": "INPUT",
         "options": [
@@ -4222,7 +4222,7 @@
           }
         ]
       },
-      " . Helen says 'hygge' can bedefined ",
+      " . Helen says 'hygge' can be defined ",
       {
         "type": "INPUT",
         "options": [
@@ -4232,7 +4232,7 @@
           }
         ]
       },
-      " 'the absence of anything annoying or emotionallyoverwhelming'. It's all about being kind to yourself and celebrating the simplethings in life, ",
+      " 'theabsence of anything annoying or emotionally overwhelming'. It's all about beingkind to yourself and celebrating the simple things in life, ",
       {
         "type": "INPUT",
         "options": [
@@ -4242,7 +4242,7 @@
           }
         ]
       },
-      " spending time with friends and family, or eatingice cream. So find your inner Dane – and do what makes you happy without feelingguilty about it."
+      "spending time with friends and family, or eating ice cream. So find your innerDane – and do what makes you happy without feeling guilty about it."
     ]
   },
   "U4 p38 Reading 4.01": {
@@ -5753,7 +5753,7 @@
   "U5 p50 0/4 Text": {
     "title": "U5 p50 0/4 Text",
     "body": [
-      " Read the text and fill in each gap with a single word. It can be an expressionof quantity for some of the gaps.WHY DO PEOPLE LOVE CHILLI?People don't wash their eyes in lemon juice or pour boiling hot tea overthemselves, so why are we prepared to go through so much pain for the sake ofchilli?Chilli is not the only strange thing that people seem to enjoy. For example,very ",
+      " Read the text and fill in each gap with a single word.It can be an expression of quantity for some of the gaps. Why do people lovechilli? People don't wash their eyes in lemon juice or pour boiling hot tea overthemselves, so why are we prepared to go through so much pain for the sake ofchilli? Chilli is not the only strange thing that people seem to enjoy. Forexample, very ",
       {
         "type": "INPUT",
         "options": [
@@ -5763,7 +5763,7 @@
           }
         ]
       },
-      " people like the bitter taste of coffee to begin with but soonmost of us ",
+      " people like the bitter taste of coffee to begin withbut soon most of us ",
       {
         "type": "INPUT",
         "options": [
@@ -5781,7 +5781,7 @@
           }
         ]
       },
-      " used to it. But coffee contains caffeine,which has some addictive qualities, and this explains ",
+      " used to it. But coffee containscaffeine, which has some addictive qualities, and this explains ",
       {
         "type": "INPUT",
         "options": [
@@ -5791,7 +5791,7 @@
           }
         ]
       },
-      " it is sopopular. But capsaicin, the ingredient which makes chillies hot, does not seemto have ",
+      " itis so popular. But capsaicin, the ingredient which makes chillies hot, does notseem to have ",
       {
         "type": "INPUT",
         "options": [
@@ -5815,7 +5815,7 @@
           }
         ]
       },
-      " we consumed alarge quantity of it, it would kill us. And yet chillies have ",
+      " weconsumed a large quantity of it, it would kill us. And yet chillies have",
       {
         "type": "INPUT",
         "options": [
@@ -5825,7 +5825,7 @@
           }
         ]
       },
-      " usedin cooking in almost ",
+      " used in cooking in almost ",
       {
         "type": "INPUT",
         "options": [
@@ -5835,7 +5835,7 @@
           }
         ]
       },
-      " culture for thousands of years. Today, athird of the world's population eat chilli at least once a day. Lots of ourfavourite dishes just wouldn't taste right ",
+      " culture for thousands ofyears. Today, a third of the world's population eat chilli at least once a day.Lots of our favourite dishes just wouldn't taste right ",
       {
         "type": "INPUT",
         "options": [
@@ -5845,7 +5845,7 @@
           }
         ]
       },
-      " it.// Exercise 2: Multiple Choice"
+      " it. //Exercise 2: Multiple Choice"
     ]
   },
   "U5 p50 2.1": {
@@ -6182,7 +6182,7 @@
   "U5 p54 6.1 Passive": {
     "title": "U5 p54 6.1 Passive",
     "body": [
-      " People expect tourists to carry sticks to protectthemselves from curious monkeys.ARETourists ",
+      " People expect tourists to carry sticks to protectthemselves from curious monkeys. ARE Tourists ",
       {
         "type": "INPUT",
         "options": [
@@ -6192,17 +6192,17 @@
           },
           {
             "prefix": "=",
-            "value": "are expected to carry"
+            "value": "areexpected to carry"
           }
         ]
       },
-      " sticks to protectthemselves from curious monkeys."
+      " sticks to protect themselves from curious monkeys."
     ]
   },
   "U5 p54 6.2 Passive": {
     "title": "U5 p54 6.2 Passive",
     "body": [
-      " Most people think monkeys are a huge touristattraction. BEMonkeys ",
+      " Most people think monkeys are a huge touristattraction. BE Monkeys ",
       {
         "type": "INPUT",
         "options": [
@@ -6212,13 +6212,13 @@
           }
         ]
       },
-      " a huge tourist attraction by most people."
+      " a huge tourist attraction by mostpeople."
     ]
   },
   "U5 p54 6.3 Passive": {
     "title": "U5 p54 6.3 Passive",
     "body": [
-      " Newspapers claim that twenty top chefs have beeninvited to prepare the meal. BYIt ",
+      " Newspapers claim that twenty top chefs have beeninvited to prepare the meal. BY It ",
       {
         "type": "INPUT",
         "options": [
@@ -6228,13 +6228,13 @@
           }
         ]
       },
-      " newspapers that twenty top chefs have been invitedto prepare the meal."
+      " newspapers that twenty topchefs have been invited to prepare the meal."
     ]
   },
   "U5 p54 6.4 Passive": {
     "title": "U5 p54 6.4 Passive",
     "body": [
-      " The tourist office has estimated that over 10,000visitors watch the feast. BEENIt ",
+      " The tourist office has estimated that over 10,000visitors watch the feast. BEEN It ",
       {
         "type": "INPUT",
         "options": [
@@ -6244,13 +6244,13 @@
           }
         ]
       },
-      " that over 10,000 visitors watch the feast."
+      " that over 10,000visitors watch the feast."
     ]
   },
   "U5 p54 6.5 Passive": {
     "title": "U5 p54 6.5 Passive",
     "body": [
-      " Everyone says monkeys can be very aggressive aroundfood. TOMonkeys ",
+      " Everyone says monkeys can be very aggressive aroundfood. TO Monkeys ",
       {
         "type": "INPUT",
         "options": [
@@ -6266,7 +6266,7 @@
   "U5 p54 GR4.1 Passive reporting forms": {
     "title": "U5 p54 GR4.1 Passive reporting forms",
     "body": [
-      " People reported that there weregunshots.It ",
+      " People reported that there weregunshots. It ",
       {
         "type": "INPUT",
         "options": [
@@ -6276,7 +6276,7 @@
           },
           {
             "prefix": "=",
-            "value": "was reported that there weregunshots."
+            "value": "was reported that therewere gunshots."
           }
         ]
       },
@@ -6286,7 +6286,7 @@
   "U5 p54 GR4.2 Passive reporting forms": {
     "title": "U5 p54 GR4.2 Passive reporting forms",
     "body": [
-      " People claim that the money wasstolen.It ",
+      " People claim that the money wasstolen. It ",
       {
         "type": "INPUT",
         "options": [
@@ -6314,7 +6314,7 @@
   "U5 p54 GR4.3 Passive reporting forms": {
     "title": "U5 p54 GR4.3 Passive reporting forms",
     "body": [
-      " People think that the suspect hasleft the country.The suspect ",
+      " People think that the suspect hasleft the country. The suspect ",
       {
         "type": "INPUT",
         "options": [
@@ -6324,7 +6324,7 @@
           },
           {
             "prefix": "=",
-            "value": "is thought to have left thecountry."
+            "value": "is thoughtto have left the country."
           }
         ]
       },
@@ -6334,7 +6334,7 @@
   "U5 p54 GR4.4 Passive reporting forms": {
     "title": "U5 p54 GR4.4 Passive reporting forms",
     "body": [
-      " People say that the police made alot of mistakes.The police ",
+      " People say that the police made alot of mistakes. The police ",
       {
         "type": "INPUT",
         "options": [
@@ -6344,7 +6344,7 @@
           },
           {
             "prefix": "=",
-            "value": "are said to have made a lotof mistakes."
+            "value": "are saidto have made a lot of mistakes."
           }
         ]
       },
@@ -6354,7 +6354,7 @@
   "U5 p54 GR4.5 Passive reporting forms": {
     "title": "U5 p54 GR4.5 Passive reporting forms",
     "body": [
-      " People believe that the criminalhad a false passport.It ",
+      " People believe that the criminalhad a false passport. It ",
       {
         "type": "INPUT",
         "options": [
@@ -6364,11 +6364,11 @@
           },
           {
             "prefix": "=",
-            "value": "'s believed that thecriminal had a false passport"
+            "value": "'sbelieved that the criminal had a false passport"
           },
           {
             "prefix": "=",
-            "value": "is believed that the criminal had a falsepassport."
+            "value": "is believed that the criminalhad a false passport."
           },
           {
             "prefix": "=",
@@ -7010,7 +7010,7 @@
   "U6 p59 Voc10.1 the arts": {
     "title": "U6 p59 Voc10.1 the arts",
     "body": [
-      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I'm not convinced I like all classical ballet but I love ",
+      " Complete the sentence with one of the followingwords: abstract • blockbusters • cast • contemporary • gallery • productions.I'm not convinced I like all classical ballet but I love ",
       {
         "type": "INPUT",
         "options": [
@@ -7026,7 +7026,7 @@
   "U6 p59 Voc10.2 the arts": {
     "title": "U6 p59 Voc10.2 the arts",
     "body": [
-      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I sometimes nip into an art ",
+      " Complete the sentence with one of the followingwords: abstract • blockbusters • cast • contemporary • gallery • productions. Isometimes nip into an art ",
       {
         "type": "INPUT",
         "options": [
@@ -7042,7 +7042,7 @@
   "U6 p59 Voc10.3 the arts": {
     "title": "U6 p59 Voc10.3 the arts",
     "body": [
-      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I prefer landscapes or portraits to more ",
+      " Complete the sentence with one of the followingwords: abstract • blockbusters • cast • contemporary • gallery • productions. Iprefer landscapes or portraits to more ",
       {
         "type": "INPUT",
         "options": [
@@ -7058,7 +7058,7 @@
   "U6 p59 Voc10.4 the arts": {
     "title": "U6 p59 Voc10.4 the arts",
     "body": [
-      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I'll often go to a play more than once if there's a different ",
+      " Complete the sentence with one of the followingwords: abstract • blockbusters • cast • contemporary • gallery • productions.I'll often go to a play more than once if there's a different ",
       {
         "type": "INPUT",
         "options": [
@@ -7074,7 +7074,7 @@
   "U6 p59 Voc10.5 the arts": {
     "title": "U6 p59 Voc10.5 the arts",
     "body": [
-      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I tend to go for original theatre ",
+      " Complete the sentence with one of the followingwords: abstract • blockbusters • cast • contemporary • gallery • productions. Itend to go for original theatre ",
       {
         "type": "INPUT",
         "options": [
@@ -7090,7 +7090,7 @@
   "U6 p59 Voc10.6 the arts": {
     "title": "U6 p59 Voc10.6 the arts",
     "body": [
-      " Complete the sentence with one of the following words: abstract • blockbusters •cast • contemporary • gallery • productions.I'm a keen film-goer but I usually avoid ",
+      " Complete the sentence with one of the followingwords: abstract • blockbusters • cast • contemporary • gallery • productions.I'm a keen film-goer but I usually avoid ",
       {
         "type": "INPUT",
         "options": [
@@ -7511,21 +7511,21 @@
   "U6 p62 Reading 2": {
     "title": "U6 p62 Reading 2",
     "body": [
-      " Complete this sentence to summarise the writer’s mainpoint.Socal media encourages people to...",
+      " Complete this sentence to summarise the writer’s mainpoint. Socal media encourages people to...",
       {
         "type": "CHOICE",
         "options": [
           {
             "prefix": "~",
-            "value": "get a false impression of the celebrities they follow."
+            "value": "get a false impression of thecelebrities they follow."
           },
           {
             "prefix": "~",
-            "value": "have unrealistichopes for their own futures."
+            "value": "have unrealistic hopes for their own futures."
           },
           {
             "prefix": "=",
-            "value": "become too focused on the opinion others have ofthem."
+            "value": "becometoo focused on the opinion others have of them."
           }
         ]
       }
@@ -8259,7 +8259,7 @@
   "U6 p65 Voc1.2": {
     "title": "U6 p65 Voc1.2",
     "body": [
-      " What techniques do you use to get people to do what youwant?= What techniques do you use to",
+      " What techniques do you use to get people to do what youwant? = What techniques do you use to",
       {
         "type": "CHOICE",
         "options": [
@@ -8295,7 +8295,7 @@
   "U6 p65 Voc1.3": {
     "title": "U6 p65 Voc1.3",
     "body": [
-      " When do you normally get the time to relax?= When do you normally ",
+      " When do you normally get the time to relax? = When do younormally ",
       {
         "type": "CHOICE",
         "options": [
@@ -8325,13 +8325,13 @@
           }
         ]
       },
-      "the time to relax?"
+      " the time torelax?"
     ]
   },
   "U6 p65 Voc1.4": {
     "title": "U6 p65 Voc1.4",
     "body": [
-      " In which situations do you get angry?= In which situations do you",
+      " In which situations do you get angry? = In whichsituations do you ",
       {
         "type": "CHOICE",
         "options": [
@@ -8367,7 +8367,7 @@
   "U6 p65 Voc1.5": {
     "title": "U6 p65 Voc1.5",
     "body": [
-      " How do you get from one place to another?= How do you ",
+      " How do you get from one place to another? = How do you",
       {
         "type": "CHOICE",
         "options": [
@@ -8397,13 +8397,13 @@
           }
         ]
       },
-      " from oneplace to another?"
+      " from one place toanother?"
     ]
   },
   "U6 p65 Voc1.6": {
     "title": "U6 p65 Voc1.6",
     "body": [
-      " How many texts do you get in an average day?= How many texts do you ",
+      " How many texts do you get in an average day? = How manytexts do you ",
       {
         "type": "CHOICE",
         "options": [
@@ -8433,7 +8433,7 @@
           }
         ]
       },
-      "in an average day?"
+      " in anaverage day?"
     ]
   },
   "U6 p67 Rev1.1": {
@@ -9047,7 +9047,7 @@
   "U6 p68-69 ProgressTest2 4.1": {
     "title": "U6 p68-69 ProgressTest2 4.1",
     "body": [
-      " You will get the results by Friday. GIVENI ",
+      " You will get the results by Friday. GIVEN I",
       {
         "type": "INPUT",
         "options": [
@@ -9067,7 +9067,7 @@
   "U6 p68-69 ProgressTest2 4.2": {
     "title": "U6 p68-69 ProgressTest2 4.2",
     "body": [
-      " A fast-food chain has taken over two of ourlocal restaurants. BYTwo of our local restaurants ",
+      " A fast-food chain has taken over two of ourlocal restaurants. BY Two of our local restaurants ",
       {
         "type": "INPUT",
         "options": [
@@ -9077,13 +9077,13 @@
           }
         ]
       },
-      " a fast-food chain."
+      " afast-food chain."
     ]
   },
   "U6 p68-69 ProgressTest2 4.3": {
     "title": "U6 p68-69 ProgressTest2 4.3",
     "body": [
-      " Nearly all the shops in this town areexpensive. HARDLYThere ",
+      " Nearly all the shops in this town areexpensive. HARDLY There ",
       {
         "type": "INPUT",
         "options": [
@@ -9103,7 +9103,7 @@
   "U6 p68-69 ProgressTest2 4.4": {
     "title": "U6 p68-69 ProgressTest2 4.4",
     "body": [
-      " Many people believe that too much sugar isbad for your health. TOToo much sugar ",
+      " Many people believe that too much sugar isbad for your health. TO Too much sugar ",
       {
         "type": "INPUT",
         "options": [
@@ -9119,7 +9119,7 @@
   "U6 p68-69 ProgressTest2 4.5": {
     "title": "U6 p68-69 ProgressTest2 4.5",
     "body": [
-      " George hadn't finished doing his homeworkwhen I went to pick him up. STILLGeorge ",
+      " George hadn't finished doing his homeworkwhen I went to pick him up. STILL George ",
       {
         "type": "INPUT",
         "options": [
@@ -9129,21 +9129,21 @@
           },
           {
             "prefix": "=",
-            "value": "still hadn't finished his homework"
+            "value": "stillhadn't finished his homework"
           },
           {
             "prefix": "=",
-            "value": "stillhad not finished his homework"
+            "value": "still had not finished his homework"
           }
         ]
       },
-      " when I went to pick him up."
+      " when I went topick him up."
     ]
   },
   "U6 p68-69 ProgressTest2 4.6": {
     "title": "U6 p68-69 ProgressTest2 4.6",
     "body": [
-      " My brother often arrives unexpectedly.TURNINGMy brother is ",
+      " My brother often arrives unexpectedly.TURNING My brother is ",
       {
         "type": "INPUT",
         "options": [
@@ -9639,7 +9639,7 @@
   "U7 p77 [Key word transformation] 6.1": {
     "title": "U7 p77 [Key word transformation] 6.1",
     "body": [
-      " It was too foggy for us to ski.SOIt was ",
+      " It was too foggy for us to ski. SOIt was ",
       {
         "type": "INPUT",
         "options": [
@@ -9659,7 +9659,7 @@
   "U7 p77 [Key word transformation] 6.2": {
     "title": "U7 p77 [Key word transformation] 6.2",
     "body": [
-      " He couldn't afford a taxi, so hewent by bus.ENOUGHHe ",
+      " He couldn't afford a taxi, so hewent by bus. ENOUGH He ",
       {
         "type": "INPUT",
         "options": [
@@ -9673,7 +9673,7 @@
           },
           {
             "prefix": "=",
-            "value": "did not have enoughmoney"
+            "value": "didnot have enough money"
           },
           {
             "prefix": "=",
@@ -9687,7 +9687,7 @@
   "U7 p77 [Key word transformation] 6.3": {
     "title": "U7 p77 [Key word transformation] 6.3",
     "body": [
-      " There was so much traffic that wemissed the show.SUCHThere was ",
+      " There was so much traffic that wemissed the show. SUCH There was ",
       {
         "type": "INPUT",
         "options": [
@@ -9697,19 +9697,19 @@
           }
         ]
       },
-      " that we missed the show."
+      " that we missed theshow."
     ]
   },
   "U7 p77 [Key word transformation] 6.4": {
     "title": "U7 p77 [Key word transformation] 6.4",
     "body": [
-      " I had a wonderful time and Ireally enjoyed seeing everyone again.GREATI had a wonderful time and ",
+      " I had a wonderful time and Ireally enjoyed seeing everyone again. GREAT I had a wonderful time and ",
       {
         "type": "INPUT",
         "options": [
           {
             "prefix": "=",
-            "value": "it was great to see"
+            "value": "it wasgreat to see"
           }
         ]
       },
@@ -9719,7 +9719,7 @@
   "U7 p77 [Key word transformation] 6.5": {
     "title": "U7 p77 [Key word transformation] 6.5",
     "body": [
-      " He said I didn't need to make anappointment.NEEDHe said ",
+      " He said I didn't need to make anappointment. NEED He said ",
       {
         "type": "INPUT",
         "options": [
@@ -9735,7 +9735,7 @@
   "U7 p77 [Key word transformation] 6.6": {
     "title": "U7 p77 [Key word transformation] 6.6",
     "body": [
-      " I think that taking your coat isunnecessary.POINTI think that ",
+      " I think that taking your coat isunnecessary. POINT I think that ",
       {
         "type": "INPUT",
         "options": [
@@ -9749,7 +9749,7 @@
           }
         ]
       },
-      " taking your coat."
+      "taking your coat."
     ]
   },
   "U7 p77 [It/There is] 4.1": {

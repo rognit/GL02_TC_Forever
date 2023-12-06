@@ -1,11 +1,10 @@
 import fs from 'fs';
 import path from 'path';
-import { GIFT } from "./parser.js";
+import { GIFT } from "./gift.js";
 
 function splitGIFT(path) {
     const fileContent = fs.readFileSync(path, 'utf-8');
     const cleanedContent = cleanHTMLTags(fileContent);
-    console.log(cleanedContent); // Affiche le contenu nettoyé dans la console
     const regex = /::(.*?)::/g;
 
     const raw_content = [];
@@ -69,18 +68,16 @@ function construct(file_name) {
                 if (parsedGift.SubQuestions.length !== 0) {
                     giftDictionary[parsedGift.title] = parsedGift;
                 }
-            } catch (error) {
-                console.log(error);
-            }
+            } catch (error) {}
         }
     });
     
-    console.log(Object.keys(giftDictionary).length);
     const destinationFolder = '../Storage/'; // Chemin du nouveau dossier
     const destinationPath = path.join(destinationFolder, file_name); // Création du chemin complet
     save(giftDictionary, destinationPath);
 
 }
+
 construct("question_db.json");
 
 

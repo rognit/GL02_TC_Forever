@@ -44,23 +44,16 @@ export async function create_test_menu() {
   let testName = '';
 
   while (true) {
-
-    //constante pour controller l'apparition des choix
-    const remainingQuestions = 20 - questions.length;
-
     const choices = [];
 
     //si le test a moins de 15 questions, l'option pour sauvegarder n'apparais pas
-    if (questions.length < 15) {
+    if (questions.length >= 15) {
       choices.unshift('Finish and Save Test');
     }
 
     //si le test a 20 questions, alors il n'est plus possible d'en ajouter ou de le remplir
     if (questions.length < 20) {
       choices.unshift('Fill the Test');
-    }
-
-    if (questions.length < 20) {
       choices.unshift('Choose a Question');
     }
 
@@ -73,14 +66,9 @@ export async function create_test_menu() {
 
     //on reutilise get_question_menu
     if (userInput.mainOption === 'Choose a Question') {
-      if (questions.length < 20) {
-        const result = await get_question_menu();
-        selectedQuestion = result; // Utilisez la question sélectionnée
-        // Vous pouvez également utiliser le résultat de l'attente de l'utilisateur ici si nécessaire
-        questions.push(selectedQuestion);
-      } else {
-        console.log('Error: Test has reached the maximum limit of 20 questions.');
-      }
+      const result = await get_question_menu();
+      questions.push(result);
+      // Vous pouvez également utiliser le résultat de l'attente de l'utilisateur ici si nécessaire
     } else if (userInput.mainOption === 'Fill the Test') {
       const remainingQuestions = 20 - questions.length;
 
@@ -123,7 +111,7 @@ export async function create_vcard_menu() {
   saveVCardFromUserInput(answers)
 }
 
-  // Ajouter des calculs pour les valeurs dérivées comme email et siteWeb
+// Ajouter des calculs pour les valeurs dérivées comme email et siteWeb
 export async function simulate_test_menu() {
   const testNames = getAllTestNames();
 
@@ -184,7 +172,7 @@ export async function simulate_test_menu() {
               isCorrect: isCorrectInput,
             });
             break;
-    
+
           case TYPES.BOOLEAN:
             console.log('Type: BOOLEAN');
             console.log('Question:', part.options[0].value);
@@ -204,7 +192,7 @@ export async function simulate_test_menu() {
               isCorrect: isCorrectBoolean,
             });
             break;
-    
+
           case TYPES.NUMBER:
             console.log('Type: NUMBER');
             console.log('Question:', part.options[0].value);
@@ -223,7 +211,7 @@ export async function simulate_test_menu() {
               isCorrect: isCorrectNumber,
             });
             break;
-    
+
           case TYPES.MATCHING:
             console.log('Type: MATCHING');
             console.log('Question:', part.options[0].value);
@@ -244,7 +232,7 @@ export async function simulate_test_menu() {
               isCorrect: isCorrectMatching,
             });
             break;
-    
+
           case TYPES.CHOICE:
             console.log('Type: CHOICE');
             console.log('Question:', part.options[0].value);
@@ -266,7 +254,7 @@ export async function simulate_test_menu() {
               isCorrect: isCorrectChoice,
             });
             break;
-    
+
           default:
             console.error('Unknown question type:', part.type);
         }
