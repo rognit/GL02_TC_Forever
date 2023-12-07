@@ -1,166 +1,111 @@
 [
   {
-    "name": "test bool",
+    "name": "Test bool match",
     "questions": [
       {
-        "title": "U4 p42 1.1 Pre-listening Antartica",
+        "title": "EM U42 Ultimate q3",
         "body": [
-          "Antarctica has the world’s largest ",
+          "42 is the Absolute Answer to everything.",
           {
-            "type": "CHOICE",
+            "type": "BOOLEAN",
             "options": [
               {
-                "prefix": "~",
-                "value": "volcano."
-              },
-              {
-                "prefix": "=",
-                "value": "desert."
-              },
-              {
-                "prefix": "~",
-                "value": "mountain range."
+                "value": " FALSE",
+                "feedback": "42is theUltimate Answer."
               }
             ]
           }
         ]
       },
       {
-        "title": "U5 p52 3.5 Reading compr",
+        "title": "EM U5 p37 Reading 4 collocations",
         "body": [
-          "What point is made in the fifth paragraph? ",
+          "Match an element from each side to makecollocations from the text.",
           {
-            "type": "CHOICE",
+            "type": "MATCHING",
             "options": [
               {
                 "prefix": "=",
-                "value": "Mostof our food has been altered in some way."
+                "value": "maintain -> a healthy weight"
               },
               {
-                "prefix": "~",
-                "value": "Food production needs to get moreefficient."
+                "prefix": "=",
+                "value": "tuck into -> goodfood"
               },
               {
-                "prefix": "~",
-                "value": "People are reluctant to eat food products they consider unnatural."
+                "prefix": "=",
+                "value": "feel -> satisfied after a meal"
               },
               {
-                "prefix": "~",
-                "value": "Plants which are easy to grow will soon replace more popular vegetables."
+                "prefix": "=",
+                "value": "find -> a meal filling"
+              },
+              {
+                "prefix": "=",
+                "value": "sip -> a drink"
+              },
+              {
+                "prefix": "=",
+                "value": "count -> calories"
               }
             ]
           }
         ]
       },
       {
-        "title": "U5 p57 Rev1.6",
+        "title": "U5 p57 Rev3.7",
         "body": [
-          "What ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "parts"
-              },
-              {
-                "prefix": "~",
-                "value": "items"
-              },
-              {
-                "prefix": "=",
-                "value": "ingredients"
-              },
-              {
-                "prefix": "~",
-                "value": "pieces"
-              }
-            ]
-          },
-          " are needed to makethat dish?"
-        ]
-      },
-      {
-        "title": "U3 p33 Gra as/like 6.1",
-        "body": [
-          "Was that film ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "as"
-              },
-              {
-                "prefix": "=",
-                "value": "like"
-              }
-            ]
-          },
-          " all his other ones?"
-        ]
-      },
-      {
-        "title": "U3 p32 CD.21 Present perfect vs past simple",
-        "body": [
-          "He _____ his keys here after theparty.",
+          "The Spanish ",
           {
             "type": "CHOICE",
             "options": [
               {
                 "prefix": "=",
-                "value": "left"
+                "value": "eat"
               },
               {
                 "prefix": "~",
-                "value": "'s left"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "U6 p61 GR 1.3 Future forms",
-        "body": [
-          " She ",
-          {
-            "type": "INPUT",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "is going to apply"
-              },
-              {
-                "prefix": "=",
-                "value": "'s going to apply"
+                "value": "eats"
               }
             ]
           },
-          "to drama college, whatever her parents say. (apply)"
+          " a lot of fish."
         ]
       },
       {
-        "title": "U6 p68-69 ProgressTest2 4.5",
+        "title": "U6 p67 Rev2.4",
         "body": [
-          " George hadn't finished doing his homeworkwhen I went to pick him up. STILL George ",
+          "If I stay in every night watching TV, it gets me",
           {
-            "type": "INPUT",
+            "type": "CHOICE",
             "options": [
               {
-                "prefix": "=",
-                "value": "was still doing his homework"
+                "prefix": "~",
+                "value": "away"
               },
               {
                 "prefix": "=",
-                "value": "stillhadn't finished his homework"
+                "value": "down"
               },
               {
-                "prefix": "=",
-                "value": "still had not finished his homework"
+                "prefix": "~",
+                "value": "into"
+              },
+              {
+                "prefix": "~",
+                "value": "over"
+              },
+              {
+                "prefix": "~",
+                "value": "round"
+              },
+              {
+                "prefix": "~",
+                "value": "through"
               }
             ]
           },
-          " when I went topick him up."
+          "."
         ]
       },
       {
@@ -187,108 +132,156 @@
         ]
       },
       {
-        "title": "U6 p67 Rev4.2",
+        "title": "U5 p57 Rev2.2",
         "body": [
-          "As soon as she ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "phones"
-              },
-              {
-                "prefix": "~",
-                "value": "will phone"
-              },
-              {
-                "prefix": "~",
-                "value": "will be phoning"
-              }
-            ]
-          },
-          ", will youtext me?"
-        ]
-      },
-      {
-        "title": "U9 p94 Listening 4.2",
-        "body": [
-          "According to Max, sportspeople are achieving more thesedays because ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": " people in general have become stronger and fitter."
-              },
-              {
-                "prefix": "=",
-                "value": " standardsare getting higher."
-              },
-              {
-                "prefix": "~",
-                "value": " technology is responsible for improved performance."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "U7 p77 [It/There is] GR+.5",
-        "body": [
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "It"
-              },
-              {
-                "prefix": "~",
-                "value": "There"
-              }
-            ]
-          },
-          " was a very nice meal. Thank you."
-        ]
-      },
-      {
-        "title": "EM U5 p38 Gra3.3 passive",
-        "body": [
-          "Mary baked the cake using six eggs. (BAKED) The cake",
+          "I don’t eat ",
           {
             "type": "INPUT",
             "options": [
               {
                 "prefix": "=",
-                "value": "was baked by Mary"
+                "value": "many"
               }
             ]
           },
-          " who used six eggs."
+          " eggs these days; just two a week."
         ]
       },
       {
-        "title": "U4 p43 3.5",
+        "title": "U6 p60 Listening 3.6",
         "body": [
-          "How did Leo feel when he was crossing the Antarctic plateau?",
+          "You hear a man and a woman talking on the radio about anew art exhibition. What do they agree is special about it? ",
           {
             "type": "CHOICE",
             "options": [
               {
                 "prefix": "=",
-                "value": "Hehadn't expected it to be so difficult."
+                "value": "the variety ofgenres"
               },
               {
                 "prefix": "~",
-                "value": "He was worried they wouldn't reach theSouth Pole."
+                "value": "the unusual location"
               },
               {
                 "prefix": "~",
-                "value": "He doubted his skills as a leader."
+                "value": "the famous artists"
               }
             ]
           }
+        ]
+      },
+      {
+        "title": "U5 p49 GR1.5 Expressions of quantity",
+        "body": [
+          "I only eat ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a little"
+              },
+              {
+                "prefix": "=",
+                "value": "a few"
+              }
+            ]
+          },
+          " eggs eachweek."
+        ]
+      },
+      {
+        "title": "U3 p32 CD.27 Present perfect vs past simple",
+        "body": [
+          "They _____ really badly untillast season.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "always played"
+              },
+              {
+                "prefix": "~",
+                "value": "'ve always played"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U7 p77 [It/There is] GR+.8",
+        "body": [
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "It"
+              },
+              {
+                "prefix": "=",
+                "value": "There"
+              }
+            ]
+          },
+          " isn't any time to have a quickcoffee first."
+        ]
+      },
+      {
+        "title": "EM U5 p34 Gra1.7",
+        "body": [
+          "There is always ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "many"
+              },
+              {
+                "prefix": "=",
+                "value": "a lot of"
+              }
+            ]
+          },
+          " news about food scaresthese days"
+        ]
+      },
+      {
+        "title": "U6 p67 Rev2.4",
+        "body": [
+          "If I stay in every night watching TV, it gets me",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "away"
+              },
+              {
+                "prefix": "=",
+                "value": "down"
+              },
+              {
+                "prefix": "~",
+                "value": "into"
+              },
+              {
+                "prefix": "~",
+                "value": "over"
+              },
+              {
+                "prefix": "~",
+                "value": "round"
+              },
+              {
+                "prefix": "~",
+                "value": "through"
+              }
+            ]
+          },
+          "."
         ]
       },
       {
@@ -311,625 +304,272 @@
         ]
       },
       {
-        "title": "EM U6 p46-47 4.6",
+        "title": "EM U5 p37 Reading 2.5",
         "body": [
-          " The idea of flying is very frightening for somepeople. (ARE) Some people ",
+          "How did things change for the author in week two? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "She started to do more exercise"
+              },
+              {
+                "prefix": "~",
+                "value": "She gained a feeling of extra energy"
+              },
+              {
+                "prefix": "~",
+                "value": "Shewanted to give up her experiment"
+              },
+              {
+                "prefix": "=",
+                "value": "She found what she ate more enjoyable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U1 p7 Adverbs GR 1.5",
+        "body": [
+          " They've been told that. (often) ",
           {
             "type": "INPUT",
             "options": [
               {
                 "prefix": "=",
-                "value": "are very frightened by"
+                "value": "They've oftenbeen told that."
               },
               {
                 "prefix": "=",
-                "value": "are very frightened of"
-              }
-            ]
-          },
-          " theidea of flying."
-        ]
-      },
-      {
-        "title": "U5 p50 2.1",
-        "body": [
-          "The writer ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "likes"
+                "value": "They have often been told that."
               },
               {
                 "prefix": "=",
-                "value": "doesn’t"
-              }
-            ]
-          },
-          " like chilli."
-        ]
-      },
-      {
-        "title": "U9 p94 Listening 4.7",
-        "body": [
-          "Max says that a ten-year investigation has shown thatlucky people ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": " believe they will succeed."
+                "value": "They've often been told that"
               },
               {
                 "prefix": "=",
-                "value": " look for good opportunities."
+                "value": "They have often been told that"
               },
               {
-                "prefix": "~",
-                "value": "depend very little on talent."
+                "prefix": "=",
+                "value": "They’ve often been told that"
+              },
+              {
+                "prefix": "=",
+                "value": "They’ve oftenbeen told that."
               }
             ]
           }
         ]
       },
       {
-        "title": "U4 p38 Reading 4.05",
+        "title": "U6 p63 Reading Voc6.A1",
         "body": [
-          "Which person's superpower may have inspired the story ofa legendary character ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "A. Liam Hoekstra"
-              },
-              {
-                "prefix": "~",
-                "value": "B. Wim Hof"
-              },
-              {
-                "prefix": "~",
-                "value": "C. Dean Karnazes"
-              },
-              {
-                "prefix": "~",
-                "value": "D.Isao Machii"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "U6 p67 Rev4.7",
-        "body": [
-          "Don't be nervous. I'm sure you ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "do"
-              },
-              {
-                "prefix": "~",
-                "value": "are doing"
-              },
-              {
-                "prefix": "=",
-                "value": "will do"
-              }
-            ]
-          },
-          " reallywell tomorrow."
-        ]
-      },
-      {
-        "title": "U1 p7 Adverbs GR 1.2",
-        "body": [
-          " Take care when using this machinery. (always) ",
+          "achieve (v) ",
           {
             "type": "INPUT",
             "options": [
               {
                 "prefix": "=",
-                "value": "Always take care when using this machinery."
+                "value": "achievable"
               },
               {
                 "prefix": "=",
-                "value": "Always take care when using thismachinery"
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "secondTest",
-    "questions": [
-      {
-        "title": "U6 p63 Reading Voc6.A4",
-        "body": [
-          "destroy (v) ",
-          {
-            "type": "INPUT",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "destructive"
-              },
-              {
-                "prefix": "=",
-                "value": "destructible"
-              },
-              {
-                "prefix": "=",
-                "value": "indestructible"
+                "value": "unachievable"
               }
             ]
           }
         ]
       },
       {
-        "title": "U9 p94 Listening 4.5",
+        "title": "U7 p79 Review 3.2",
         "body": [
-          "For Matthew, the advantage of joining the Omega Club wasthat ",
+          "I need to get a _________ ticket because I am coming backthis evening.",
           {
             "type": "CHOICE",
             "options": [
-              {
-                "prefix": "=",
-                "value": " it was open all the time."
-              },
-              {
-                "prefix": "~",
-                "value": " it had a lot of good players."
-              },
-              {
-                "prefix": "~",
-                "value": " it hadgreat facilities."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "U6 p63 Reading Voc6.A9",
-        "body": [
-          "therapy (n)",
-          {
-            "type": "INPUT",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "therapeutic"
-              },
-              {
-                "prefix": "=",
-                "value": "nontherapeutic"
-              },
-              {
-                "prefix": "=",
-                "value": "non-therapeutic"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "U3 p32 CD.30 Present perfect vs past simple",
-        "body": [
-          "You _____ in lots of differentcountries, haven't you?",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "'ve worked"
-              },
-              {
-                "prefix": "~",
-                "value": "worked"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "U7 p77 [It/There is] GR+.6",
-        "body": [
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "It"
-              },
-              {
-                "prefix": "~",
-                "value": "There"
-              }
-            ]
-          },
-          " is very cold again today."
-        ]
-      },
-      {
-        "title": "U6 p62 Reading 4",
-        "body": [
-          "For the gaps in the text (1-6), choose the sentence thatfits each gap. There is one extra sentence which you do not need to use. ",
-          {
-            "type": "MATCHING",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "1 ->Then came reality TV, which turned the attention back to ourselves."
-              },
-              {
-                "prefix": "=",
-                "value": "2 ->Interestingly, what they all seem to have in common is digital attentionseeking."
-              },
-              {
-                "prefix": "=",
-                "value": "3 -> Such increases pre-date social media but they have clearlyworsened since its arrival."
-              },
-              {
-                "prefix": "=",
-                "value": "4 -> The explanation for this is that narcissisticindividuals are much more likely to use social media to portray an enviable, ifunrealistic, self-image, broadcasting their life to an audience and gaining manyvirtual friends."
-              },
-              {
-                "prefix": "=",
-                "value": "5 -> Furthermore, the need to be appreciated is a crucial partof psychological wellbeing, unless it is taken too far and becomes a nonstopsearch to be valued by others."
-              },
-              {
-                "prefix": "=",
-                "value": "6 -> New ‘self-help’ mathematical formulas couldbe built into Facebook, Twitter and Instagram."
-              },
-              {
-                "prefix": "=",
-                "value": "-> However, the danger is whenthese efforts to compensate are supported and rewarded by others."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "EM U5 p34 Gra1.4",
-        "body": [
-          "I drink ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "hardly any"
-              },
-              {
-                "prefix": "~",
-                "value": "a few"
-              }
-            ]
-          },
-          " coffee, if I drink too",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "many"
-              },
-              {
-                "prefix": "=",
-                "value": "much"
-              }
-            ]
-          },
-          ", I can't sleep"
-        ]
-      },
-      {
-        "title": "EM U5 p35 Gra3.3",
-        "body": [
-          "Not many people ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "enjoy"
-              },
-              {
-                "prefix": "~",
-                "value": "enjoys"
-              }
-            ]
-          },
-          " raw vegetables."
-        ]
-      },
-      {
-        "title": "U3 p30 4.5",
-        "body": [
-          "The writer mentions Wimbledon to show that ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "some sports are lesslikely to inspire strong feelings."
-              },
-              {
-                "prefix": "~",
-                "value": "some passions last for many years."
-              },
-              {
-                "prefix": "=",
-                "value": "sportsfans can behave uncharacteristically."
-              },
-              {
-                "prefix": "~",
-                "value": "people often behave strangely to get onTV."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "U6 p60 Listening 3.5",
-        "body": [
-          "You hear a man interviewing a ballet dancer on theradio. Why has she decided to retire later this year? ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "She is worried aboutgetting injured."
-              },
-              {
-                "prefix": "~",
-                "value": "She no longer enjoys performing."
-              },
-              {
-                "prefix": "=",
-                "value": "She wants to make herfamily the priority."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "EM U5 p37 Reading 1.1",
-        "body": [
-          "Choose the best title for the text.",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "Is powdered foodthe future? Huel put to the test"
-              },
-              {
-                "prefix": "~",
-                "value": "It’s nutritious and delicious\\: I’m going withHuel"
-              },
-              {
-                "prefix": "~",
-                "value": "Give me a hamburger every time\\: Huel is not for me"
-              }
-            ]
-          },
-          " // 2"
-        ]
-      },
-      {
-        "title": "U5 p52 3.1 Reading compr",
-        "body": [
-          "Why did Rob Rhinehart initially create Soylent? ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "He saw it as a way of earning money to support his new company."
-              },
-              {
-                "prefix": "~",
-                "value": "He felt thatcooking was taking up too much of his time."
-              },
-              {
-                "prefix": "~",
-                "value": "He wanted to live on a diet ofnutritious food."
-              },
-              {
-                "prefix": "=",
-                "value": "He thought that he would be able to live more cheaply."
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "U6 p59 Voc10.5 the arts",
-        "body": [
-          " Complete the sentence with one of the followingwords: abstract • blockbusters • cast • contemporary • gallery • productions. Itend to go for original theatre ",
-          {
-            "type": "INPUT",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "productions"
-              }
-            ]
-          },
-          " by controversial directors."
-        ]
-      },
-      {
-        "title": "U5 p54 6.3 Passive",
-        "body": [
-          " Newspapers claim that twenty top chefs have beeninvited to prepare the meal. BY It ",
-          {
-            "type": "INPUT",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "is claimed by"
-              }
-            ]
-          },
-          " newspapers that twenty topchefs have been invited to prepare the meal."
-        ]
-      },
-      {
-        "title": "U6 p67 Rev3.2",
-        "body": [
-          " The film may already ",
-          {
-            "type": "INPUT",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "have started|have started"
-              }
-            ]
-          },
-          "(start) by the time we get there."
-        ]
-      },
-      {
-        "title": "U6 p65 Voc1.6",
-        "body": [
-          " How many texts do you get in an average day? = How manytexts do you ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "become"
-              },
-              {
-                "prefix": "~",
-                "value": "have"
-              },
-              {
-                "prefix": "~",
-                "value": "move/travel"
-              },
-              {
-                "prefix": "~",
-                "value": "persuade"
-              },
-              {
-                "prefix": "=",
-                "value": "receive"
-              },
-              {
-                "prefix": "~",
-                "value": "understand"
-              }
-            ]
-          },
-          " in anaverage day?"
-        ]
-      },
-      {
-        "title": "U5 p54 6.5 Passive",
-        "body": [
-          " Everyone says monkeys can be very aggressive aroundfood. TO Monkeys ",
-          {
-            "type": "INPUT",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "are said to"
-              }
-            ]
-          },
-          " be very aggressive around food."
-        ]
-      },
-      {
-        "title": "U7 p79 Review 3.3",
-        "body": [
-          "There's no ________ buying a car if you're never goingto drive it.",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "reason"
-              },
-              {
-                "prefix": "~",
-                "value": "need"
-              },
-              {
-                "prefix": "=",
-                "value": "point"
-              },
-              {
-                "prefix": "~",
-                "value": "objective"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "title": "U6 p67 Rev2.1",
-        "body": [
-          "The only way I can get ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "~",
-                "value": "away"
-              },
-              {
-                "prefix": "~",
-                "value": "down"
-              },
-              {
-                "prefix": "~",
-                "value": "into"
-              },
-              {
-                "prefix": "~",
-                "value": "over"
-              },
               {
                 "prefix": "~",
                 "value": "round"
               },
               {
                 "prefix": "=",
-                "value": "through"
-              }
-            ]
-          },
-          " tomy cousin is by talking about dance."
-        ]
-      },
-      {
-        "title": "U5 p49 GR1.6 Expressions of quantity",
-        "body": [
-          "I'd like to have ",
-          {
-            "type": "CHOICE",
-            "options": [
-              {
-                "prefix": "=",
-                "value": "some"
+                "value": "return"
               },
               {
                 "prefix": "~",
-                "value": "a few"
+                "value": "package"
+              },
+              {
+                "prefix": "~",
+                "value": "direct"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U5 p50 5.1 very few",
+        "body": [
+          " Very few people ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "not many people"
+              },
+              {
+                "prefix": "=",
+                "value": "hardly anypeople"
+              },
+              {
+                "prefix": "=",
+                "value": "only a few people"
+              },
+              {
+                "prefix": "=",
+                "value": "almost no-one"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U5 p57 Rev4.6 Passive forms",
+        "body": [
+          " Only fifty people ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "be invited"
+              },
+              {
+                "prefix": "=",
+                "value": "wereinvited"
               }
             ]
           },
-          " ricewith my curry."
+          " (invite) to their wedding, which is on Saturday"
+        ]
+      },
+      {
+        "title": "EM U5 p38 Gra2 passive forms",
+        "body": [
+          "// CLOZE Complete the email with the correctactive or passive form of the verbs in brackets. Dear Julia, You'll never gesswhat ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "has happened"
+              }
+            ]
+          },
+          " (happen)! Our lovey new car ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "has been stolen"
+              }
+            ]
+          },
+          "(steal)! One day last week Jack went out to be yhe beach for a swim and as usualhe ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "hid"
+              }
+            ]
+          },
+          " (hide) the car keys in the toe of his shoe. When he came out ofthe water, he ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "didn't notice"
+              },
+              {
+                "prefix": "=",
+                "value": "did not notice"
+              }
+            ]
+          },
+          " (not notice) anythingsuspicious. It didn't look as if his clothes ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "had been touched"
+              }
+            ]
+          },
+          " (touch).When he started to put them on, however, he realised that the keys ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "hadbeen taken"
+              }
+            ]
+          },
+          " (take) and when he got to the car park, of course, the car was gonetoo. The police say there is a gang of car thieves who ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "are known"
+              }
+            ]
+          },
+          " (know)to be operating in the area. They think Jack ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "was being watched"
+              }
+            ]
+          },
+          " (watch)as he arrived at the beach. The thieves saw where he had parked the car and thenwhere the keys ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "were hidden"
+              },
+              {
+                "prefix": "=",
+                "value": "had been hidden"
+              }
+            ]
+          },
+          " (hide). It was almost twoweeks ago now and although we hope it ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "will be found"
+              }
+            ]
+          },
+          " (find), we'rebeginning to think we might never see it again. Well, that's all from me. Writesoon and tell me all your news. Love, Raquel"
         ]
       }
     ]

@@ -2,7 +2,7 @@ import inquirer from 'inquirer';
 import { saveVCardFromUserInput, searchAndDisplayContactInfo } from './Vcard/vcard.js';
 import fs from 'fs';
 import { search, getAllTestNames } from './GIFT/search.js';
-import { Exam, saveTest, getRandomQuestions, getTestName } from './exam.js';
+import { Exam, saveTest, getRandomQuestions, getTestName, shuffle} from './exam.js';
 import { processBody } from './GIFT/gift.js';
 
 export async function get_question_menu() {
@@ -34,6 +34,8 @@ export async function get_question_menu() {
     name: 'enter',
     message: 'Press Enter to continue...',
   });
+
+  return selectedQuestion;
 }
 
 export async function create_test_menu() {
@@ -63,14 +65,14 @@ export async function create_test_menu() {
     });
 
     //on reutilise get_question_menu
+   
     if (userInput.mainOption === 'Choose a Question') {
-      if (userInput.mainOption === 'Choose a Question') {
-        const result = await get_question_menu();
-        if (result) {
-          questions.push(result);
-        }}
-      // Vous pouvez également utiliser le résultat de l'attente de l'utilisateur ici si nécessaire
-    } else if (userInput.mainOption === 'Fill the Test') {
+      const result = await get_question_menu();
+      if (result) {
+        questions.push(result); // Ajoutez la question sélectionnée à l'array
+        console.log('Question added to the test.');
+      }
+    }  else if (userInput.mainOption === 'Fill the Test') {
       const remainingQuestions = 20 - questions.length;
 
       //cette option rempli le test totalement (donc jusqu'a 20 questions), on pourrais pousser plus loin en remplissant jusqu'a un nombre aleatoire entre 15 et 20
@@ -182,6 +184,28 @@ export async function simulate_test_menu() {
         choices: ['True', 'False'],
       });
       console.log(`Your choice: ${userInput.userBoolean}`);
+    }else if (question.body[1].type === 'MATCHING') {
+      // Question de type MATCHING
+      const matchingOptions = question.body[1].options.map(option => option.value);
+      const shuffledOptions = shuffle(matchingOptions);
+      const formattedOptions = shuffledOptions.map(option => {
+        const [before, after] = option.split(' -> ');
+        return `${before}    |    ${after}`;
+      });
+    
+      const userInput = await inquirer.prompt({
+        type: 'editor',
+        name: 'userMatching',
+        message: 'Match the elements to make collocations:',
+        validate: function (input) {
+          // Vous pouvez ajouter une logique de validation personnalisée si nécessaire
+          return true;
+        },
+        default: formattedOptions.join('\n'),
+      });
+    
+      console.log('Your matching answers:');
+      console.log(userInput.userMatching);
     }
 
 
