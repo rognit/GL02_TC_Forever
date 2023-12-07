@@ -2,11 +2,8 @@ import inquirer from 'inquirer';
 import { saveVCardFromUserInput, searchAndDisplayContactInfo } from './Vcard/vcard.js';
 import fs from 'fs';
 import { search, getAllTestNames } from './GIFT/search.js';
-import {SubQuestion } from './GIFT/parser.js';
 import { Exam, saveTest, getRandomQuestions, getTestName } from './exam.js';
-import { GIFT } from "./GIFT/gift.js";
-
-let userResponses = [];
+import { processBody } from './GIFT/gift.js';
 
 export async function get_question_menu() {
   process.stdout.write('\x1B[2J\x1B[0f');
@@ -29,8 +26,7 @@ export async function get_question_menu() {
 
 
   const selectedQuestion = searchResults.find(q => q.title === userInput2.selectedQuestion);
-
-  console.log('Selected Question:', selectedQuestion);
+  console.log(`Question: ${selectedQuestion.title} \n Body: ${processBody(selectedQuestion.body)}`);
 
   // Wait for the user to press Enter
   await inquirer.prompt({
@@ -145,8 +141,9 @@ export async function simulate_test_menu() {
   const questions = selectedTest.questions;
 
   for (const question of questions) {
+    process.stdout.write('\x1B[2J\x1B[0f');
     console.log(`Question: ${question.title}`);
-    console.log(`Body: ${processBody(question.body)}`);
+    console.log(`Body: ${processBody(selectedQuestion.body)}`);
 
     // Vérifier le type de la question
     if (question.body[1].type === 'INPUT') {
@@ -186,27 +183,6 @@ export async function simulate_test_menu() {
 
   console.log('Test completed!');
 }
-
-function processBody(body) {
-  if (Array.isArray(body)) {
-    let optionIndex = 1;
-    return body.map((item) => {
-      if (typeof item === 'string') {
-        return item;
-      } else if (item.type === 'INPUT') {
-        return '';
-      } else if (item.type === 'CHOICE') {
-        return '';
-      } else if (typeof item === 'object' && item.value) {
-        return typeof item.value === 'string' ? item.value : '';
-      }
-    }).join('');
-  } else {
-    return ''; // Gérer d'autres types de corps si nécessaire
-  }
-}
-
-
 
 export async function inputToSearchVcard() {
   const answers = await inquirer.prompt([

@@ -37,14 +37,31 @@ class GIFT {
         return body;
     }
 
-    static displayQuestion() {
-        
-    }
+    
 
     // pour avoir toute les sub-questions de la question GIFT
     get SubQuestions() {
         return this.body.filter(x => x instanceof SubQuestion);
     }
 }
+
+export function processBody(body) {
+    if (Array.isArray(body)) {
+      return body.map((item) => {
+        if (typeof item === 'string') {
+          return item;
+        } else if (item.type === 'INPUT') {
+          return '';
+        } else if (item.type === 'CHOICE') {
+          return '';
+        } else if (typeof item === 'object' && item.value) {
+          return typeof item.value === 'string' ? item.value : '';
+        }
+      }).join('');
+    } else {
+      return ''; // Gérer d'autres types de corps si nécessaire
+    }
+}
+
 export { GIFT }
 
