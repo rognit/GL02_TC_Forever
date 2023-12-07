@@ -54,10 +54,9 @@ export function saveVCardFromUserInput(answer) {
 
 
 
-
 export function searchAndDisplayContactInfo(answers) {
     try {
-        const userInput = getUserNameInput(answers);
+        const userInput = answers;
 
         const fileName = `data_vcard/${answers.prenom}_${answers.nom}.vcf`;
 
