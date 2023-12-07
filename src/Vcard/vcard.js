@@ -50,3 +50,50 @@ export function saveVCardFromUserInput(answer) {
         }
     });
 }
+
+
+
+/*async function searchAndDisplayContactInfo(answers) {
+    try {
+        const userInput = await getUserNameInput();
+        const { answers.prenom, answers.nom } = userInput;
+
+        const fileName = `data_vcard/${prenom}_${nom}.vcf`;
+
+        if (fs.existsSync(fileName)) {
+            const fileContent = fs.readFileSync(fileName, 'utf-8');
+            const contactInfo = extractContactInfo(fileContent);
+
+            console.log("Informations de contact :");
+            console.log("Prénom :", contactInfo.prenom);
+            console.log("Nom :", contactInfo.nom);
+            console.log("Adresse :", contactInfo.adresse);
+            console.log("Téléphone :", contactInfo.telephone);
+            console.log("Email :", contactInfo.email);
+        } else {
+            console.log("Enseignant introuvable, informations de contact indisponibles.");
+        }
+    } catch (error) {
+        console.error("Une erreur s'est produite lors de la recherche des informations de contact :", error.message);
+    }
+}
+
+function extractContactInfo(vCardString) {
+    // Logique pour extraire les informations de la chaîne VCard ici
+    // ...
+
+    // Exemple minimal
+    const contactInfo = {
+        prenom: "John",
+        nom: "Doe",
+        adresse: "123 Rue Example",
+        telephone: "+33 1 23 45 67 89",
+        email: "john.doe@example.com"
+    };
+
+    return contactInfo;
+}
+
+// Appeler la fonction pour rechercher et afficher les informations de contact
+searchAndDisplayContactInfo();
+*/

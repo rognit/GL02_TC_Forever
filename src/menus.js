@@ -116,6 +116,17 @@ export async function create_vcard_menu() {
   saveVCardFromUserInput(answers)
 }
 
+/*export async function search_vcard_menu() {
+  const answers = await inquirer.prompt([
+      { type: 'input', name: 'prenom', message: 'Entrez le prénom :'},
+      { type: 'input', name: 'nom', message: 'Entrez le nom :'},
+  ]);
+
+  searchAndDisplayContactInfo(answers);
+}*/
+
+
+
 export async function simulate_test_menu() {
   const testNames = getAllTestNames();
 
