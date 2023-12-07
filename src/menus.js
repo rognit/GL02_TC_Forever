@@ -204,3 +204,63 @@ export async function inputToSearchVcard() {
   ]);
 }
 
+export async function exam_profile_menu() {
+  const jsonContent = fs.readFileSync('./src/Storage/test_db.json', 'utf-8');
+  const loadedTestDatabase = JSON.parse(jsonContent);
+
+  const testNames = loadedTestDatabase.map(test => test.name);
+  const userInput = await inquirer.prompt({
+    type: 'list',
+    name: 'selectedTest',
+    message: 'Choose a test to simulate:',
+    choices: testNames,
+  });
+
+  // Trouver le test sélectionné dans la base de données
+  const selectedTest = loadedTestDatabase.find(test => test.name === userInput.selectedTest);
+
+  // Instancier un objet Exam avec le test sélectionné
+  const exam = new Exam(selectedTest.name, selectedTest.questions);
+
+  // Appeler la méthode viewProfile sur l'objet exam
+  await exam.viewProfile();
+}
+
+export async function compareExams_menu() {
+  const jsonContent = fs.readFileSync('./src/Storage/test_db.json', 'utf-8');
+  const loadedTestDatabase = JSON.parse(jsonContent);
+
+  const testNames = loadedTestDatabase.map(test => test.name);
+
+  const userInput = await inquirer.prompt({
+    type: 'list',
+    name: 'selectedTest1',
+    message: 'Choose the first test to compare:',
+    choices: testNames,
+  });
+
+  const userInput2 = await inquirer.prompt({
+    type: 'list',
+    name: 'selectedTest2',
+    message: 'Choose the second test to compare:',
+    choices: testNames,
+  });
+
+  //console.log(`Comparing ${userInput.selectedTest1} with ${userInput2.selectedTest2}...`);
+  // Trouver les tests sélectionnés dans la base de données
+  const selectedTest1 = loadedTestDatabase.find(test => test.name === userInput.selectedTest1);
+  const selectedTest2 = loadedTestDatabase.find(test => test.name === userInput2.selectedTest2);
+
+  if (!selectedTest1 || !selectedTest2) {
+    console.log('One or both of the selected tests could not be found.');
+    return;
+  }
+
+  // Instancier des objets Exam avec les tests sélectionnés
+  const exam1 = new Exam(selectedTest1.name, selectedTest1.questions);
+  const exam2 = new Exam(selectedTest2.name, selectedTest2.questions);
+
+  // Comparer les examens
+  await Exam.compareExams(exam1, exam2);
+}
+

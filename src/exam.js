@@ -7,6 +7,8 @@ import fs from 'fs';
 import path from 'path';
 import inquirer from 'inquirer';
 import { search } from './GIFT/search.js';
+import { compile } from 'vega-lite';
+import { View } from 'vega';
 
 export class Exam {
     /**
@@ -47,8 +49,6 @@ export class Exam {
    
 
     async viewProfile() {
-
-        console.log(this.questions);
         // Calculer les proportions
         const totalQuestions = this.questions.length;
         const boolQuestion = this.questions.filter(q => q.body[1].type === 'BOOLEAN').length;
@@ -74,8 +74,57 @@ export class Exam {
             { category: 'Choix multiples', count: choiceQuestion },
         ];
 
+        // Définition de la spécification Vega-Lite
+        const spec = {
+            $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
+            description: 'Profil de l\'examen',
+            data: { values: data },
+            mark: 'bar',
+            encoding: {
+                x: { field: 'category', type: 'nominal', axis: { title: 'Catégorie' } },
+                y: { field: 'count', type: 'quantitative', axis: { title: 'Nombre de Questions' } }
+            }
+        };
+
+        // Compiler la spécification Vega-Lite en spécification Vega
+        const compiledSpec = compile(spec).spec;
+
+        // Créer une vue Vega avec la spécification compilée
+        const view = new View(vega.parse(compiledSpec), {
+            renderer: 'none'  // Pas besoin de rendu dans un navigateur
+        }).initialize();
+
+        // Générer le PNG
+        const png = await view.toCanvas();
+
+        fs.writeFileSync('./src/Storage/ExamCharts/chart.png', png.toBuffer());
 
     }
+
+
+    static compareExams(exam1, exam2) {
+
+        console.log("Comparaison des examens:");
+        console.log(`Exam 1: ${exam1.name}`);
+        exam1.viewProfile();
+        console.log(`Exam 2: ${exam2.name}`);
+        exam2.viewProfile();
+
+        const titlesExam1 = exam1.questions.map(q => q.title);
+        const titlesExam2 = exam2.questions.map(q => q.title);
+
+        const commonTitles = titlesExam1.filter(title => titlesExam2.includes(title));
+
+        if (commonTitles.length > 0) {
+            console.log("Questions communes entre les deux examens:");
+            commonTitles.forEach(title => console.log(title));
+        } else {
+            console.log("Il n'y a pas de questions communes entre les deux examens.");
+        }
+    }
+
+
+
 }
 
 export async function saveTest(testName, questions) {

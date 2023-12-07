@@ -1,6 +1,13 @@
 
 import inquirer from 'inquirer';
-import { get_question_menu, create_test_menu, create_vcard_menu, simulate_test_menu } from './src/menus.js';
+import {
+  get_question_menu,
+  create_test_menu,
+  create_vcard_menu,
+  simulate_test_menu,
+  exam_profile_menu,
+  compareExams_menu
+} from './src/menus.js';
 
 const mainMenuQuestions = [
   {
@@ -12,6 +19,7 @@ const mainMenuQuestions = [
       'Create a test',
       'Simulate a test',
       'View Exams profile',
+      'Compare Exams',
       'Create vCard',
       'Exit',
     ],
@@ -35,6 +43,12 @@ async function runMainMenu() {
         break;
       case 'Create vCard':
         await create_vcard_menu();
+        break;
+      case 'View Exams profile':
+        await exam_profile_menu();
+        break;
+      case 'Compare Exams':
+        await compareExams_menu();
         break;
       case 'Exit':
         console.log('Exiting...');
