@@ -1,5 +1,5 @@
 import inquirer from 'inquirer';
-import { saveVCardFromUserInput } from '../src/Vcard/vcard.js';
+import { saveVCardFromUserInput } from './Vcard/vcard.js';
 import fs from 'fs';
 import { search, getAllTestNames } from './GIFT/search.js';
 import {SubQuestion } from './GIFT/parser.js';
