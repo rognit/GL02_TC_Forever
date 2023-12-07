@@ -1,11 +1,12 @@
 // Importez les dépendances nécessaires
 import fs from 'fs';
+import inquirer from 'inquirer';
 
 function createVCardFromUserInput(answer) {
     // On vérifie si les informations sont complètes
     if (!answer.prenom || !answer.nom || !answer.nomEtablissement || !answer.poste || !answer.numeroTel || !answer.numeroRue || !answer.nomRue || !answer.bp || !answer.ville || !answer.siteWeb) {
         console.log("Les informations d'identification ou de contact de l'enseignant sont incomplètes ou incorrectes. Le fichier VCard ne peut pas être généré en entier pour cet enseignant spécifique.");
-        return null;
+        return;
     }
 
     // Création de la chaîne vCard
@@ -53,11 +54,10 @@ export function saveVCardFromUserInput(answer) {
 
 
 
-export function searchAndDisplayContactInfo(answers) {
+export async function searchAndDisplayContactInfo(answers) {
     try {
         //const userInput = answers;
         const { prenom, nom } = answers;
-        console.log("Informations de contact :");
         const fileName = `./src/Vcard/data_vcard/${prenom}_${nom}.vcf`;
 
         if (fs.existsSync(fileName)) {
@@ -70,11 +70,17 @@ export function searchAndDisplayContactInfo(answers) {
             console.log("Adresse :", contactInfo.adresse);
             console.log("Téléphone :", contactInfo.telephone);
             console.log("Email :", contactInfo.email);
+
+            await inquirer.prompt({
+                type: 'input',
+                name: 'enter',
+                message: 'Press Enter to continue...',
+              });
         } else {
             console.log("Enseignant introuvable, informations de contact indisponibles.");
         }
     } catch (error) {
-        console.error("Une erreur s'est produite lors de la recherche des informations de contact :", error.message);
+        return;
     }
 }
 

@@ -118,7 +118,7 @@ export async function search_vcard_menu() {
       { type: 'input', name: 'nom', message: 'Entrez le nom :'},
   ]);
 
-  searchAndDisplayContactInfo(answers);
+  await searchAndDisplayContactInfo(answers);
 }
 
 
