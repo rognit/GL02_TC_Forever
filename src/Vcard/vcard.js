@@ -34,7 +34,7 @@ export function saveVCardFromUserInput(answer) {
     }
 
     // Vérifier si le dossier existe, sinon le créer
-    const folderPath = "data_vcard";
+    const folderPath = "./src/Vcard/data_vcard";
     if (!fs.existsSync(folderPath)) {
         fs.mkdirSync(folderPath);
     }
@@ -53,12 +53,12 @@ export function saveVCardFromUserInput(answer) {
 
 
 
-
 export function searchAndDisplayContactInfo(answers) {
     try {
-        const userInput = answers;
-
-        const fileName = `data_vcard/${answers.prenom}_${answers.nom}.vcf`;
+        //const userInput = answers;
+        const { prenom, nom } = answers;
+        console.log("Informations de contact :");
+        const fileName = `./src/Vcard/data_vcard/${prenom}_${nom}.vcf`;
 
         if (fs.existsSync(fileName)) {
             const fileContent = fs.readFileSync(fileName, 'utf-8');
@@ -78,9 +78,9 @@ export function searchAndDisplayContactInfo(answers) {
     }
 }
 
-function extractContactInfo(vCardString) {
+function extractContactInfo(fileContent) {
     // Diviser la chaîne VCard en lignes
-    const lines = vCardString.split('\n');
+    const lines = fileContent.split('\n');
 
     // Initialiser un objet pour stocker les informations de contact
     const contactInfo = {
