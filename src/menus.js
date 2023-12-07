@@ -141,6 +141,7 @@ export async function simulate_test_menu() {
   const selectedTest = loadedTestDatabase.find(test => test.name === userInput.selectedTest);
 
   const questions = selectedTest.questions;
+  const results = [];
 
   for (const question of questions) {
     process.stdout.write('\x1B[2J\x1B[0f');
@@ -155,17 +156,61 @@ export async function simulate_test_menu() {
         name: 'userInput',
         message: 'Enter your answer:',
       });
-      console.log(`Your answer: ${userInput.userInput}`);
-    } else if (question.body[1].type === 'CHOICE') {
+  
+      // Obtenez les options de la question de type INPUT
+      const inputOptions = question.body[1].options.map(option => option.value.split('|'));
+  
+      // Aplatir le tableau d'options pour permettre une vérification plus simple
+      const flattenedOptions = inputOptions.flat();
+  
+      // Vérifiez si la réponse de l'utilisateur est l'une des options correctes
+      const isCorrect = flattenedOptions.includes(userInput.userInput);
+  
+      // Stockez les résultats dans la variable
+      results.push({
+        title: question.title,
+        userInput: userInput.userInput,
+        isCorrect: isCorrect,
+      });
+  
+      if (isCorrect) {
+        console.log('Correct!');
+      } else {
+        console.log('Incorrect. The correct answers are: ', flattenedOptions.join(', '));
+      }
+    
+    }  else if (question.body[1].type === 'CHOICE') {
       // Question de type CHOICE
-      const options = question.body[1].options.map(option => option.value);
+      const options = question.body[1].options;
+  
+      // Filtrer les options correctes (celles avec le préfixe "=")
+      const correctOptions = options.filter(option => option.prefix === '=');
+  
+      // Obtenez les valeurs correctes
+      const correctValues = correctOptions.map(option => option.value);
+  
       const userInput = await inquirer.prompt({
-        type: 'list',  // Utilisez 'list' au lieu de 'input'
+        type: 'list',
         name: 'userChoice',
         message: 'Choose one of the options:',
-        choices: options,
+        choices: options.map(option => option.value),
       });
-      console.log(`Your choice: ${userInput.userChoice}`);
+  
+      // Vérifiez si la réponse de l'utilisateur est une des options correctes
+      const isCorrect = correctValues.includes(userInput.userChoice);
+  
+      // Stockez les résultats dans la variable
+      results.push({
+        title: question.title,
+        userInput: userInput.userChoice,
+        isCorrect: isCorrect,
+      });
+  
+      if (isCorrect) {
+        console.log('Correct!');
+      } else {
+        console.log('Incorrect. The correct answers are: ', correctValues.join(', '));
+      }
     } else if (question.body[1].type === 'NUMBER') {
       // Question de type CHOICE
       const options = question.body[1].options.map(option => option.value);
@@ -174,7 +219,24 @@ export async function simulate_test_menu() {
         name: 'userInput',
         message: 'Enter a number :',
       });
-      console.log(`Your answer: ${userInput.userInput}`);
+      
+      const inputOptions = question.body[1].options.map(option => option.value);
+  
+      // Vérifiez si la réponse de l'utilisateur est l'une des options correctes
+      const isCorrect = inputOptions.includes(userInput.userInput);
+  
+      // Stockez les résultats dans la variable
+      results.push({
+        title: question.title,
+        userInput: userInput.userInput,
+        isCorrect: isCorrect,
+      });
+  
+      if (isCorrect) {
+        console.log('Correct!');
+      } else {
+        console.log('Incorrect. The correct answers are: ', inputOptions.join(', '));
+      }
     } else if (question.body[1].type === 'BOOLEAN') {
       // Question de type BOOLEAN
       const userInput = await inquirer.prompt({
@@ -184,6 +246,7 @@ export async function simulate_test_menu() {
         choices: ['True', 'False'],
       });
       console.log(`Your choice: ${userInput.userBoolean}`);
+
     }else if (question.body[1].type === 'MATCHING') {
       // Question de type MATCHING
       const matchingOptions = question.body[1].options.map(option => option.value);
@@ -211,10 +274,21 @@ export async function simulate_test_menu() {
 
     // Ajouter d'autres types de questions selon vos besoins
 
-    console.log(); // Ajouter une ligne vide entre les questions
+    await inquirer.prompt({
+      type: 'input',
+      name: 'enter',
+      message: 'Press Enter to continue...',
+    }); // Ajouter une ligne vide entre les questions
   }
 
-  console.log('Test completed!');
+  console.log('Test completed! Results:');
+  console.log(results);
+
+  await inquirer.prompt({
+    type: 'input',
+    name: 'enter',
+    message: 'Press Enter to continue...',
+  });
 }
 
 export async function inputToSearchVcard() {

@@ -573,5 +573,544 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Test",
+    "questions": [
+      {
+        "title": "U6 p60 Listening 3.5",
+        "body": [
+          "You hear a man interviewing a ballet dancer on theradio. Why has she decided to retire later this year? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "She is worried aboutgetting injured."
+              },
+              {
+                "prefix": "~",
+                "value": "She no longer enjoys performing."
+              },
+              {
+                "prefix": "=",
+                "value": "She wants to make herfamily the priority."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U6 p67 Rev3.4",
+        "body": [
+          " We might ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "use|be using"
+              }
+            ]
+          },
+          " (use) the same costumes in ournext production."
+        ]
+      },
+      {
+        "title": "U10 p106-7 Reading 2.3",
+        "body": [
+          "What does the writer say about the use of the word'soulmate' in paragraph three? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "It was used earlier than was previouslythought."
+              },
+              {
+                "prefix": "~",
+                "value": "It took a long time for it to be widely understood."
+              },
+              {
+                "prefix": "~",
+                "value": "The meaning haschanged very recently."
+              },
+              {
+                "prefix": "=",
+                "value": "It was first used to describe an unusual and unfamiliarconcept."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U5 p54 6.3 Passive",
+        "body": [
+          " Newspapers claim that twenty top chefs have beeninvited to prepare the meal. BY It ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "is claimed by"
+              }
+            ]
+          },
+          " newspapers that twenty topchefs have been invited to prepare the meal."
+        ]
+      },
+      {
+        "title": "U6 p63 Reading Voc8.2",
+        "body": [
+          " I think I am probably more of a ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "creative"
+              }
+            ]
+          },
+          "(create) than a ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "scientific"
+              }
+            ]
+          },
+          " (science) person."
+        ]
+      },
+      {
+        "title": "U4 p38 Reading 4.02",
+        "body": [
+          "Which person's superpower is beneficial for the person'smental and physical health ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "A. Liam Hoekstra"
+              },
+              {
+                "prefix": "=",
+                "value": "B. Wim Hof"
+              },
+              {
+                "prefix": "~",
+                "value": "C. Dean Karnazes"
+              },
+              {
+                "prefix": "~",
+                "value": "D.Isao Machii"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U6 p60 Listening 3.6",
+        "body": [
+          "You hear a man and a woman talking on the radio about anew art exhibition. What do they agree is special about it? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "the variety ofgenres"
+              },
+              {
+                "prefix": "~",
+                "value": "the unusual location"
+              },
+              {
+                "prefix": "~",
+                "value": "the famous artists"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U7 p77 [So,such,too,enough,very] 1.6",
+        "body": [
+          "Is that fruit ripe",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "enough"
+              },
+              {
+                "prefix": "~",
+                "value": "so"
+              },
+              {
+                "prefix": "~",
+                "value": "such"
+              },
+              {
+                "prefix": "~",
+                "value": "too"
+              },
+              {
+                "prefix": "~",
+                "value": "very"
+              }
+            ]
+          },
+          " to eat yet?"
+        ]
+      },
+      {
+        "title": "EM U5 p34 Voc1.2",
+        "body": [
+          "People who are overweight are rarely told to follow a",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "high-fat"
+              },
+              {
+                "prefix": "~",
+                "value": "low-salt"
+              },
+              {
+                "prefix": "~",
+                "value": "vegetarian"
+              },
+              {
+                "prefix": "~",
+                "value": "vitamins"
+              },
+              {
+                "prefix": "~",
+                "value": "well-balanced"
+              }
+            ]
+          },
+          " diet."
+        ]
+      },
+      {
+        "title": "U3 p32 CD.12 Present perfect vs past simple",
+        "body": [
+          "Sarah _____ take another job topay for her holiday this summer.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "has had to"
+              },
+              {
+                "prefix": "~",
+                "value": "had to"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U3 p30 4.3",
+        "body": [
+          "The writer thinks having a passion is a good thing because ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "ithelps people learn how to express their emotions."
+              },
+              {
+                "prefix": "~",
+                "value": "it encourages moreconsiderate behaviour."
+              },
+              {
+                "prefix": "~",
+                "value": "it gives people an opportunity to act like a differentperson."
+              },
+              {
+                "prefix": "~",
+                "value": "it makes everything else in life seem unimportant."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U3 p32 CD.11 Present perfect vs past simple",
+        "body": [
+          "I _____ leave early because Iwanted to study the next morning.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "had to"
+              },
+              {
+                "prefix": "~",
+                "value": "have had to"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U11 p114 Mixed conditionals 4.1",
+        "body": [
+          " If I'd left the party earlier, I",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "wouldn't feel"
+              },
+              {
+                "prefix": "=",
+                "value": "wouldn't be feeling"
+              },
+              {
+                "prefix": "=",
+                "value": "wouldn't have felt"
+              },
+              {
+                "prefix": "=",
+                "value": "wouldn’t feel"
+              },
+              {
+                "prefix": "=",
+                "value": "wouldn’t befeeling"
+              },
+              {
+                "prefix": "=",
+                "value": "wouldn’t have felt"
+              },
+              {
+                "prefix": "=",
+                "value": "would not feel"
+              },
+              {
+                "prefix": "=",
+                "value": "would not be feeling"
+              },
+              {
+                "prefix": "=",
+                "value": "would not havefelt"
+              }
+            ]
+          },
+          " (not/feel) so tired today."
+        ]
+      },
+      {
+        "title": "U2 p22 6.4a – Verb patterns -ing or inf",
+        "body": [
+          "I regret ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "telling"
+              },
+              {
+                "prefix": "=",
+                "value": "to tell"
+              }
+            ]
+          },
+          " you thatall train services have been cancelled."
+        ]
+      },
+      {
+        "title": "U3 p30 4.2",
+        "body": [
+          "The writer mentions people who live ‘in a dream state’ in order to",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "give an example of people who have uncontrollable emotions."
+              },
+              {
+                "prefix": "~",
+                "value": "criticise peoplewho have unrealistic expectations."
+              },
+              {
+                "prefix": "=",
+                "value": "contrast different types of emotionalattachments."
+              },
+              {
+                "prefix": "~",
+                "value": "explain why passions can be more important than realrelationships."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U3 p31 6 -ed adjectives and prepositions",
+        "body": [
+          "Choose the correct preposition. Whatsports do you get excited ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "with"
+              },
+              {
+                "prefix": "=",
+                "value": "about"
+              }
+            ]
+          },
+          "? What sports do you find exciting?Do you ever get frustrated ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "on"
+              },
+              {
+                "prefix": "=",
+                "value": "with"
+              }
+            ]
+          },
+          " a sportsperson/team? Whichperson/team do you find frustrating? Who are you impressed ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "by"
+              },
+              {
+                "prefix": "~",
+                "value": "for"
+              }
+            ]
+          },
+          "? Whodo you find impressive? Who or what do you get annoyed ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "of"
+              },
+              {
+                "prefix": "=",
+                "value": "by"
+              }
+            ]
+          },
+          "? What doyou sometimes feel embarrassed ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "in"
+              },
+              {
+                "prefix": "=",
+                "value": "by"
+              }
+            ]
+          },
+          "? Who do you find embarrassing?"
+        ]
+      },
+      {
+        "title": "U5 p57 Rev4.1 Passive forms",
+        "body": [
+          " Children ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "are taught"
+              }
+            ]
+          },
+          " (teach) abouthealthy eating in many schools."
+        ]
+      },
+      {
+        "title": "U2 p22 6.4a – Verb patterns -ing or inf",
+        "body": [
+          "I regret ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "telling"
+              },
+              {
+                "prefix": "=",
+                "value": "to tell"
+              }
+            ]
+          },
+          " you thatall train services have been cancelled."
+        ]
+      },
+      {
+        "title": "U2 p22 6.5a – Verb patterns -ing or inf",
+        "body": [
+          "I forgot ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "to give"
+              },
+              {
+                "prefix": "=",
+                "value": "giving"
+              }
+            ]
+          },
+          " my sisteran old dress, and then I found it in her wardrobe."
+        ]
+      },
+      {
+        "title": "EM U5 p34 Gra1.1",
+        "body": [
+          "Would you like ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "some"
+              },
+              {
+                "prefix": "~",
+                "value": "a few"
+              }
+            ]
+          },
+          " rice with your chicken?"
+        ]
+      }
+    ]
   }
 ]
