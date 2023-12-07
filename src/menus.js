@@ -142,11 +142,14 @@ export async function simulate_test_menu() {
 
   const questions = selectedTest.questions;
   const results = [];
+  let totalQuestions = 0;
+  let correctAnswers = 0;
 
   for (const question of questions) {
     process.stdout.write('\x1B[2J\x1B[0f');
     console.log(`Question: ${question.title}`);
     console.log(`Body: ${processBody(question.body)}`);
+    totalQuestions++;
 
     // Vérifier le type de la question
     if (question.body[1].type === 'INPUT') {
@@ -175,6 +178,7 @@ export async function simulate_test_menu() {
   
       if (isCorrect) {
         console.log('Correct!');
+        correctAnswers++;
       } else {
         console.log('Incorrect. The correct answers are: ', flattenedOptions.join(', '));
       }
@@ -208,6 +212,7 @@ export async function simulate_test_menu() {
   
       if (isCorrect) {
         console.log('Correct!');
+        correctAnswers++;
       } else {
         console.log('Incorrect. The correct answers are: ', correctValues.join(', '));
       }
@@ -234,6 +239,7 @@ export async function simulate_test_menu() {
   
       if (isCorrect) {
         console.log('Correct!');
+        correctAnswers++;
       } else {
         console.log('Incorrect. The correct answers are: ', inputOptions.join(', '));
       }
@@ -272,7 +278,7 @@ export async function simulate_test_menu() {
     }
 
 
-    // Ajouter d'autres types de questions selon vos besoins
+   
 
     await inquirer.prompt({
       type: 'input',
@@ -282,7 +288,17 @@ export async function simulate_test_menu() {
   }
 
   console.log('Test completed! Results:');
-  console.log(results);
+
+  for (const result of results) {
+    console.log(`\nQuestion Title: ${result.title}`);
+    console.log(`Answer Given: ${result.userInput}`);
+    console.log(`Result: ${result.isCorrect ? 'Correct' : 'Incorrect'}`);
+  }
+
+  console.log('\nTest Summary:');
+  console.log(`Total Questions: ${totalQuestions}`);
+  console.log(`Total Correct Answers: ${correctAnswers}`);
+  console.log(`Test Score: ${((correctAnswers / totalQuestions) * 100).toFixed(2)}%`);
 
   await inquirer.prompt({
     type: 'input',
