@@ -143,7 +143,7 @@ export async function simulate_test_menu() {
   for (const question of questions) {
     process.stdout.write('\x1B[2J\x1B[0f');
     console.log(`Question: ${question.title}`);
-    console.log(`Body: ${processBody(selectedQuestion.body)}`);
+    console.log(`Body: ${processBody(question.body)}`);
 
     // Vérifier le type de la question
     if (question.body[1].type === 'INPUT') {
@@ -164,6 +164,15 @@ export async function simulate_test_menu() {
         choices: options,
       });
       console.log(`Your choice: ${userInput.userChoice}`);
+    } else if (question.body[1].type === 'NUMBER') {
+      // Question de type CHOICE
+      const options = question.body[1].options.map(option => option.value);
+      const userInput = await inquirer.prompt({
+        type: 'input',
+        name: 'userInput',
+        message: 'Enter a number :',
+      });
+      console.log(`Your answer: ${userInput.userInput}`);
     } else if (question.body[1].type === 'BOOLEAN') {
       // Question de type BOOLEAN
       const userInput = await inquirer.prompt({
