@@ -4,6 +4,7 @@ import {
   get_question_menu,
   create_test_menu,
   create_vcard_menu,
+  search_vcard_menu,
   simulate_test_menu,
   exam_profile_menu,
   compareExams_menu
@@ -21,6 +22,7 @@ const mainMenuQuestions = [
       'View Exams profile',
       'Compare Exams',
       'Create vCard',
+      'Search vCard',
       'Exit',
     ],
   },
@@ -43,6 +45,9 @@ async function runMainMenu() {
         break;
       case 'Create vCard':
         await create_vcard_menu();
+        break;
+      case 'Search vCard':
+        await search_vcard_menu();
         break;
       case 'View Exams profile':
         await exam_profile_menu();

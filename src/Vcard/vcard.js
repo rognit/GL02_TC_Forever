@@ -53,12 +53,13 @@ export function saveVCardFromUserInput(answer) {
 
 
 
-/*async function searchAndDisplayContactInfo(answers) {
-    try {
-        const userInput = await getUserNameInput();
-        const { answers.prenom, answers.nom } = userInput;
 
-        const fileName = `data_vcard/${prenom}_${nom}.vcf`;
+
+export function searchAndDisplayContactInfo(answers) {
+    try {
+        const userInput = getUserNameInput(answers);
+
+        const fileName = `data_vcard/${answers.prenom}_${answers.nom}.vcf`;
 
         if (fs.existsSync(fileName)) {
             const fileContent = fs.readFileSync(fileName, 'utf-8');
@@ -79,21 +80,52 @@ export function saveVCardFromUserInput(answer) {
 }
 
 function extractContactInfo(vCardString) {
-    // Logique pour extraire les informations de la chaîne VCard ici
-    // ...
+    // Diviser la chaîne VCard en lignes
+    const lines = vCardString.split('\n');
 
-    // Exemple minimal
+    // Initialiser un objet pour stocker les informations de contact
     const contactInfo = {
-        prenom: "John",
-        nom: "Doe",
-        adresse: "123 Rue Example",
-        telephone: "+33 1 23 45 67 89",
-        email: "john.doe@example.com"
+        prenom: '',
+        nom: '',
+        adresse: '',
+        telephone: '',
+        email: ''
     };
+
+    // Parcourir les lignes de la VCard
+    lines.forEach(line => {
+        // Diviser chaque ligne en parties (étiquette et valeur)
+        const parts = line.split(':');
+
+        // Vérifier si la ligne contient une étiquette et une valeur
+        if (parts.length === 2) {
+            const label = parts[0].trim().toUpperCase();
+            const value = parts[1].trim();
+
+            // Mettre à jour les informations de contact en fonction de l'étiquette
+            switch (label) {
+                case 'FN':
+                    // Nom complet
+                    const names = value.split(' ');
+                    contactInfo.prenom = names[0];
+                    contactInfo.nom = names.slice(1).join(' ');
+                    break;
+                case 'ADR':
+                    // Adresse
+                    contactInfo.adresse = value.replace(/;/g, ','); // Remplace les points-virgules par des virgules
+                    break;
+                case 'TEL':
+                    // Téléphone
+                    contactInfo.telephone = value;
+                    break;
+                case 'EMAIL':
+                    // Email
+                    contactInfo.email = value;
+                    break;
+                // Ajoutez d'autres cas en fonction des informations que vous souhaitez extraire
+            }
+        }
+    });
 
     return contactInfo;
 }
-
-// Appeler la fonction pour rechercher et afficher les informations de contact
-searchAndDisplayContactInfo();
-*/
