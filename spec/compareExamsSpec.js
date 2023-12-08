@@ -1,6 +1,6 @@
 import fs from 'fs';
 import inquirer from 'inquirer';
-import { Exam } from '../src/exam.js'; // Assurez-vous que le chemin est correct
+import { Exam } from '../src/exam.js'; 
 import { compareExams_menu } from '../src/menus.js';
 
 describe("compareExams_menu", () => {
