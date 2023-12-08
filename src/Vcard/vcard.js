@@ -2,7 +2,7 @@
 import fs from 'fs';
 import inquirer from 'inquirer';
 
-function createVCardFromUserInput(answer) {
+export function createVCardFromUserInput(answer) {
     // On vérifie si les informations sont complètes
     if (!answer.prenom || !answer.nom || !answer.nomEtablissement || !answer.poste || !answer.numeroTel || !answer.numeroRue || !answer.nomRue || !answer.bp || !answer.ville || !answer.siteWeb) {
         console.log("Les informations d'identification ou de contact de l'enseignant sont incomplètes ou incorrectes. Le fichier VCard ne peut pas être généré en entier pour cet enseignant spécifique.");
