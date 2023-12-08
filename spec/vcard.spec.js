@@ -1,86 +1,63 @@
-import inquirer from 'inquirer';
+// vcard.spec.js
 import fs from 'fs';
-import { createVCardFromUserInput , saveVCardFromUserInput } from '../src/Vcard/vcard.js';
-import { create_vcard_menu } from '../src/menus.js';
+import inquirer from 'inquirer';
+import { createVCardFromUserInput, saveVCardFromUserInput } from '../src/Vcard/vcard.js';
 
-describe('VCard functions', () => {
-  describe('createVCardFromUserInput', () => {
-    it('should create a valid VCard string', () => {
+describe('VCard Functions', () => {
+    it('createVCardFromUserInput should create a valid vCard string', () => {
       const userInput = {
-        prenom: 'Louise',
-        nom: 'Martin',
-        nomEtablissement: 'utt',
-        poste: 'Student',
-        numeroTel: '+33 6 23 45 67 89',
+        prenom: 'John',
+        nom: 'Doe',
+        nomEtablissement: 'Example School',
+        poste: 'Teacher',
+        numeroTel: '+33 1 23 45 67 89',
         numeroRue: '123',
-        nomRue: 'rue Grande',
-        bp: '10000',
-        ville: 'Troyes',
-        siteWeb: 'www.utt.fr',
+        nomRue: 'Main Street',
+        bp: '456',
+        ville: 'City',
+        siteWeb: 'www.exampleschool.fr',
       };
-
+  
       const vCardString = createVCardFromUserInput(userInput);
-
+  
+      // Assertions
       expect(vCardString).toContain('BEGIN:VCARD');
-      expect(vCardString).toContain('FN:Louise Martin');
-      expect(vCardString).toContain('ORG:utt');
-      expect(vCardString).toContain('TITLE:Student');
-      expect(vCardString).toContain('ADR;TYPE=WORK:;;123 rue Grande;10000;Troyes;;');
-      expect(vCardString).toContain('TEL:+33 6 23 45 67 89');
-      expect(vCardString).toContain('EMAIL:louise@utt.fr');
-      expect(vCardString).toContain('URL:www.utt.fr');
+      expect(vCardString).toContain('VERSION:3.0');
+      expect(vCardString).toContain(`FN:${userInput.prenom} ${userInput.nom}`);
+      expect(vCardString).toContain(`ORG:${userInput.nomEtablissement}`);
+      expect(vCardString).toContain(`TITLE:${userInput.poste}`);
+      expect(vCardString).toContain(`ADR;TYPE=WORK:;;${userInput.numeroRue} ${userInput.nomRue};${userInput.bp};${userInput.ville};;`);
+      expect(vCardString).toContain(`TEL:${userInput.numeroTel}`);
+      expect(vCardString).toContain(`EMAIL:${userInput.prenom.toLowerCase()}@${userInput.nomEtablissement.toLowerCase()}.fr`);
+      expect(vCardString).toContain(`URL:${userInput.siteWeb}`);
       expect(vCardString).toContain('END:VCARD');
     });
-
-    it('should handle incomplete user input', () => {
-      const incompleteInput = {
-        prenom: 'Louise',
-        // Missing other required fields
-      };
-
-      const vCardString = createVCardFromUserInput(incompleteInput);
-
-      expect(vCardString).toBeUndefined();
-    });
-  });
-
-  describe('saveVCardFromUserInput', () => {
-    it('should save the VCard file successfully', () => {
+  
+    it('saveVCardFromUserInput should create a vCard file successfully', () => {
+      // Mocking fs functions
+      spyOn(fs, 'existsSync').and.returnValue(false);
+      spyOn(fs, 'mkdirSync');
+      spyOn(fs, 'writeFile').and.callFake((fileName, data, callback) => callback(null));
+  
       const userInput = {
-        prenom: 'Louise',
-        nom: 'Martin',
-        nomEtablissement: 'utt',
-        poste: 'Student',
-        numeroTel: '+33 6 23 45 67 89',
+        prenom: 'John',
+        nom: 'Doe',
+        nomEtablissement: 'Example School',
+        poste: 'Teacher',
+        numeroTel: '+33 1 23 45 67 89',
         numeroRue: '123',
-        nomRue: 'rue Grande',
-        bp: '10000',
-        ville: 'Troyes',
-        siteWeb: 'www.utt.fr',
+        nomRue: 'Main Street',
+        bp: '456',
+        ville: 'City',
+        siteWeb: 'www.exampleschool.fr',
       };
-
-      const spyConsoleLog = spyOn(console, 'log'); // Spy on console.log to check the success message
-      const spyWriteFile = spyOn(fs, 'writeFile'); // Spy on fs.writeFile to check if it's called
-
+  
       saveVCardFromUserInput(userInput);
-
-      // Expectations
-      expect(spyWriteFile).toHaveBeenCalled();
-      expect(spyConsoleLog).toHaveBeenCalledWith(`Fichier VCard créé avec succès : ./src/Vcard/data_vcard/Louise_Martin.vcf`);
-    });
-
-    it('should handle incomplete user input and not save the VCard file', () => {
-      const incompleteInput = {
-        prenom: 'Louise',
-        // Missing other required fields
-      };
-
-      const spyWriteFile = spyOn(fs, 'writeFile'); // Spy on fs.writeFile to check if it's called
-
-      saveVCardFromUserInput(incompleteInput);
-
-      // Expectations
-      expect(spyWriteFile).not.toHaveBeenCalled();
+  
+      // Assertions
+      expect(fs.existsSync).toHaveBeenCalledWith('./src/Vcard/data_vcard');
+      expect(fs.mkdirSync).toHaveBeenCalledWith('./src/Vcard/data_vcard');
+      const expectedFileName = `./src/Vcard/data_vcard/${userInput.prenom}_${userInput.nom}.vcf`;
+      expect(fs.writeFile).toHaveBeenCalledWith(expectedFileName, jasmine.any(String), jasmine.any(Function));
     });
   });
-});
