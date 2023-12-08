@@ -55,6 +55,7 @@ export function saveVCardFromUserInput(answer) {
 
 
 export async function searchAndDisplayContactInfo(answers) {
+    process.stdout.write('\x1B[2J\x1B[0f');
     try {
         //const userInput = answers;
         const { prenom, nom } = answers;
@@ -115,9 +116,9 @@ function extractContactInfo(fileContent) {
                     contactInfo.prenom = names[0];
                     contactInfo.nom = names.slice(1).join(' ');
                     break;
-                case 'ADR':
+                case 'ADR;TYPE=WORK':
                     // Adresse
-                    contactInfo.adresse = value.replace(/;/g, ','); // Remplace les points-virgules par des virgules
+                    contactInfo.adresse = value.replace(/;/g, ' '); // Remplace les points-virgules par des virgules
                     break;
                 case 'TEL':
                     // Téléphone
