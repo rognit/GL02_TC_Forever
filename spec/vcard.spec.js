@@ -1,6 +1,6 @@
 import inquirer from 'inquirer';
 import fs from 'fs';
-import { createVCardFromUserInput, saveVCardFromUserInput } from '../src/Vcard/vcard.js';
+import { createVCardFromUserInput , saveVCardFromUserInput } from '../src/Vcard/vcard.js';
 import { create_vcard_menu } from '../src/menus.js';
 
 describe('VCard functions', () => {
