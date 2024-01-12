@@ -1112,5 +1112,1309 @@
         ]
       }
     ]
+  },
+  {
+    "name": "dora",
+    "questions": [
+      {
+        "title": "U5 p57 Rev3.2",
+        "body": [
+          "Both co!ee and tea ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "contain"
+              },
+              {
+                "prefix": "~",
+                "value": "contains"
+              }
+            ]
+          },
+          " a lot of ca!eine."
+        ]
+      },
+      {
+        "title": "U6 p68-69 ProgressTest2 4.2",
+        "body": [
+          " A fast-food chain has taken over two of ourlocal restaurants. BY Two of our local restaurants ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "have been taken over by"
+              }
+            ]
+          },
+          " afast-food chain."
+        ]
+      },
+      {
+        "title": "EM U5 p37 Reading 4 collocations",
+        "body": [
+          "Match an element from each side to makecollocations from the text.",
+          {
+            "type": "MATCHING",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "maintain -> a healthy weight"
+              },
+              {
+                "prefix": "=",
+                "value": "tuck into -> goodfood"
+              },
+              {
+                "prefix": "=",
+                "value": "feel -> satisfied after a meal"
+              },
+              {
+                "prefix": "=",
+                "value": "find -> a meal filling"
+              },
+              {
+                "prefix": "=",
+                "value": "sip -> a drink"
+              },
+              {
+                "prefix": "=",
+                "value": "count -> calories"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U3 p32 CD.04 Present perfect vs past simple",
+        "body": [
+          "We _____ chickens and ducks whenwe lived on a farm.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "owned"
+              },
+              {
+                "prefix": "~",
+                "value": "'ve owned"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U7 p79 Review 3.4",
+        "body": [
+          "It was ______ a beautiful place that they decided to staythere longer.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "so"
+              },
+              {
+                "prefix": "~",
+                "value": "enough"
+              },
+              {
+                "prefix": "~",
+                "value": "really"
+              },
+              {
+                "prefix": "=",
+                "value": "such"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U11 p114 Mixed conditionals 4.3",
+        "body": [
+          " If you'd let me drive, we ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "wouldn'tbe"
+              },
+              {
+                "prefix": "=",
+                "value": "wouldn’t be"
+              }
+            ]
+          },
+          " (not/be) lost now."
+        ]
+      },
+      {
+        "title": "U3 p32 CD.12 Present perfect vs past simple",
+        "body": [
+          "Sarah _____ take another job topay for her holiday this summer.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "has had to"
+              },
+              {
+                "prefix": "~",
+                "value": "had to"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U3 p30 4.3",
+        "body": [
+          "The writer thinks having a passion is a good thing because ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "ithelps people learn how to express their emotions."
+              },
+              {
+                "prefix": "~",
+                "value": "it encourages moreconsiderate behaviour."
+              },
+              {
+                "prefix": "~",
+                "value": "it gives people an opportunity to act like a differentperson."
+              },
+              {
+                "prefix": "~",
+                "value": "it makes everything else in life seem unimportant."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "EM U5 p37 Reading 2.2",
+        "body": [
+          "Why did the author start to eat Huel on the firstevening? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "She realised she hadn´t been eating properly"
+              },
+              {
+                "prefix": "~",
+                "value": "She recognised thatshe disliked cooking"
+              },
+              {
+                "prefix": "=",
+                "value": "She didn't have time to prepare a meal"
+              },
+              {
+                "prefix": "~",
+                "value": "She wasn't findingother foods satisfying"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U6 p63 Reading Voc8.3",
+        "body": [
+          " Very ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "ambitious"
+              }
+            ]
+          },
+          " (ambition) people are morelikely to be disappointed in life."
+        ]
+      },
+      {
+        "title": "U6 p67 Rev3.1",
+        "body": [
+          " I think I'll still ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "be learning"
+              }
+            ]
+          },
+          " (learn) my lines untiljust before the play starts."
+        ]
+      },
+      {
+        "title": "U3 p33 Gra as/like 6.1",
+        "body": [
+          "Was that film ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "as"
+              },
+              {
+                "prefix": "=",
+                "value": "like"
+              }
+            ]
+          },
+          " all his other ones?"
+        ]
+      },
+      {
+        "title": "U10 p106-7 Reading Prepositions RS.7",
+        "body": [
+          "We cling to the idea, even though wesuspect it's doomed ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "to"
+              }
+            ]
+          },
+          " failure."
+        ]
+      },
+      {
+        "title": "EM U5 p34 Gra1.2",
+        "body": [
+          "I mustn't eat too ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "many"
+              },
+              {
+                "prefix": "=",
+                "value": "much"
+              }
+            ]
+          },
+          " chocolate — it's bad for me!"
+        ]
+      },
+      {
+        "title": "U7 p77 [It/There is] 4.2",
+        "body": [
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "It is"
+              },
+              {
+                "prefix": "=",
+                "value": "it is"
+              },
+              {
+                "prefix": "=",
+                "value": "It's"
+              },
+              {
+                "prefix": "=",
+                "value": "it's"
+              }
+            ]
+          },
+          " common for men to greeteach other with a kiss on the cheek."
+        ]
+      },
+      {
+        "title": "EM U5 p37 Reading 2.5",
+        "body": [
+          "How did things change for the author in week two? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "She started to do more exercise"
+              },
+              {
+                "prefix": "~",
+                "value": "She gained a feeling of extra energy"
+              },
+              {
+                "prefix": "~",
+                "value": "Shewanted to give up her experiment"
+              },
+              {
+                "prefix": "=",
+                "value": "She found what she ate more enjoyable"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U9 p94 Listening 4.3",
+        "body": [
+          "What does Max say about very talented young children? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": " It's easy to tell which will be the top performers."
+              },
+              {
+                "prefix": "~",
+                "value": " They will succeedwithout special training."
+              },
+              {
+                "prefix": "=",
+                "value": " As they get older their development may be slower."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U1 p8-9 9 Vocabulary",
+        "body": [
+          " Look at the following words and phrases from thearticle and at the meaning options. Try to work out the meaning from the contextor from the word itself. Then match each one to a definition.",
+          {
+            "type": "MATCHING",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "Spend a lot ofmoney -> Splash out"
+              },
+              {
+                "prefix": "=",
+                "value": "Show something is definitely true -> Confirming"
+              },
+              {
+                "prefix": "=",
+                "value": "Find asolution (to a problem) -> Resolved"
+              },
+              {
+                "prefix": "=",
+                "value": "Go large in numbers -> Flocked"
+              },
+              {
+                "prefix": "=",
+                "value": "Try to getas much as possible (sometimes unfairly) -> Exploit"
+              },
+              {
+                "prefix": "=",
+                "value": "Consider facts when makinga decision -> Taken into account"
+              },
+              {
+                "prefix": "=",
+                "value": "Make something seem less important ->Overshadowing"
+              },
+              {
+                "prefix": "=",
+                "value": "Provide people with what they want -> Cater for"
+              },
+              {
+                "prefix": "=",
+                "value": "Give the ideafor -> Inspired"
+              },
+              {
+                "prefix": "=",
+                "value": "Good but difficult -> Ambitious"
+              },
+              {
+                "prefix": "=",
+                "value": "Someone or something famousand important -> Iconic"
+              },
+              {
+                "prefix": "=",
+                "value": "Impossible to refuse -> Irresistible"
+              },
+              {
+                "prefix": "=",
+                "value": "Makes a lot ofmoney -> Profitable"
+              },
+              {
+                "prefix": "=",
+                "value": "Very poor -> Impoverished"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U11 p114 Mixed conditionals 4.5",
+        "body": [
+          " I ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "might earn"
+              },
+              {
+                "prefix": "=",
+                "value": "might be earning"
+              }
+            ]
+          },
+          "(might/earn) more now if I'd gone to university."
+        ]
+      },
+      {
+        "title": "EM U6 p46-47 4.4",
+        "body": [
+          " I never seem to find the time to read newspapers thesedays. (ROUND) I never seem to ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "get round to reading"
+              }
+            ]
+          },
+          " newspapers these days."
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rdtvb",
+    "questions": [
+      {
+        "title": "U4 p47 Rev1 Articles indefinite, definitie, zero (review)",
+        "body": [
+          "Complete the textwith a/an, the or — (no article). After ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "=",
+                "value": "an"
+              },
+              {
+                "prefix": "~",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " incredible 859 daysand 6,000 miles, British explorer Ed Stafford became ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "=",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " firstman to walk ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "=",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " entire length of ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "=",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " Amazon. Hefinally reached ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "=",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " Atlantic in ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "~",
+                "value": "the"
+              },
+              {
+                "prefix": "=",
+                "value": "—"
+              }
+            ]
+          },
+          " Brazil twoand a half years after he started his epic adventure in ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "=",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          "jungles of Peru. The final leg proved one of ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "=",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " mostchallenging, with Mr Stafford collapsing ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "~",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " few hours beforereaching his final destination. Mr Stafford fell out with his original walkingpartner Luke Collyer, 37, ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "=",
+                "value": "an"
+              },
+              {
+                "prefix": "~",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " outdoor activities instructor, andafter only three months, Mr Collyer returned to ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "=",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " UK. MrStafford advertised for ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "~",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " walking partner and was joined bySanchez Rivera, ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "~",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " Peruvian forestry worker. Living off",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "~",
+                "value": "the"
+              },
+              {
+                "prefix": "=",
+                "value": "—"
+              }
+            ]
+          },
+          " piranha and rice, they made their way through Peru, Colombiaand Brazil. Mr Stafford said on Monday, ‘All I want now is ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "~",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          "portion of fish and chips and ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "a"
+              },
+              {
+                "prefix": "~",
+                "value": "an"
+              },
+              {
+                "prefix": "~",
+                "value": "the"
+              },
+              {
+                "prefix": "~",
+                "value": "—"
+              }
+            ]
+          },
+          " nice cold beer’."
+        ]
+      },
+      {
+        "title": "U6 p63 Reading Voc6.A5",
+        "body": [
+          "excess (n) ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "excessive"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "EM U5 p34 Gra2.6",
+        "body": [
+          "I knew very ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "few"
+              },
+              {
+                "prefix": "~",
+                "value": "a few"
+              },
+              {
+                "prefix": "=",
+                "value": "little"
+              },
+              {
+                "prefix": "~",
+                "value": "a little"
+              }
+            ]
+          },
+          " about Thal food soI bought a cookery book to learn more."
+        ]
+      },
+      {
+        "title": "U3 p32 CD.27 Present perfect vs past simple",
+        "body": [
+          "They _____ really badly untillast season.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "always played"
+              },
+              {
+                "prefix": "~",
+                "value": "'ve always played"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "EM U5 p38 Gra3.2 passive",
+        "body": [
+          "The lecture about healthy food raised manyinteresting issues. (BROUGHT) Many interesting issues ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "were brought up in"
+              },
+              {
+                "prefix": "=",
+                "value": "werebrought up by"
+              },
+              {
+                "prefix": "=",
+                "value": "were brought up during"
+              }
+            ]
+          },
+          " the lecture about healthy food."
+        ]
+      },
+      {
+        "title": "U6 p67 Rev4.3",
+        "body": [
+          "I ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "will be completing"
+              },
+              {
+                "prefix": "=",
+                "value": "will have completed"
+              },
+              {
+                "prefix": "~",
+                "value": "am completing"
+              }
+            ]
+          },
+          " mydrama course by the end of next year."
+        ]
+      },
+      {
+        "title": "EM U5 p37 Reading 3.6",
+        "body": [
+          "Orange juice ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "heightens"
+              },
+              {
+                "prefix": "=",
+                "value": "heightened"
+              }
+            ]
+          },
+          " the flavour ofstrawberries."
+        ]
+      },
+      {
+        "title": "EM U5 p37 Reading 2.1",
+        "body": [
+          "What does the author think about Julian Hearn´s claimsfor his product? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "She finds them suprising"
+              },
+              {
+                "prefix": "=",
+                "value": "She accepts them reluctantly"
+              },
+              {
+                "prefix": "~",
+                "value": "Shedoesn´t believe all of them"
+              },
+              {
+                "prefix": "~",
+                "value": "She thinks they are exaggerated"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U5 p57 Rev4.4 Passive forms",
+        "body": [
+          " That chef ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "is said"
+              }
+            ]
+          },
+          " (say) to be extremelytalented."
+        ]
+      },
+      {
+        "title": "U5 p57 Rev4.6 Passive forms",
+        "body": [
+          " Only fifty people ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "be invited"
+              },
+              {
+                "prefix": "=",
+                "value": "wereinvited"
+              }
+            ]
+          },
+          " (invite) to their wedding, which is on Saturday"
+        ]
+      },
+      {
+        "title": "U3 p32 CD.19 Present perfect vs past simple",
+        "body": [
+          "Anna _____ all of hisnovels.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "'s read"
+              },
+              {
+                "prefix": "~",
+                "value": "read"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U4 p47 Rev2 Word formation, incl negative prefixes",
+        "body": [
+          "Complete the sentenceswith the correct form of the word in brackets (you might need to use thenegative form). I am ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "incapable"
+              }
+            ]
+          },
+          " of skiing. I’m too scared. (capable) Hisapproach to the problem is emotional and ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "illogical"
+              }
+            ]
+          },
+          ". (logic) The projectwas ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "successful"
+              }
+            ]
+          },
+          " despite all the investment in it. (success) My mother is",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "impatient"
+              }
+            ]
+          },
+          " with my younger brother. She never explains things properly.(patience) That is an extremely ",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "irresponsible"
+              }
+            ]
+          },
+          " way to behave. You shouldbe trying to set a good example. (responsibility) Some celebrities are",
+          {
+            "type": "INPUT",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "distrustful"
+              }
+            ]
+          },
+          " when journalists start asking them personal questions.(trust)"
+        ]
+      },
+      {
+        "title": "U4 p42 1.5 Pre-listening Antartica",
+        "body": [
+          "Why is Ernest Shackleton’s 1908 expeditionfamous? ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "Everyone except Shackleton survived the trip."
+              },
+              {
+                "prefix": "~",
+                "value": "The men survived butthey didn’t get to the South Pole."
+              },
+              {
+                "prefix": "=",
+                "value": "All the men died on the way back from theSouth Pole."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "EM U5 p34 Gra1.1",
+        "body": [
+          "Would you like ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "some"
+              },
+              {
+                "prefix": "~",
+                "value": "a few"
+              }
+            ]
+          },
+          " rice with your chicken?"
+        ]
+      },
+      {
+        "title": "EM U5 p35 Gra3.5",
+        "body": [
+          "It's good that there ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "is"
+              },
+              {
+                "prefix": "~",
+                "value": "are"
+              }
+            ]
+          },
+          " lots of advice about healthylifestyles."
+        ]
+      },
+      {
+        "title": "U7 p77 [It/There is] GR+.6",
+        "body": [
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "It"
+              },
+              {
+                "prefix": "~",
+                "value": "There"
+              }
+            ]
+          },
+          " is very cold again today."
+        ]
+      },
+      {
+        "title": "U3 p32 CD.22 Present perfect vs past simple",
+        "body": [
+          "They _____ our tickets at the boxoffice, we can collect them when we get there.",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "=",
+                "value": "'ve left"
+              },
+              {
+                "prefix": "~",
+                "value": "left"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "U2 p22 6.1b – Verb patterns -ing or inf",
+        "body": [
+          "My mother stopped ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "making"
+              },
+              {
+                "prefix": "=",
+                "value": "to make"
+              }
+            ]
+          },
+          "lunch because we were hungry."
+        ]
+      },
+      {
+        "title": "U4 p38 Reading 4.09",
+        "body": [
+          "Which person's superpower could be acquired by whoever isprepared to believe in it ",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "A. Liam Hoekstra"
+              },
+              {
+                "prefix": "=",
+                "value": "B. Wim Hof"
+              },
+              {
+                "prefix": "~",
+                "value": "C. Dean Karnazes"
+              },
+              {
+                "prefix": "~",
+                "value": "D.Isao Machii"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "EM U5 p34 Voc1.5",
+        "body": [
+          "Older people may be advised to follow a",
+          {
+            "type": "CHOICE",
+            "options": [
+              {
+                "prefix": "~",
+                "value": "high-fat"
+              },
+              {
+                "prefix": "=",
+                "value": "low-salt"
+              },
+              {
+                "prefix": "~",
+                "value": "vegetarian"
+              },
+              {
+                "prefix": "~",
+                "value": "vitamins"
+              },
+              {
+                "prefix": "~",
+                "value": "well-balanced"
+              }
+            ]
+          },
+          " diet for health reasons."
+        ]
+      }
+    ]
   }
 ]

@@ -42,6 +42,7 @@ export async function create_test_menu() {
   const questions = [];
   let selectedQuestion;
   let testName = '';
+  let numberQuestion=0
 
   while (true) {
     const choices = [];
@@ -68,9 +69,25 @@ export async function create_test_menu() {
    
     if (userInput.mainOption === 'Choose a Question') {
       const result = await get_question_menu();
+      //Vérification de la non redondance d'une question dans un test
+
       if (result) {
-        questions.push(result); // Ajoutez la question sélectionnée à l'array
-        console.log('Question added to the test.');
+        //initialisation de la variable qui compte le nombre de questions
+          // Utilisation de la méthode some pour vérifier si au moins un élément du tableau correspond à l'objet
+        if (questions.some(elem => JSON.stringify(elem) === JSON.stringify(result))) {
+          console.log("this question is already exists")
+          //throw new Error("L'objet est déjà présent dans le tableau !");
+         /*if (questions.indexOf(result)!==-1) {
+         throw new Error("this question already exists")*/
+        }
+        else{
+         questions.push(result); // Ajoutez la question sélectionnée à l'array
+         console.log('Question added to the test.');
+
+         //Compteur pour le nombre de questions du test(issue_5)
+         numberQuestion++;
+         console.log("total de question:"+numberQuestion)
+        }
       }
     }  else if (userInput.mainOption === 'Fill the Test') {
       const remainingQuestions = 20 - questions.length;

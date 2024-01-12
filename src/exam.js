@@ -21,12 +21,12 @@ export class Exam {
         this.questions = questions;
     }
 
-
     static add_question(question) {
+        console.log("dora is so beautiful")
         if (!question instanceof GIFT) {
             throw new Error("not a valid GIFT question")
         }
-        this.questions.push(question);
+        
     }
 
     static test_profile() {
@@ -35,6 +35,8 @@ export class Exam {
 
     static verify_test_quality() {
         return this.questions.length >= 15 && this.questions.length <= 20;
+        //Affichage du nombre de questions 
+
 
     }
 
